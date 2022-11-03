@@ -1,0 +1,50 @@
+/* .ca{
+    
+} */
+
+.navv{
+    background-image: url(../../IMG/Nav2.png) !important;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-color: aqua !important; */
+   height: 10em !important; 
+    position: relative;
+    z-index: 3;
+}
+.logo{
+    
+    z-index: 2;
+    max-width: 8.5em;
+    margin-left: 0em !important;
+    border-radius: 2em;
+    position: relative;
+    bottom: -.5em;
+
+}
+.a{
+    color: black;
+    margin-left: 2em !important;
+    position: relative;
+    bottom: 2em;
+    
+
+}
+
+
+p{
+    font-size: 1.5em;
+
+    font-family: 'Rubik', sans-serif;
+}
+.navbar-toggler{
+    background-color: rgba(0, 0, 0, 0.334) !important;
+    position: relative;
+    bottom: 1em;
+}
+.navbar-toggler{
+    position: relative;
+    bottom: 2.3em;
+    /* display: flex !important;
+    float: left !important; */
+    
+}
