@@ -13,6 +13,8 @@
 
     require_once'campo/Nav.php';
     require_once'campo/FondoSandia.php';
+    require_once'campo/footer.php';
+
     
     ?>
 
