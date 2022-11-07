@@ -14,11 +14,11 @@
   <header class="ca">
     <nav class="navbar navv navbar-dark bg fixed-top">
         <div class="container-fluid">
-          <a class="a navbar-brand" href="#"><p>Personalizados</p></a>
-          <a class="a navbar-brand" href="#"><p>Carrito</p></a>
+          <a class="a navbar-brand" href="#"><p class="p">Personalizados</p></a>
+          <a class="a navbar-brand" href="#"><p class="p">Carrito</p></a>
           <a class="a " href="#"> <img class="logo" src="../IMG/Logo1.png" alt="logo"></a>
-          <a class="a navbar-brand" href="#"><p>Productos</p></a>
-          <a class="a navbar-brand" href="#"><p>Login</p></a>
+          <a class="a navbar-brand" href="#"><p class="p">Productos</p></a>
+          <a class="a navbar-brand" href="#"><p class="p">Login</p></a>
           <button class="bo navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>

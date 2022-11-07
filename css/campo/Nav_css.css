@@ -22,7 +22,7 @@
 
 }
 .a{
-    color: black;
+    color: black !important;
     margin-left: 2em !important;
     position: relative;
     bottom: 2em;
@@ -31,19 +31,19 @@
 }
 
 
-p{
-    font-size: 1.5em;
-
-    font-family: 'Rubik', sans-serif;
+.p{
+    font-size: 1.5em !important;
+    color: black !important;
+    font-family: 'Rubik', sans-serif !important;
 }
 .navbar-toggler{
     background-color: rgba(0, 0, 0, 0.334) !important;
     position: relative;
-    bottom: 1em;
+    bottom: 1em !important;
 }
 .navbar-toggler{
-    position: relative;
-    bottom: 2.3em;
+    position: relative !important;
+    bottom: 2.3em !important;
     /* display: flex !important;
     float: left !important; */
     
