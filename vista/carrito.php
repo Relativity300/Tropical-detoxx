@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
     
     <link rel="stylesheet" href="../css/Carrito.css">
-    <link rel="stylesheet" href="../css/campo/fondoSandia.css">
+    <link rel="stylesheet" href="../css/campo/fondoAzul.css">
 
     <title>carrito</title>
 </head>

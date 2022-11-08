@@ -37,6 +37,8 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="nosotros.php">nosotros</a>
+                  <a class="nav-link" href="productosFrutas.php">productosFrutas</a>
+                  <a class="nav-link" href="productosVerdes.php">productosVerdes</a>
                 </li>
                 
                   </ul>
