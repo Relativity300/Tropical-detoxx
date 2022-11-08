@@ -9,7 +9,7 @@
     max-width: 100em !important;
     color: rgb(25, 0, 255);
 }
-.card{
+.carta{
 
      /* background-color: rgba(255, 255, 255, 0) !important; */
      margin: 5em !important;
@@ -27,6 +27,11 @@
 .precio{
     font-size: 2em;
 }
+.div-p{
+    display: flex !important;
+    justify-content: left !important;
+
+}
 .button-boton{
     background-color: aquamarine;
     border-radius: 1em;
@@ -40,12 +45,58 @@
     background-color: rgb(52, 209, 156);
     border-radius: .3em;
 }
+.button-boton-eliminar{
+    border-radius: 3em;
+    background-color:#EAC0EA;
+    border: 0px solid rgb(0, 0, 0);
+    width: 16em; 
+    height: 3.4em;
+    position: relative;
+    top: 4em;
+    
+}
+
+.button-boton-eliminar:hover{
+    border-radius: 1.5em;
+    background-color:#eca4ec;
+    border: 1px solid rgb(255, 160, 160);
+        
+}
+
+.button-boton-eliminar:active{
+    border-radius: 1em;
+    background-color:#dd74dd;
+    border: 1px solid rgb(241, 119, 119);
+        
+}
 section{
     position: relative;
-    top: 10em;
+    top: 1em;
 }
 .p-jugo{
     font-size:3em;
     position:relative;
     top:1em;
 }
+
+
+.footer{
+    margin-top: 18em;
+    background-color: #EAD9E9 !important;
+}
+
+.total-card{
+    height: 4em;
+    /* display:flex; */
+}
+.div-complar{
+    justify-content: right;
+   display: flex;
+   position: relative;
+   bottom: 3.2em;
+}
+.buscar{
+    border-radius: 3em;
+    margin-left: 5em;
+}
+
