@@ -1,0 +1,85 @@
+.cotenedor{
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-start; */
+}
+.proceso1{
+    background-color: aliceblue;
+    border: 3px solid #000;
+    width: 30em;
+    height: 30em;
+    margin-right: 4em;
+}
+
+.proceso2{
+    background-color: aliceblue;
+    border: 3px solid #000;
+    width: 30em;
+    height: 30em;
+    margin-left: 4em;
+}
+
+select{
+    border-radius: .3em;
+    height: 2em;
+    position: relative;
+    top: .3em;
+    left: .5em;
+}
+.div-select-h2{
+    display: flex;
+
+}
+.h2-Cantidad{
+    margin-left: 2em;
+}
+
+.cantidad{
+    width: 2.3em;
+    height: 2em;
+    position: relative;
+    left: 1em;
+    top: .3em;
+}
+
+
+
+.input-wrapper {
+    position: relative;
+    top: 4em;
+    width: 271px;
+  }
+  
+  .input {
+    box-sizing: border-box;
+    color: #191919;
+    padding: 15px 15px 15px 35px;
+    width: 100%;
+  }
+
+
+
+
+
+
+  .input-icon {
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+
+  .frecha{
+    display: flex;
+    align-items: center;
+  }
+
+
+
+
+
+

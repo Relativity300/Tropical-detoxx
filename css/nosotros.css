@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    position: relative;
+    bottom: 1em;
+}
+.datos{
+    display: flex;
+    
+}
+p{
+    font-size: 2em;
+    
+}
+.div-p{
+    background-color: rgba(0, 0, 0, 0.205);
+    border-radius: 2em;
+    text-align: center;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    margin: 2em;
+}
+iframe{
+    margin: 1em;
+    border-radius: 2em;
+}
+
+/* section{
+    position: relative;
+    top:   10em;
+} */

@@ -16,7 +16,7 @@
     <nav class="navbar navv navbar-dark bg fixed-top">
         <div class="container">
           
-          <a class="a navbar-brand" href="#"><p class="p">Personalizados</p></a>
+          <a class="a navbar-brand" href="personalizado.php"><p class="p">Personalizados</p></a>
           <a class="a navbar-brand" href="carrito.php"><p class="p">Carrito</p></a>
           <div class="div-logo"><a class="a " href="index.php"> <img class="logo" src="../IMG/Logo1.png" alt="logo"></a></div>
           <a class="a navbar-brand" href="#"><p class="p">Productos</p></a>
@@ -36,7 +36,7 @@
                   <a class="nav-link active" aria-current="page" href="Perfil.php">Perfil</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                  <a class="nav-link" href="nosotros.php">nosotros</a>
                 </li>
                 
                   </ul>

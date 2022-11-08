@@ -33,13 +33,13 @@
 
 }
 .button-boton{
-    background-color: aquamarine;
-    border-radius: 1em;
-    border: 2px solid rgb(0, 0, 0);
+    background-color: aquamarine !important;
+    border-radius: 1em !important;
+    border: 2px solid rgb(0, 0, 0) !important;
 }
 .button-boton:hover{
-    background-color: rgb(82, 232, 182);
-    border-radius: .5em;
+    background-color: rgb(82, 232, 182) !important;
+    border-radius: .5em !important;
 }
 .button-boton:active{
     background-color: rgb(52, 209, 156);
@@ -57,14 +57,14 @@
 }
 
 .button-boton-eliminar:hover{
-    border-radius: 1.5em;
+    border-radius: 1.5em ;
     background-color:#eca4ec;
     border: 1px solid rgb(255, 160, 160);
         
 }
 
 .button-boton-eliminar:active{
-    border-radius: 1em;
+    border-radius: 1em !important;
     background-color:#dd74dd;
     border: 1px solid rgb(241, 119, 119);
         
@@ -100,3 +100,10 @@ section{
     margin-left: 5em;
 }
 
+
+.cantidad{
+    width: 2em !important;
+}
+label{
+    margin: 1em !important;
+}
