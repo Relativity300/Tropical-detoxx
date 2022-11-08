@@ -82,6 +82,8 @@
                 </div>
             </div>
         </section>
-<?php require_once'campo/footer.php'; ?>
+    <?php
+     require_once'campo/footer.php'; 
+     ?>
 </body>
 </html>
