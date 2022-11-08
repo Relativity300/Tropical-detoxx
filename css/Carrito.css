@@ -1,0 +1,51 @@
+.iimg{
+    /* width: 10em !important; */
+    height: 15em !important;
+}
+.producto{
+    text-align: center;
+}
+.icono{
+    max-width: 100em !important;
+    color: rgb(25, 0, 255);
+}
+.card{
+
+     /* background-color: rgba(255, 255, 255, 0) !important; */
+     margin: 5em !important;
+     height: 20em !important;
+
+}
+.botones{
+    position: relative;
+    left: 20em;
+    bottom: 20em;
+    width:40em;
+    /* background-color:#986; */
+
+}
+.precio{
+    font-size: 2em;
+}
+.button-boton{
+    background-color: aquamarine;
+    border-radius: 1em;
+    border: 2px solid rgb(0, 0, 0);
+}
+.button-boton:hover{
+    background-color: rgb(82, 232, 182);
+    border-radius: .5em;
+}
+.button-boton:active{
+    background-color: rgb(52, 209, 156);
+    border-radius: .3em;
+}
+section{
+    position: relative;
+    top: 10em;
+}
+.p-jugo{
+    font-size:3em;
+    position:relative;
+    top:1em;
+}

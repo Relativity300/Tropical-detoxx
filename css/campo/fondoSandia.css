@@ -2,6 +2,6 @@ body{
     background-image: url(../../IMG/Fondo_azul.png);
     /* background-color: black; */
     background-repeat: no-repeat;
-    background-size: 100vw;
+    background-size: 100%;
     background-attachment:fixed ;
 }
