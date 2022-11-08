@@ -31,11 +31,17 @@
     
 
 }
+.a:hover{
+    color: rgb(255, 0, 0) !important;
+    /* margin-left: 2em !important; */
+    position: relative;
+    bottom: 2em;
+    
 
+}
 
 .p{
     font-size: 1.5em !important;
-    color: black !important;
     font-family: 'Rubik', sans-serif !important;
 }
 .navbar-toggler{
