@@ -39,6 +39,7 @@
                   <a class="nav-link" href="nosotros.php">nosotros</a>
                   <a class="nav-link" href="productosFrutas.php">productosFrutas</a>
                   <a class="nav-link" href="productosVerdes.php">productosVerdes</a>
+                  <a class="nav-link" href="todojugo.php">Todos los jugos</a>
                 </li>
                 
                   </ul>

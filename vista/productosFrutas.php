@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>categoria frutas</title>
-    <link rel="stylesheet" href="../css/campo/fondoSandia.css">
+    <link rel="stylesheet" href="../css/campo/fondoAzul.css">
+    <link rel="stylesheet" href="../css/campo/Botones.css">
+
 </head>
 <body>
     
@@ -34,8 +36,8 @@
                                 </div>
                             </div>
                             <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Ver más</a></div>
+                            <div class="box-2 text-center" >
+                                <button class="btnn btnn-two"> <p class="text-boton">Ver más</p></button>
                             </div>
                         </div>
                     </div>
@@ -49,15 +51,14 @@
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Jugo de piña</h5>
-
                                     <!-- Product price-->
                                     <span class="text-muted text-decoration-line-through">$20.00</span>
                                     $18.00
                                 </div>
                             </div>
                             <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Ver más</a></div>
+                            <div class="box-2 text-center" >
+                                <button class="btnn btnn-two"> <p class="text-boton">Ver más</p></button>
                             </div>
                         </div>
                     </div>
@@ -75,8 +76,8 @@
                                 </div>
                             </div>
                             <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Ver más</a></div>
+                            <div class="box-2 text-center" >
+                                <button class="btnn btnn-two"> <p class="text-boton">Ver más</p></button>
                             </div>
                         </div>
                     </div>

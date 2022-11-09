@@ -80,7 +80,70 @@
                             </div>
                         </div>
                     </div>
+<!-- Frutas -->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="../IMG/fresas.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Jugo de fresa</h5>
+                                    <!-- Product price-->
+                                    $40.00 - $80.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="box-2 text-center" >
+                                <button class="btnn btnn-two"> <p class="text-boton">Ver más</p></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="../IMG/piña.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Jugo de piña</h5>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$20.00</span>
+                                    $18.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="box-2 text-center" >
+                                <button class="btnn btnn-two"> <p class="text-boton">Ver más</p></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="../IMG/guayaba.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Jugo de guayaba</h5>
+                                    <!-- Product price-->
+                                    $40.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="box-2 text-center" >
+                                <button class="btnn btnn-two"> <p class="text-boton">Ver más</p></button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                
+<!-- Fin de frutas -->
             </div>
         </section>
     <?php

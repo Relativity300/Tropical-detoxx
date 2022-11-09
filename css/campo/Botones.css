@@ -1,0 +1,101 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+/* .container{
+ display: flex;
+} */
+.btnn-two {
+	color: rgb(0, 0, 0);
+ font-size: 1.5em;
+	transition: all 0.5s;
+	position: relative;	
+ z-index: 3;
+ background-color: rgb(126, 201, 202);
+height: 1.4em;
+}
+.btnn-two span {
+	z-index: 2;	
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;	
+}
+.btnn-two::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.5s;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgba(6, 6, 6, 0.221);
+}
+.btnn-two::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.5s;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgba(51, 155, 157, 0.509);
+}
+.btnn-two:hover::before {
+  transform: rotate(-45deg);
+  background-color: rgba(255, 0, 0, 0);
+}
+.btnn-two:hover::after {
+  transform: rotate(45deg);
+  background-color: rgba(255,255,255,0);
+}
+.text-boton{
+ position: relative;
+	bottom: .3em;
+ z-index: 3;
+ text-align: center;
+}
+
+/* 
+========================
+      BUTTON THREE
+========================
+*/
+/* .btn-three {
+	color: rgb(172, 96, 96);
+	transition: all 0.5s;
+	position: relative;
+}
+.btn-three::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-color: rgba(8, 5, 5, 0.1);
+	transition: all 0.3s;
+}
+.btn-three:hover::before {
+	opacity: 0 ;
+	transform: scale(0.5,0.5);
+}
+.btn-three::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	transform: scale(1.2,1.2);
+}
+.btn-three:hover::after {
+	opacity: 1;
+	transform: scale(1,1);
+} */
