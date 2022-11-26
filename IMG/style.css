@@ -1,0 +1,163 @@
+html{
+    box-sizing: border-box;
+    font-size: 60.5%;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+.img-fondo{
+background-image: url(/IMG/tienda.jpg);
+}
+img{
+    width: 100%;
+}
+.velo-negro{
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img{
+    max-width: 40rem;
+    margin: 3rem 0;
+}
+
+nav{
+    margin: 3rem 0 8rem 0;
+    background-color: rgba(255, 55, 55, 0.768);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    color: white;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: black;
+}
+
+.nustros-productos{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.productos{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+
+   
+}
+.producto{
+    background-color: rgba(255, 55, 55, 0.768);;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.producto-blanco{
+    background-color: white;
+    height: 40rem;
+    object-fit: contain;
+    padding: 1rem;
+}
+
+.producto-precio,
+.producto-nombre{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.producto-precio{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.producto-nombre{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.footer{
+    background-color: black;
+    padding: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2rem;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.nosotros{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 10rem;
+margin-bottom: 20rem;
+
+}
+.nosotros-texto{
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nosotros-img{
+    background-color: white;
+    border-radius: 5%;
+}
+
+.bloques{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20rem;
+}
+
+.bloques img{
+    width: 20rem;
+    margin-bottom: 2rem;
+    height: 20rem;
+}
+.bloque-titulo{
+    margin:0;
+}
+
+.bloque{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5rem;
+}
+.bloque-titulo{
+    color: red;
+    font-size: 4rem;
+    margin: 3rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.enlace-footer:hover{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

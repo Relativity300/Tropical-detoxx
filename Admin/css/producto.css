@@ -1,0 +1,53 @@
+/* .py-5{
+
+    display: flex !important;
+align-items: center !important;
+    
+} */
+
+.cdenter{
+    position: relative;
+    left: 8em;
+    bottom: 10em;
+}
+
+.formButton{
+    display: flex;
+}
+
+input[type="search"]{
+    width: 50px; /*ancho por defecto*/
+    background: #ededed url('../IMG/luma.png') no-repeat 0px center; /*icono lupa*/
+    background-size: 2em;
+    background-color: #ebe96c9c;
+    padding: 9px 10px 9px 32px;
+    border-radius: 15em;
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
+    position: relative;
+    /* left: 3em; */
+    margin: 0em;
+}
+input[type="search"]:focus{
+    width: 200px; /*tamaño del boton buscar al hacer click*/
+    padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+    color: #000;
+    background-color: #FFF;
+}
+.bucar_list{
+    position: relative !important;
+    z-index: 20 !important;
+    left: 2em;
+}
+.d-md-flex{
+    width: 90%;
+    position: relative;
+    left: 10em;
+}
+.centers{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,29 @@
+
+.p-descri{
+
+    font-size: 1.5em;
+
+}
+.atras{
+    margin: 1em;
+    
+    color: black;
+}
+.dd{
+    background-color: #F5506F !important;
+}
+
+.div-botones{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 1em;
+}
+
+.titulo-ventas{
+    font-size: 2em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+.button{
+    border: 0ch solid rgba(255, 255, 255, 0) !important;
+}

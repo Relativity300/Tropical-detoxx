@@ -13,14 +13,14 @@
 </head>
 <body>
   <header class="ca">
-    <nav class="navbar navv navbar-dark bg fixed-top">
+    <nav class="navbar navv navbar-dark bg " >
         <div class="container">
           
           <a class="a navbar-brand" href="personalizado.php"><p class="p">Personalizados</p></a>
           <a class="a navbar-brand" href="carrito.php"><p class="p">Carrito</p></a>
           <div class="div-logo"><a class="a " href="index.php"> <img class="logo" src="../IMG/Logo1.png" alt="logo"></a></div>
-          <a class="a navbar-brand" href="#"><p class="p">Productos</p></a>
-          <a class="a navbar-brand" href="#"><p class="p">Login</p></a>
+          <a class="a navbar-brand" href="categoria.php"><p class="p">Productos</p></a>
+          <a class="a navbar-brand" href="login.php"><p class="p">Login</p></a>
 
           <button class="bo navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -37,9 +37,6 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="nosotros.php">nosotros</a>
-                  <a class="nav-link" href="productosFrutas.php">productosFrutas</a>
-                  <a class="nav-link" href="productosVerdes.php">productosVerdes</a>
-                  <a class="nav-link" href="todojugo.php">Todos los jugos</a>
                 </li>
                 
                   </ul>

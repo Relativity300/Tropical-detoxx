@@ -1,0 +1,179 @@
+.caga{
+    position: relative;
+    left: 19em;
+    top: 10em;
+    height: 20em; 
+}
+
+
+.wrapper{
+    position: fixed;
+    top: 24em;
+    left: 28.9em;
+    transform: translate(-50%, -50%);
+  }
+  
+  .link_wrapper{
+    position: relative;
+  }
+  
+  .a{
+    display: block;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    background: #333;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 3px solid #333;
+    transition: all .35s;
+  }
+  .icon{
+    width: 50px;
+    height: 50px;
+    border: 3px solid transparent;
+    position: absolute;
+    transform: rotate(45deg);
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transition: all .35s;
+  }
+  
+  .icon svg{
+    width: 30px;
+    position: absolute;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    transform: rotate(-45deg);
+    fill: #2ecc71;
+    transition: all .35s;
+  }
+  
+  .a:hover{
+    width: 10em;
+    border: 3px solid #2ecc71;
+    background: transparent;
+    color: #2ecc71;
+  }
+  
+  .a:hover + .icon{
+    border: 3px solid #2ecc71;
+    right: -25%;
+  }
+
+
+  .aa{
+    display: block;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    background: #333;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 3px solid #333;
+    transition: all .35s;
+    position: relative;
+    top: 3em;
+  }
+  .aa:hover{
+    width: 10em;
+    border: 3px solid #2ecc71;
+    background: transparent;
+    color: #2ecc71;
+  }
+  
+  
+  
+
+  .h1Permiso{
+    font-size: 3em !important;
+    text-align: center !important;
+    color: #000000a9 !important;
+  }
+
+
+.li{
+  font-size: 1.5em;
+}
+.boton-modall{
+  margin: .2em;
+  background-color: rgba(46, 204, 112, 0);
+  border: 0em solid;
+}
+.boton-modall:hover{
+  background-color: rgba(46, 133, 204, 0.185);
+}
+.boton-modall:active{
+  background-color: rgba(46, 133, 204, 0.596);
+}
+
+.eliminarRol{
+    color: #000000a9 !important;
+    background-color: #00000000;
+    border: 0ch solid #00000000;
+}
+
+
+select{
+  width: 10em;
+  border: 1px solid #000000;
+  background-color:  #abd9ee73;
+  border-radius: 1em;
+  color: rgb(24, 85, 85);
+}
+
+
+
+
+  
+  .Nobre{
+    position: relative;
+    left: 2em;
+    text-shadow: 5px 3px 4px #2ecc71;
+  }
+  .nombreRol{
+    border: 1px solid;
+    border-radius: .5em;
+    text-shadow: 2px 5px 4px #2ecc71;
+    background-color: #99e2e24f;
+    position: relative;
+    left: 4em;
+  }
+  .lista{
+    background-color: rgba(156, 228, 228, 0.575);
+    width: 25em;
+    height: 25em;
+    box-shadow: #000000 5px 5px 4px;
+    position: absolute;
+    left: 60em;
+    top: 12em;
+    z-index: 10;
+  }
+
+.Rol{
+  text-align: center;
+}
+.ListaPermisa{
+  width: 15em;
+  height: 20em;
+  position: relative;
+  left: 18em;
+  bottom: 8em;
+  background-color: rgb(196, 243, 227);
+  box-shadow: #000000 5px 5px 4px;
+
+  
+}
+
+.ModalTamaño{
+  height: 24em;
+}

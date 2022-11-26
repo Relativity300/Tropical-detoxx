@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Categoria verdes</title>
+    <title>Tropical Detox </title>
     <link rel="stylesheet" href="../css/campo/fondoAzul.css">
     <link rel="stylesheet" href="../css/campo/Botones.css">
     <!-- <link rel="icon" href="https://getbootstrap.esdocu.com/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png"> -->
@@ -83,8 +83,6 @@
                 </div>
             </div>
         </section>
-    <?php
-        require_once'campo/footer.php'; 
-    ?>
+        <?php require_once'campo/footer.php';?>
 </body>
 </html>
