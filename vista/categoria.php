@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,9 +13,9 @@
   <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="../css/stylish-portfolio.min.css" rel="stylesheet">
-  
- 
-  
+
+
+
 
 
 </head>
@@ -115,49 +112,49 @@ require('campo/Nav.php')
   </section>
 
   <section id="feature" class="section-padding wow fadeIn delay-05s">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="wrap-item text-center">
-              <div class="item-img">
-                <img src="../img/logo5.jpg" >
-              </div>
-              <h3 class="pad-bt15">Creative Concept</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="wrap-item text-center">
+            <div class="item-img">
+              <img src="../img/logo5.jpg">
             </div>
+            <h3 class="pad-bt15">Creative Concept</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="wrap-item text-center">
-              <div class="item-img">
-                <img src="../img/logo2.jpg">
-              </div>
-              <h3 class="pad-bt15">Amazing Design</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="wrap-item text-center">
+            <div class="item-img">
+              <img src="../img/logo2.jpg">
             </div>
+            <h3 class="pad-bt15">Amazing Design</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="wrap-item text-center">
-              <div class="item-img">
-                <img src="../img/logo3.jpg">
-              </div>
-              <h3 class="pad-bt15">Cost effective</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="wrap-item text-center">
+            <div class="item-img">
+              <img src="../img/logo3.jpg">
             </div>
+            <h3 class="pad-bt15">Cost effective</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="wrap-item text-center">
-              <div class="item-img">
-                <img src="../img/logo4.jpg">
-              </div>
-              <h3 class="pad-bt15">Secure</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="wrap-item text-center">
+            <div class="item-img">
+              <img src="../img/logo4.jpg">
             </div>
+            <h3 class="pad-bt15">Secure</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <?php require_once'campo/footer.php';?>
+  <?php require_once 'campo/footer.php'; ?>
 </body>
 
 </html>

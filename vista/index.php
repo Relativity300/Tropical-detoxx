@@ -22,7 +22,7 @@
 
     <!-- Bootstrap CSS -->
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- Site CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <!-- Responsive CSS -->
@@ -43,18 +43,18 @@
 
 
 
-    
-    <div id="site-header">
-        
-        <header id="header" class="header-block-top">
-        <?php
 
-include('campo/Nav.php')
-?>
+    <div id="site-header">
+
+        <header id="header" class="header-block-top">
+            <?php
+
+            include('campo/Nav.php')
+            ?>
             <div class="container">
                 <div class="row">
                     <div class="main-menu">
-                        
+
                         <!-- end navbar -->
                     </div>
                 </div>
@@ -64,8 +64,8 @@ include('campo/Nav.php')
         </header>
         <!-- end header -->
     </div>
-	<!-- end site-header -->
-	
+    <!-- end site-header -->
+
     <div id="banner" class="banner full-screen-mode parallax">
         <div class="container pr">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -218,8 +218,8 @@ include('campo/Nav.php')
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                         <h2 class="block-title text-center">
-						Adiciones	
-					</h2>
+                            Adiciones
+                        </h2>
                         <p class="title-caption text-center">Puedes personalizar tu jugo con nosotros y agregarle estas adiciones dirigiendote a la pestaña de PERSONALIZADOS </p>
                     </div>
                     <div class="tab-menu">
@@ -282,7 +282,7 @@ include('campo/Nav.php')
                                         <div>
                                             <h3>Manzana</h3>
                                             <p>
-                                                
+
                                             </p>
                                         </div>
                                         <span class="offer-price">$600</span>
@@ -316,18 +316,18 @@ include('campo/Nav.php')
                                 </div>
                                 <!-- end col -->
                             </div>
-                            
-                                <!-- end col -->
-                            </div>
+
+                            <!-- end col -->
                         </div>
                     </div>
-                    <!-- end tab-menu -->
                 </div>
-                <!-- end col -->
+                <!-- end tab-menu -->
             </div>
-            <!-- end row -->
+            <!-- end col -->
         </div>
-        <!-- end container -->
+        <!-- end row -->
+    </div>
+    <!-- end container -->
     </div>
     <!-- end menu -->
 
@@ -337,8 +337,8 @@ include('campo/Nav.php')
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                         <h2 class="block-title text-center">
-						Ubicacion	
-					</h2>
+                            Ubicacion
+                        </h2>
                         <p class="title-caption text-center">Nos encontramos ubicados en el centro de medellin en ......... </p>
                     </div>
                     <div class="team-box">
@@ -359,21 +359,21 @@ include('campo/Nav.php')
         <!-- end container -->
     </div>
 
-    <?php require_once'campo/footer.php';?>
+    <?php require_once 'campo/footer.php'; ?>
     <!-- end team-main -->
 
     <!-- end gallery-main -->
-            <!-- end container -->
-      
+    <!-- end container -->
+
     <!-- end footer-main -->
     <br>
- 
+
 
     <!-- ALL JS FILES -->
     <script src="../js/all.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <script src="../js/custom.js"></script>
 </body>
 
