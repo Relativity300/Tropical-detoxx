@@ -36,8 +36,9 @@ include('campo/Nav.php')
             <button id="show_password" class="btn" type="button" onclick="mostrarPassword()"> <box-icon type='solid' name='show'></box-icon> </button>
             </div>
           </div>
+          
             <br><center><a href="restablecer.php" class="he">He olvidado mi contraseña     // </a>
-            <a href="registro.php" class="he"><i class="fa fa-sticky-note" aria-hidden="true"></i>           estoy registrado</a>
+            <a href="registro.php" class="he"><i class="fa fa-sticky-note" aria-hidden="true"></i>          No estoy registrado</a>
             <button type="submit" name="submit" id="submit"  class="boton">Iniciar Sesión</button></center>
             
           </form>

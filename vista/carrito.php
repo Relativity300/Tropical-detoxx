@@ -10,15 +10,16 @@
   <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
 
   <link rel="stylesheet" href="../css/Carrito.css">
-  <link rel="stylesheet" href="../css/campo/fondoAzul.css">
+  <!-- <link rel="stylesheet" href="../css/campo/fondoAzul.css"> -->
 
   <title>Tropical Detox </title>
 </head>
 
 <body>
   <?php require_once 'campo/Nav.php'; ?>
-
+  
   <section>
+    <h1 class="titlo">Carito de conpras</h1>
     <form action="">
       <input type="search" name="nombre" placeholder="Buscar">
     </form>

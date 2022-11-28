@@ -1,3 +1,7 @@
+.titlo{
+    text-align: center;
+    font-size: 3em;
+}
 .iimg{
     /* width: 10em !important; */
     height: 15em !important;
@@ -76,7 +80,7 @@
 }
 section{
     position: relative;
-    top: 1em;
+    top: 3em;
 }
 .p-jugo{
     font-size:3em;
@@ -119,7 +123,7 @@ input[type="search"]{
     width: 50px; /*ancho por defecto*/
     background: #ededed url('../IMG/luma.png') no-repeat 0px center; /*icono lupa*/
     background-size: 2em;
-    background-color: #ebe96c9c;
+    background-color: #8590d9b5;
     padding: 9px 10px 9px 32px;
     border-radius: 15em;
     -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
@@ -134,7 +138,7 @@ input[type="search"]:focus{
     width: 200px; /*tamaño del boton buscar al hacer click*/
     padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
     color: #000;
-    background-color: #FFF;
+    background-color: #8590d93b;
 }
 /* -modal-body{
     background-color: rgba(127, 255, 212, 0) !important;

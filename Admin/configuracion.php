@@ -145,12 +145,7 @@
                             </a>
                         </li>
                        
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="404.php" aria-expanded="false">
-                                <i class="fa fa-info-circle" aria-hidden="true"></i>
-                                <span class="hide-menu">Cerrar sesion</span>
-                            </a>
-                        </li>
+                        
 
                     </ul>
 
@@ -159,7 +154,6 @@
             </div>
             <!-- End Sidebar scroll-->
         </aside>
-        
         <div class="page-wrapper">
             <div class="page-breadcrumb bg-white">
                 <div class="row align-items-center">
@@ -203,29 +197,13 @@
                                             </td>
                                             <td><button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#ventanaModal2" type="button">Editar</button></td> 
                                             <td>
-                                                <button class="btn"  data-bs-toggle="modal" data-bs-target="#EliminarProducto">
+                                                <button class="btn"  onclick="validarFormulario3()" data-bs-toggle="modal" data-bs-target="#EliminarProducto">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" style="color: #f62d51;" class="bi bi-dash-circle-fill" viewBox="0 0 16 16">
                                                         <path
                                                             d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7z" />
                                                     </svg>
                                                 </button> 
-                                                <div class="modal fade" id="EliminarProducto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                                    <div class="modal-dialog">
-                                                      <div class="modal-content">
-                                                        <div class="modal-header">
-                                                          <h1 class="modal-title fs-5" id="exampleModalLabel">Eliminar Rol</h1>
-                                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                        </div>
-                                                        <div class="modal-body">
-                                                          ¿Estás seguro de que deseas eliminar este rol?
-                                                        </div>
-                                                        <div class="modal-footer">
-                                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                                          <button type="button" class="btn" style="background-color: #f62d51;  color: #000;">Confirmar</button>
-                                                        </div>
-                                                      </div>
-                                                    </div>
-                                                  </div> 
+                                                
                                             </td>        
                                         </tr>
                                         <tr>
@@ -237,31 +215,13 @@
                                             </td>
                                             <td><button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#ventanaModal2" type="button">Editar</button></td> 
                                             <td>
-                                                <button class="btn"  data-bs-toggle="modal" data-bs-target="#EliminarProducto">
+                                                <button class="btn"  onclick="validarFormulario3()" data-bs-toggle="modal" data-bs-target="#EliminarProducto">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" style="color: #f62d51;" class="bi bi-dash-circle-fill" viewBox="0 0 16 16">
                                                         <path
                                                             d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7z" />
                                                     </svg>
                                                 </button> 
-                                                <div class="modal fade" id="EliminarProducto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                                    <form action="">
-                                                    <div class="modal-dialog">
-                                                      <div class="modal-content">
-                                                        <div class="modal-header">
-                                                          <h1 class="modal-title fs-5" id="exampleModalLabel">Eliminar Rol</h1>
-                                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                        </div>
-                                                        <div class="modal-body">
-                                                          ¿Estás seguro de que deseas eliminar este rol?
-                                                        </div>
-                                                        <div class="modal-footer">
-                                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                                          <button type="button" class="btn" onclick="validarFormulario3()" style="background-color: #f62d51;  color: #000;">Confirmar</button>
-                                                        </div>
-                                                      </div>
-                                                    </div>
-                                                    </form>
-                                                  </div></td>  
+                                                
 
                                         </tr>
                                     </tbody>
@@ -574,10 +534,22 @@ function validarFormulario() {
 
   function validarFormulario3(){
     Swal.fire({
-                icon: 'success',
-                title: ';)',
-                text: 'Se ha eliminado exitosamente'
-            })
+  title: 'Are you sure?',
+  text: "You won't be able to revert this!",
+  icon: 'warning',
+  showCancelButton: true,
+  confirmButtonColor: '#3085d6',
+  cancelButtonColor: '#d33',
+  confirmButtonText: 'Yes, delete it!'
+}).then((result) => {
+  if (result.isConfirmed) {
+    Swal.fire(
+      'Deleted!',
+      'Your file has been deleted.',
+      'success'
+    )
+  }
+})
     
 
 

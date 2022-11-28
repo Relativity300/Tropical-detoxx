@@ -151,14 +151,8 @@
                                 <span class="hide-menu">pedido</span>
                             </a>
                         </li>
-                        
-                        
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="404.php" aria-expanded="false">
-                                <i class="fa fa-info-circle" aria-hidden="true"></i>
-                                <span class="hide-menu">Cerrar sesion</span>
-                            </a>
-                        </li>
+
+
 
                     </ul>
 
@@ -213,9 +207,7 @@
 
 
 
-                                <svg class="mas" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-align-middle" viewBox="0 0 16 16">
-                                    <path d="M6 13a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v10zM1 8a.5.5 0 0 0 .5.5H6v-1H1.5A.5.5 0 0 0 1 8zm14 0a.5.5 0 0 1-.5.5H10v-1h4.5a.5.5 0 0 1 .5.5z" />
-                                </svg>
+                                <img src="IMG/boton-mas.png" alt=""  width="50" height="50"  class="mas">
                             <div class="cotenidoEdit">
                                 <div class="editar">
 
@@ -270,9 +262,8 @@
                                             <button type="button " class=" button" data-bs-toggle="modal" data-bs-target="#crear">
                                                 <i class="bi bi-align-middle">
 
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-align-middle" viewBox="0 0 16 16">
-                                                        <path d="M6 13a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v10zM1 8a.5.5 0 0 0 .5.5H6v-1H1.5A.5.5 0 0 0 1 8zm14 0a.5.5 0 0 1-.5.5H10v-1h4.5a.5.5 0 0 1 .5.5z" />
-                                                    </svg>
+                                                <img src="IMG/boton-mas.png" alt=""  width="50" height="50" >
+
                                                 </i>
                                             </button>
                                         </div>
@@ -485,10 +476,9 @@
                             </form>
 
 
-                            
-                                <svg class="mas" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-align-middle" viewBox="0 0 16 16">
-                                    <path d="M6 13a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v10zM1 8a.5.5 0 0 0 .5.5H6v-1H1.5A.5.5 0 0 0 1 8zm14 0a.5.5 0 0 1-.5.5H10v-1h4.5a.5.5 0 0 1 .5.5z" />
-                                </svg>
+
+                            <img src="IMG/boton-mas.png" alt=""  width="50" height="50"  class="mas">
+
                             <div class="cotenidoEdit">
                                 <div class="editar">
 

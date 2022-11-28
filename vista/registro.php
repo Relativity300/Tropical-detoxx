@@ -36,11 +36,11 @@
       <input class="controls" type="number" name="telefono" id="telefono" placeholder="ingrese su telefono">
       <div class="d-flex">
         <input class="controls" type="password" id="contrasenia" placeholder="Contraseña">
-        <button class="btn btn-dark btn-sm" type="button" onclick="mostrarContrasena1()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+        <button class="btn btn-transparent btn-sm" type="button" onclick="mostrarContrasena1()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
       </div>
       <div class="d-flex">
-        <input class="controls" type="password" id="Confirmclave" placeholder="Confirmar contraseña">
-        <button class="btn btn-dark btn-sm" type="button" onclick="mostrarContrasena2()" ><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+        <input class="controls" type="password"  id="Confirmclave" placeholder="Confirmar contraseña">
+        <button class="btn btn-transparent btn-sm" type="button" onclick="mostrarContrasena2()" ><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
       </div>
 
 

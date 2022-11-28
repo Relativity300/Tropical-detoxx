@@ -149,14 +149,8 @@
                                 <span class="hide-menu">pedido</span>
                             </a>
                         </li>
+                       
                         
-                        
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="404.php" aria-expanded="false">
-                                <i class="fa fa-info-circle" aria-hidden="true"></i>
-                                <span class="hide-menu">Cerrar sesion</span>
-                            </a>
-                        </li>
 
                     </ul>
 
@@ -172,13 +166,13 @@
             <div class="">
                 <div class="d-md-flex">
                     <ol class="breadcrumb ms-auto">
-                        <li><a href="grafica.php" class="btn btn-danger  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Grafica
+                        <li><a href="grafica.php" class="btn btn-primary  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Grafica
                             </a>
                         </li>
                     </ol>
                     <ol class="breadcrumb ms-auto">
 
-                        <a href="top10.php" class="btn btn-danger  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Top:5</a>
+                        <a href="top10.php" class="btn btn-primary  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Top:5</a>
                     </ol>
 
                 </div>
