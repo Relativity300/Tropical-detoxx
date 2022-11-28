@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html dir="ltr" lang="es">
 
 <head>
     <meta charset="utf-8">
@@ -9,7 +9,7 @@
     <meta name="keywords" content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Ample lite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Ample admin lite dashboard bootstrap 5 dashboard template">
     <meta name="description" content="Ample Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
     <meta name="robots" content="noindex,nofollow">
-    <title>Tropical Detox Administrador</title>
+    <title>Tropical Detox Frutas</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/ample-admin-lite/" />
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
@@ -201,7 +201,7 @@
     <!-- ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc -->
     <section class=" ">
         <div class="cdenter">
-            
+
 
             <div class="pt-5">
                 <h1 class="display-4 text-center ">Jugos de frutas</h1>
@@ -239,14 +239,14 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Informacion de categoria</h1>
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Informacion de jugo</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
 
                         <div class="modal-body">
 
                             <div class="mb-3">
-                                <h3>Nombre categoria : Jugos verdes</h3>
+                                <h3>Nombre de jugo : Jugos de fresa</h3>
                             </div>
                             <div class="mb-3">
                                 <h3>Descripcion : Muy buenos</h3>
@@ -283,7 +283,7 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="message-text" class="col-form-label">Precio</label>
-                                    <input type="text" id="descripcion1">
+                                    <input type="text" id="precio">
                                 </div>
                                 <div class="mb-3">
                                     <label for="formFile" class="form-label">Agrega una imagen</label>
@@ -307,7 +307,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Crear categoria</h1>
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Crear jugo</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <form action="" id="formulario" name="formulario">
@@ -318,8 +318,8 @@
                                     <input type="text" class="form-control" id="nombre">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="message-text" class="col-form-label">Descripcion</label>
-                                    <input class="form-control" type="text" id="descripcion">
+                                    <label for="message-text" class="col-form-label">Precio</label>
+                                    <input class="form-control" type="text" id="precio">
                                 </div>
                                 <div class="mb-3">
                                     <label for="message-text" class="col-form-label">Img</label>
@@ -342,13 +342,11 @@
 
             </div>
 
-
-
-
-
-
             <div class="container px-4 px-lg-5 mt-5">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+
+                    <!-- ------ inicio de Frutas --- -->
+                    <!-- Primer contenedor -->
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
@@ -374,6 +372,7 @@
                         </div>
                     </div>
 
+                    <!-- Segundo contenedor -->
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
@@ -397,6 +396,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Tercer contenedor -->
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
@@ -421,7 +421,7 @@
                             </div>
                         </div>
                     </div>
-
+                    <!-- Fin de frutas -->
 
                 </div>
             </div>
@@ -452,7 +452,7 @@
 
 
             var Valnombre = document.getElementById('nombre').value;
-            var Valdescripcion = document.getElementById('descripcion').value;
+            var Valdescripcion = document.getElementById('precio').value;
             var Valimg = document.getElementById('img').value;
 
 
@@ -506,17 +506,15 @@
                 })
             }
 
-            if (!Valdescripcion) {
+            // Validar que no sea tipo numero
+            var Valdescripcion1 = numerost.test(Valdescripcion1);
+            if (Valdescripcion1) {
                 return Swal.fire({
                     icon: 'error',
                     title: 'Oops...',
-                    text: 'Tienes que poner una descripcion'
+                    text: 'El precio no puede tener letras'
                 })
             }
-
-
-
-
 
 
             Swal.fire({
@@ -524,11 +522,6 @@
                 title: ';)',
                 text: 'Se ha creado exitosamente'
             })
-
-
-
-
-
 
         }
     </script>
@@ -539,7 +532,7 @@
 
 
             var Valnombre1 = document.getElementById('nombre1').value;
-            var Valdescripcion1 = document.getElementById('descripcion1').value;
+            var Valdescripcion1 = document.getElementById('precio').value;
             var Valimg1 = document.getElementById('img1').value;
 
 
@@ -585,6 +578,16 @@
                 })
             }
 
+            // Validar que sea tipo numero
+            var Valdescripcion1 = cedulaNum.test(Valdescripcion1);
+            if (!Valdescripcion1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El precio no puede tener letras'
+                })
+            }
+
             if (!Valimg1) {
                 return Swal.fire({
                     icon: 'error',
@@ -593,16 +596,6 @@
                 })
             }
 
-            if (!Valdescripcion1) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'Tienes que ingresar una descripcion'
-                })
-            }
-
-
-
             Swal.fire({
                 icon: 'success',
                 title: ';)',
@@ -610,13 +603,21 @@
             })
 
 
+        }
 
+        function SoloNumeros(evt) {
+            if (window.event) {
+                keynum = evt.keyCode;
+            } else {
+                keynum = evt.which;
+            }
 
-
-
-
-
-
+            if ((keynum > 47 && keynum < 58) || keynum == 8 || keynum == 13) {
+                return true;
+            } else {
+                alert("Ingresar solo numeros");
+                return false;
+            }
         }
     </script>
 
