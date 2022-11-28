@@ -151,12 +151,8 @@
                                 <span class="hide-menu">pedido</span>
                             </a>
                         </li>
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="modificar cuenta.php" aria-expanded="false">
-                                <i class="fa fa-info-circle" aria-hidden="true"></i>
-                                <span class="hide-menu">Modificar Cuenta</span>
-                            </a>
-                        </li>
+                        
+                        
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="404.php" aria-expanded="false">
                                 <i class="fa fa-info-circle" aria-hidden="true"></i>
@@ -215,7 +211,8 @@
 
                             </form>
 
-                                <h1 class="creaerr">Crear jugo</h1>
+
+
                                 <svg class="mas" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-align-middle" viewBox="0 0 16 16">
                                     <path d="M6 13a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v10zM1 8a.5.5 0 0 0 .5.5H6v-1H1.5A.5.5 0 0 0 1 8zm14 0a.5.5 0 0 1-.5.5H10v-1h4.5a.5.5 0 0 1 .5.5z" />
                                 </svg>
@@ -226,18 +223,18 @@
                                         <input type="search" name="nombre" placeholder="Buscar">
                                     </form>
                                     <ul>
-                                        <li class="edi">Mango $2.000 <input class="cantidad" type="number" name="" id=""></li>
-                                        <li class="edi">Mango $2.000 <input class="cantidad" type="number" name="" id=""></li>
-                                        <li class="edi">Mango $2.000 <input class="cantidad" type="number" name="" id=""></li>
-                                        <li class="edi">Mango $2.000 <input class="cantidad" type="number" name="" id=""></li>
-                                        <li class="edi">Mango $2.000 <input class="cantidad" type="number" name="" id=""></li>
+                                        <li class="edi">Mango $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"><br></li>
+                                        <li class="edi">Mango $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> </li>
+                                        <li class="edi">Mango $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> </li>
+                                        <li class="edi">Mango $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> </li>
+                                        <li class="edi">Mango $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> </li>
                                     </ul>
                                 </div>
 
                                 <div class="editados">
                                     <ul>
-                                        <li class="edi2">Mango $2.000 <input class="cantidad" type="number" name="" id=""></li>
-                                        <li class="edi2">Mango $2.000 <input class="cantidad" type="number" name="" id=""></li>
+                                        <li class="edi2">Mango $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> </li>
+                                        <li class="edi2">Mango $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> </li>
                                         <li class="edi2"><b>Total: <samp>3.000</samp></b></li>
                                     </ul>
 
@@ -463,7 +460,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class=" ">Editar: 1</h1>
+                            <h1 class="titulo-Modal ">Crear</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body modallll">
@@ -486,9 +483,12 @@
                                 </div>
 
                             </form>
-                            <svg class="mas" xmlns="http://www.w3.org/2000/svg" width="100" height="50" fill="currentColor" class="bi bi-align-middle" viewBox="0 0 16 16">
-                                <path d="M6 13a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v10zM1 8a.5.5 0 0 0 .5.5H6v-1H1.5A.5.5 0 0 0 1 8zm14 0a.5.5 0 0 1-.5.5H10v-1h4.5a.5.5 0 0 1 .5.5z" />
-                            </svg>
+
+
+                            
+                                <svg class="mas" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-align-middle" viewBox="0 0 16 16">
+                                    <path d="M6 13a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v10zM1 8a.5.5 0 0 0 .5.5H6v-1H1.5A.5.5 0 0 0 1 8zm14 0a.5.5 0 0 1-.5.5H10v-1h4.5a.5.5 0 0 1 .5.5z" />
+                                </svg>
                             <div class="cotenidoEdit">
                                 <div class="editar">
 
@@ -496,18 +496,18 @@
                                         <input type="search" name="nombre" placeholder="Buscar">
                                     </form>
                                     <ul>
-                                        <li class="edi">Mango $2.000 <input class="cantidad" type="number" name="" id=""></li>
-                                        <li class="edi">Mango $2.000 <input class="cantidad" type="number" name="" id=""></li>
-                                        <li class="edi">Mango $2.000 <input class="cantidad" type="number" name="" id=""></li>
-                                        <li class="edi">Mango $2.000 <input class="cantidad" type="number" name="" id=""></li>
-                                        <li class="edi">Mango $2.000 <input class="cantidad" type="number" name="" id=""></li>
+                                        <li class="edi">Mango $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"><br></li>
+                                        <li class="edi">Mango $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> </li>
+                                        <li class="edi">Mango $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> </li>
+                                        <li class="edi">Mango $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> </li>
+                                        <li class="edi">Mango $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> </li>
                                     </ul>
                                 </div>
 
                                 <div class="editados">
                                     <ul>
-                                        <li class="edi2">Mango $2.000 <input class="cantidad" type="number" name="" id=""></li>
-                                        <li class="edi2">Mango $2.000 <input class="cantidad" type="number" name="" id=""></li>
+                                        <li class="edi2">Mango $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> </li>
+                                        <li class="edi2">Mango $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> </li>
                                         <li class="edi2"><b>Total: <samp>3.000</samp></b></li>
                                     </ul>
 
@@ -515,7 +515,7 @@
                             </div>
                         </div>
                         <div class="div-botones">
-                            <button type="button" class="bbb btn btn-success eliminarr" data-bs-dismiss="modal">Eliminar.</button>
+                            <button type="button" class="bbb btn btn-success " data-bs-dismiss="modal">Eliminar.</button>
                             <button type="button" class="bbb btn btn-danger" data-bs-dismiss="modal">Editar.</button>
                         </div>
                     </div>

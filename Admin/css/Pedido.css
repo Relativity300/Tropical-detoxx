@@ -63,7 +63,7 @@ bottom: 8em;
     width: 100%;
     height: 15em;
     position: relative;
-    bottom:8em;
+    bottom:7em;
 }
 .editar{
     width: 50%;
@@ -71,6 +71,7 @@ bottom: 8em;
     background-color: #a6cc9136;
     border: 2px solid #000;
     margin-right: .5em;
+    
 }
 .editados{
     width: 50%;
@@ -93,6 +94,7 @@ bottom: 8em;
     text-decoration: none;
     margin-top: .5em;
     position: relative;
+    top: 1em;
 }
 
 .edi2{
@@ -141,8 +143,8 @@ input[type="search"]:focus{
 
 .mas{
     position: relative !important;
-    bottom: 4.5em !important;
-    left: 25em !important;
+    bottom: 3em !important;
+    left: 29em !important;
     z-index: 5 !important;
 }
 .mass{
@@ -167,4 +169,9 @@ input[type="search"]:focus{
 
 .button{
     border: 0ch solid rgba(255, 255, 255, 0);
+}
+.seletor1{
+    width: .7em;
+    height: .7em;
+    margin-left:.5em ;
 }
