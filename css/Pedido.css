@@ -1,0 +1,164 @@
+.iimg{
+    /* width: 10em !important; */
+    height: 15em !important;
+}
+.producto{
+    text-align: center;
+    font-size: 1.5em;
+    margin: .2em;
+}
+.icono{
+    max-width: 100em !important;
+    color: rgb(25, 0, 255);
+}
+.carta{
+
+     margin: 5em !important;
+     height: 20em !important;
+     width: 100%;
+
+}
+.botones{
+    bottom: 4.5em;
+    height: 3em;
+    position: relative;
+    top: -4.5em;
+    
+
+}
+.precio{
+    font-size: 2em;
+    position: relative;
+    background-color:rgba(153, 136, 102, 0.235);
+    position: relative;
+    bottom: .3em;
+
+}
+.div-p{
+    width: 100%;
+
+}
+.button-boton{
+    border-radius: 1em !important;
+    border: 2px solid rgba(0, 0, 0, 0) !important;
+    color: #000 !important;
+    position: relative;
+    left: 14em;
+    top: .0em;
+    
+}
+.Estado{
+    font-size: 2em;
+    position: relative;
+    bottom: 10em;
+    left: 10em;
+}
+.button-boton:hover{
+    background-color: rgba(220, 232, 82, 0.441) !important;
+    border-radius: .5em !important;
+}
+.button-boton:active{
+    background-color: rgba(220, 232, 82, 0.754) !important;
+
+    border-radius: .3em;
+}
+.button-boton-eliminar{
+    border: 0px solid rgba(0, 0, 0, 0) !important;
+    color: #000 !important;
+    position: relative;
+    left: 6.5em;    
+    top: .0em;
+
+}
+
+.button-boton-eliminar:hover{
+    background-color: rgba(220, 232, 82, 0.441) !important;
+    border-radius: .5em !important;
+}
+.button-boton-eliminar:active{
+    background-color: rgba(220, 232, 82, 0.754) !important;
+
+    border-radius: .3em;
+}
+section{
+    position: relative;
+    top: 1em;
+}
+.p-jugo{
+    font-size:3em;
+    position:relative;
+    top:1em;
+}
+
+
+.footer{
+    margin-top: 18em;
+    background-color: #EAD9E9 !important;
+}
+
+.total-card{
+    height: 4em;
+    /* display:flex; */
+}
+.div-complar{
+    justify-content: right;
+   display: flex;
+   position: relative;
+   bottom: 3.2em;
+}
+
+
+
+.cantidad{
+    width: 2em !important;
+}
+
+
+label{
+    margin: 1em !important;
+}
+
+
+
+
+input[type="search"]{
+    width: 50px; /*ancho por defecto*/
+    background: #ededed url('../IMG/luma.png') no-repeat 0px center; /*icono lupa*/
+    background-size: 2em;
+    background-color: #ebe96c9c;
+    padding: 9px 10px 9px 32px;
+    border-radius: 15em;
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
+    position: relative;
+    left: 5em;
+}
+input[type="search"]:focus{
+    width: 200px; /*tamaño del boton buscar al hacer click*/
+    padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+    color: #000;
+    background-color: #FFF;
+}
+/* -modal-body{
+    background-color: rgba(127, 255, 212, 0) !important;
+    color: #000;
+} */
+
+.cartOrden{
+    display: flex !important;
+    align-content: center;
+}
+
+.letra{
+    font-size: 1.5em;
+}
+.orden{
+    display: grid;
+    justify-content: left;
+}
+.jugoletra{
+    margin: 1em;
+}
