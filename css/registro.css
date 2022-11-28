@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Bebas Neue', cursive;
 }
 
 body {
@@ -11,12 +12,12 @@ body {
 
 .form-register {
   width: 400px;
-  background: #8deb7a;
+  background: rgba(0, 128, 0, 0.733);
   padding: 30px;
   margin: auto;
   margin-top: 100px;
   border-radius: 4px;
-  font-family: 'calibri';
+  font-family: 'Bebas Neue', cursive;
   color: white;
   box-shadow: 7px 13px 37px rgb(169, 245, 145);
 }
@@ -33,9 +34,9 @@ body {
   border-radius: 4px;
   margin-bottom: 16px;
   border: 1px solid #14d0d6;
-  font-family: 'calibri';
+  font-family: 'Bebas Neue', cursive;
   font-size: 18px;
-  color: rgb(8, 0, 0);
+  color: rgba(46, 44, 44, 0);
 }
 
 .form-register p {
@@ -57,7 +58,7 @@ body {
 
 .form-register .botons {
   width: 100%;
-  background: #54a14d;
+  background: #010800;
   border: none;
   padding: 12px;
   color: white;

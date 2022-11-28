@@ -16,7 +16,8 @@ include('campo/Nav.php')
 ?>
 
   <section class="form-register">
-    <h4>Ingrese su correo</h4>
+    <center><h4>Ingrese su correo</h4></center>
+    
     <form name="frmUsuario" id="frmUsuario" method="POST" action="">
     <input class="controls" type="email"  id="correo" placeholder="juan@gmail.com" >
 
@@ -29,6 +30,18 @@ include('campo/Nav.php')
     
     </form>
   </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
 
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 

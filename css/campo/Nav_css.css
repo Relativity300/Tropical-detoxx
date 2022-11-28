@@ -1,6 +1,11 @@
-/* .ca{
-    
-} */
+
+                           
+*{
+    font-family: 'Bebas Neue', cursive;  
+
+
+}
+                
 
 .navv{
     background-image: url(../../IMG/Nav2.png) !important;
@@ -34,9 +39,9 @@
 
 
 .p{
-    font-size: 1.5em !important;
+    font-size: 2em !important;
     color: black !important;
-    font-family: 'Rubik', sans-serif !important;
+    font-family: 'Bebas Neue', cursive;                                              
 }
 .navbar-toggler{
     background-color: rgba(0, 0, 0, 0.334) !important;
@@ -61,10 +66,9 @@
     
     }
     .p{
-        font-size: 1.5em !important;
+        font-size: 2em !important;
         color: black !important;
-        font-family: 'Rubik', sans-serif !important;
-
+        font-family: 'Bebas Neue', cursive;                                              
     }  
     .logo{
         z-index: 2;

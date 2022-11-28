@@ -72,9 +72,8 @@
                 <div class="banner-static">
                     <div class="banner-text">
                         <div class="banner-cell">
-                            <h1>Tropical Detox :<span class="typer" id="some-id" data-delay="200" data-delim=":" data-words="Natural:Fresco" data-colors="red"></span><span class="cursor" data-cursorDisplay="_" data-owner="some-id"></span></h1>
+                            <h1>Tropical Detox :<span class="typer" id="some-id" data-delay="200" data-delim=":" data-words="Natural:Fresco" data-colors="green"></span><span class="cursor" data-cursorDisplay="_" data-owner="some-id"></span></h1>
                             <h2>Accidental appearances </h2>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh euismod</p>
                             <a href="#about">
                                 <div class="mouse"></div>
                             </a>

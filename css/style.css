@@ -315,6 +315,8 @@ html, body{ height: 100%; }
     color: #fff;
 }
 .banner-text h1 {
+    -webkit-text-stroke: 1px black;
+    color: transparent; 
 	font-family: 'nautilus_pompiliusregular';
     letter-spacing: 2.7px;
     position: relative;
@@ -327,12 +329,15 @@ html, body{ height: 100%; }
 }
 
 .banner-text h2 {
+    -webkit-text-stroke: 1px black;
+    color: transparent; 
 	font-family: 'nautilus_pompiliusregular';
     letter-spacing: 2.7px;
     position: relative;
 	font-size: 37px;
     line-height: 100px;
 	padding-bottom:25px;
+    color:#fff;
 }
 .banner-text p{
 	font-family: 'Roboto', sans-serif;
@@ -589,7 +594,9 @@ html, body{ height: 100%; }
 	font-size: 18px;
 }
 .color-white {
-    color: #fff;
+    -webkit-text-stroke: 0.2px black;
+    color: transparent; 
+    color: rgb(247, 247, 247);
 }
 
 #owl-demo .item{

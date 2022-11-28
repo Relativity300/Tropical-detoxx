@@ -9,6 +9,10 @@
   <script src="https://kit.fontawesome.com/a81368914c.js"></script>
   <title>Tropical Detox </title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -17,28 +21,32 @@
   include('campo/Nav.php')
   ?>
   <section class="form-register">
+    <center>
+
     <h4>Formulario Registro</h4>
+    </center>
+  
+    
     <form name="frmUsuario" id="formulario" method="POST" action="">
-      <input class="controls" type="text" name="nombreusuario" id="nombre" placeholder="Ingrese su Nombre">
-      <input class="controls" type="text" name="nombreusuario" id="apellido" placeholder="Ingrese su Apellido">
-      <input class="controls" type="text" name="nombreusuario" id="cedula" placeholder="Ingrese su Identificacion" minlength="2" maxlength="10">
-      <input class="controls" type="email" name="correoelectronico" id="correo" placeholder="Ingrese su Correo">
-      <input class="controls" type="text" name="direccion" id="direccion" placeholder="Ingrese su Dirección">
-      <input class="controls" type="number" name="telefono" id="telefono" placeholder="Ingrese su Teléfono" value="3017893467">
+      <input class="controls" type="text" name="nombreusuario" id="nombre" placeholder="ingrese su nombre">
+      <input class="controls" type="text" name="nombreusuario" id="apellido" placeholder="ingrese su apellido">
+      <input class="controls" type="text" name="nombreusuario" id="cedula" placeholder="ingrese su identificacion" minlength="2" maxlength="10">
+      <input class="controls" type="email" name="correoelectronico" id="correo" placeholder="ingrese su correo">
+      <input class="controls" type="text" name="direccion" id="direccion" placeholder="ingrese su direccion">
+      <input class="controls" type="number" name="telefono" id="telefono" placeholder="ingrese su telefono">
       <div class="d-flex">
         <input class="controls" type="password" id="contrasenia" placeholder="Contraseña">
-        <button class="btn btn-primary" type="button" onclick="mostrarContrasena1()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+        <button class="btn btn-dark btn-sm" type="button" onclick="mostrarContrasena1()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
       </div>
       <div class="d-flex">
         <input class="controls" type="password" id="Confirmclave" placeholder="Confirmar contraseña">
-        <button class="btn btn-primary" type="button" onclick="mostrarContrasena2()" ><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+        <button class="btn btn-dark btn-sm" type="button" onclick="mostrarContrasena2()" ><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
       </div>
 
 
       </select>
-      <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
       <button class="botons" type="button" name="submit" id="submit" onclick="validarFormulario()">Registrar</button>
-      <p><a href="login.php">¿Ya tengo Cuenta?</a></p>
+      <p><a href="login.php">Ya tengo Cuenta</a></p>
 
 
     </form>

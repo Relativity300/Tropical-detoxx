@@ -5,7 +5,11 @@
     <title>Tropical Detox </title>
     <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/loginf.css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montez|Pathway+Gothic+One" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     
   </head>
   <body>
@@ -23,19 +27,19 @@ include('campo/Nav.php')
           <img src="../IMG/Logo.jpeg" alt="User">
           <h3>Inicio de Sesión</h3>
           <form name="frmAcceso" action="" method="POST" id="formulario" name="formulario">
-            <span class="icon-user"></span><input class="inp" type="email" name="usuario" id="correo" placeholder="Digite su Correo" >
+            <input class="inp" type="email" name="usuario" id="correo" placeholder="digite su correo" >
             <br>
             
             <div class="input-group-append ">
-            <span class="icon-key"></span><input class="inp" type="password" name="contrasena" id="clave" placeholder="Digite su contraseña">
+            <input class="inp" type="password" name="contrasena" id="clave" placeholder="digite su contraseña">
             <div class="d-flex flex-row-reverse" >
             <button id="show_password" class="btn" type="button" onclick="mostrarPassword()"> <box-icon type='solid' name='show'></box-icon> </button>
             </div>
           </div>
-            <br>
-            <a href="restablecer.php" class="he">He olvidado mi contraseña // </a>
-            <a href="registro.php" class="he"><i class="fa fa-sticky-note" aria-hidden="true"></i> estoy registrado</a>
-            <button type="submit" name="submit" id="submit"  class="boton">Iniciar Sesión</button>
+            <br><center><a href="restablecer.php" class="he">He olvidado mi contraseña     // </a>
+            <a href="registro.php" class="he"><i class="fa fa-sticky-note" aria-hidden="true"></i>           estoy registrado</a>
+            <button type="submit" name="submit" id="submit"  class="boton">Iniciar Sesión</button></center>
+            
           </form>
         </article>
       </div>
