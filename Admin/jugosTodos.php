@@ -135,8 +135,8 @@
                                 <span class="hide-menu">pedido</span>
                             </a>
                         </li>
-                       
-                        
+
+
 
                     </ul>
 
@@ -196,10 +196,10 @@
     <!-- ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc -->
     <section class=" ">
         <div class="cdenter">
-            
+
 
             <div class="pt-5">
-                <h1 class="display-4 text-center ">Jugos de frutas</h1>
+                <h1 class="display-4 text-center ">Todos los jugos</h1>
             </div>
 
             <div class="row">
@@ -213,7 +213,7 @@
 
                 <div class="d-md-flex">
                     <form action="" class="bucar_list espacio">
-                        <input type="search" name="nombre" placeholder="Buscar">
+                        <input type="search" style="background-color: #8590d9b5" name="nombre" placeholder="Buscar">
                     </form>
 
                     <ol class="breadcrumb ms-auto">
@@ -344,6 +344,8 @@
 
             <div class="container px-4 px-lg-5 mt-5">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+
+                    <!-- primer div frutas-->
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
@@ -352,23 +354,34 @@
                             <div class="card-body p-4 ">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">jugos verdes</h5>
+                                    <h5 class="fw-bolder">Jugo de fresa</h5>
                                     <div class="form-check form-switch ">
                                         <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" class="form-check form-switch" checked>
                                     </div>
-                                    Muy buenos
+                                    Jugo con sabor a fresa
                                 </div>
                             </div>
 
                             <div class="box-2 text-center">
-                                <h5>Inactivo / Activo</h5>
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editar" data-bs-whatever="@fat">Editar</button>
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#info" data-bs-whatever="@fat">Info</button>
-
+                                <h5>Editar estado</h5>
+                                <!-- Editar -->
+                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                                        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                                    </svg>
+                                </button>
+                                <!-- Informaciòn -->
+                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#info">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                    </svg>
+                                </button>
                             </div>
                         </div>
                     </div>
 
+                    <!-- segundo div frutas-->
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
@@ -377,23 +390,34 @@
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Jugos naturales</h5>
+                                    <h5 class="fw-bolder">Jugo de mango</h5>
                                     <div class="form-check form-switch ">
                                         <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" class="form-check form-switch" checked>
                                     </div>
-                                    <!-- Product price-->
-                                    Muy buenos
-
+                                    Jugo con sabor a mango
                                 </div>
                             </div>
                             <!-- Product actions-->
                             <div class="box-2 text-center">
-                                <h5>Inactivo / Activo</h5>
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editar" data-bs-whatever="@fat">Editar</button>
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#info" data-bs-whatever="@fat">Info</button>
+                                <h5>Editar estado</h5>
+                                <!-- Editar -->
+                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                                        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                                    </svg>
+                                </button>
+                                <!-- Informaciòn -->
+                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#info">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                    </svg>
+                                </button>
                             </div>
                         </div>
                     </div>
+
+                    <!-- tercer div frutas -->
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
@@ -402,24 +426,147 @@
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Todos</h5>
+                                    <h5 class="fw-bolder">Jugo de guayaba</h5>
                                     <div class="form-check form-switch ">
                                         <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" class="form-check form-switch" checked>
                                     </div>
                                     <!-- Product price-->
-                                    Muy buenos
+                                    Jugo con sabor a guayaba
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="box-2 text-center">
+                                <h5>Editar estado</h5>
+                                <!-- Editar -->
+                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                                        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                                    </svg>
+                                </button>
+                                <!-- Informaciòn -->
+                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#info">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end frutas -->
+
+                    <!-- verdes -->
+                    <!-- primer verde -->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="../IMG/jugoManzana.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4 ">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Jugos de manzana</h5>
+                                    <div class="form-check form-switch ">
+                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" class="form-check form-switch" checked>
+                                    </div>
+                                    Jugo natural de manzana
+                                </div>
+                            </div>
+
+                            <div class="box-2 text-center">
+                                <h5>Inactivo / Activo</h5>
+                                <!-- Editar -->
+                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                                        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                                    </svg>
+                                </button>
+                                <!-- Informaciòn -->
+                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#info">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- segundo verde -->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="../IMG/jugoConvinado.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Jugo combinado</h5>
+                                    <div class="form-check form-switch ">
+                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" class="form-check form-switch" checked>
+                                    </div>
+                                    <!-- Product price-->
+                                    Muy combinacion de insumos
+
                                 </div>
                             </div>
                             <!-- Product actions-->
                             <div class="box-2 text-center">
                                 <h5>Inactivo / Activo</h5>
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editar" data-bs-whatever="@fat">Editar</button>
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#info" data-bs-whatever="@fat">Info</button>
+                                <!-- Editar -->
+                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                                        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                                    </svg>
+                                </button>
+                                <!-- Informaciòn -->
+                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#info">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                    </svg>
+                                </button>
                             </div>
                         </div>
                     </div>
 
-
+                    <!-- tercer verde -->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="../IMG/licuadoVerde.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Licuado verde</h5>
+                                    <div class="form-check form-switch ">
+                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" class="form-check form-switch" checked>
+                                    </div>
+                                    <!-- Product price-->
+                                    Licuado de insumos
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="box-2 text-center">
+                                <h5>Inactivo / Activo</h5>
+                                <!-- Editar -->
+                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                                        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                                    </svg>
+                                </button>
+                                <!-- Informaciòn -->
+                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#info">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end verdes -->
                 </div>
             </div>
         </div>
