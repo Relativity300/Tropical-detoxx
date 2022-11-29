@@ -270,19 +270,19 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Editar categoria</h1>
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Editar jugo</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <form action="" id="formulario1" name="formulario1">
                             <div class="modal-body">
 
                                 <div class="mb-3">
-                                    <label for="recipient-name" class="col-form-label">Nombre de categoria de productos</label>
+                                    <label for="recipient-name" class="col-form-label">Nombre del jugo</label>
                                     <input type="text" class="form-control" id="nombre1">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="message-text" class="col-form-label">Descripcion</label>
-                                    <input type="text" id="descripcion1">
+                                    <label for="message-text" class="col-form-label">Precio</label>
+                                    <input type="text" id="descripcion1" onkeypress="return valideKey(event);">
                                 </div>
                                 <div class="mb-3">
                                     <label for="formFile" class="form-label">IMG</label>
@@ -291,8 +291,12 @@
 
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                <button type="button" class="btn btn-primary" id="boton1" name="boton1" onclick="validarFormulario2()">Editar</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                    Cancelar
+                                </button>
+                                <button type="button" class="btn btn-primary" id="boton1" name="boton1" onclick="validarFormulario2()" onkeypress="return valideKey(event);">
+                                    Editar
+                                </button>
 
                             </div>
                         </form>
@@ -306,7 +310,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Crear categoria</h1>
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Crear jugo</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <form action="" id="formulario" name="formulario">
@@ -317,8 +321,8 @@
                                     <input type="text" class="form-control" id="nombre">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="message-text" class="col-form-label">Descripcion</label>
-                                    <input class="form-control" type="text" id="descripcion">
+                                    <label for="message-text" class="col-form-label">Precio</label>
+                                    <input class="form-control" type="text" id="descripcion" onkeypress="return valideKey(event);">
                                 </div>
                                 <div class="mb-3">
                                     <label for="message-text" class="col-form-label">Img</label>
@@ -328,7 +332,7 @@
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                <button type="button" onclick="validarFormulario()" class="btn btn-primary">Crear</button>
+                                <button type="button" onclick="validarFormulario()" id="descripcion" onkeypress="return valideKey(event);" class="btn btn-primary">Crear</button>
 
                             </div>
                         </form>
@@ -448,6 +452,27 @@
     <script src="js/custom.js"></script>
 
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Solo numeros -->
+    <script>
+        function valideKey(evt) {
+
+            // code is the decimal ASCII representation of the pressed key.
+            var code = (evt.which) ? evt.which : evt.keyCode;
+
+            if (code == 8) { // backspace.
+                return true;
+            } else if (code >= 48 && code <= 57) { // is a number.
+                return true;
+            } else {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Solo puedes ingresar un numero'
+                })
+            }
+        }
+    </script>
     <script>
         function validarFormulario() {
 
@@ -598,7 +623,7 @@
                 return Swal.fire({
                     icon: 'error',
                     title: 'Oops...',
-                    text: 'Tienes que ingresar una descripcion'
+                    text: 'Tienes que ingresar un precio'
                 })
             }
 

@@ -10,14 +10,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <!-- CSS only -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <style>
-
-        *{
+        * {
             font-family: 'Bebas Neue', cursive;
         }
     </style>
@@ -148,24 +149,24 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
+        function mostrarContrasena1() {
+            var tipo = document.getElementById("contrasenia");
+            if (tipo.type == "password") {
+                tipo.type = "text";
+            } else {
+                tipo.type = "password";
+            }
+        }
 
-function mostrarContrasena1(){
-    var tipo = document.getElementById("contrasenia");
-    if(tipo.type == "password"){
-        tipo.type = "text";
-    }else{
-        tipo.type = "password";
-    }
-}
+        function mostrarContrasena2() {
+            var tipo = document.getElementById("Confirmclave");
+            if (tipo.type == "password") {
+                tipo.type = "text";
+            } else {
+                tipo.type = "password";
+            }
+        }
 
-function mostrarContrasena2(){
-    var tipo = document.getElementById("Confirmclave");
-    if(tipo.type == "password"){
-        tipo.type = "text";
-    }else{
-        tipo.type = "password";
-    }
-}
         function validarFormulario() {
 
             var Valcontraseina = document.getElementById('contrasenia').value;

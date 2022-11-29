@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tropical Detox </title>
-    <link rel="stylesheet" href="../css/campo/fondoAzul.css">
     <link rel="stylesheet" href="../css/campo/Botones.css">
 
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
     <!-- letra -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,8 +32,8 @@
         </div>
         <div class="container px-4 px-lg-5 mt-5">
             <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                
-            <!-- Primer  div -->
+
+                <!-- Primer  div -->
                 <div class="col mb-5">
                     <div class="card h-100">
                         <!-- Product image-->

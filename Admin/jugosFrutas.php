@@ -306,7 +306,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Crear categoria</h1>
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Crear jugo</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <form action="" id="formulario" name="formulario">
@@ -317,8 +317,8 @@
                                     <input type="text" class="form-control" id="nombre">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="message-text" class="col-form-label">Descripcion</label>
-                                    <input class="form-control" type="text" id="descripcion">
+                                    <label for="message-text" class="col-form-label">Precio</label>
+                                    <input class="form-control" type="text" id="descripcion" onkeypress="return valideKey(event);">
                                 </div>
                                 <div class="mb-3">
                                     <label for="message-text" class="col-form-label">Img</label>
@@ -327,8 +327,13 @@
 
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                <button type="button" onclick="validarFormulario()" class="btn btn-primary">Crear</button>
+                                <!-- " -->
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                    Cancelar
+                                </button>
+                                <button type="button" onkeypress="return valideKey(event);" onclick="validarFormulario()" class="btn btn-primary">
+                                    Crear
+                                </button>
 
                             </div>
                         </form>
@@ -348,6 +353,11 @@
 
             <div class="container px-4 px-lg-5 mt-5">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+<<<<<<< HEAD
+
+                    <!-- primer div frutas-->
+=======
+>>>>>>> a55889e52019f2dae5afec525cd5575ea00ef31f
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
@@ -446,6 +456,28 @@
     <script src="js/custom.js"></script>
 
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Solo numeros -->
+    <script>
+        function valideKey(evt) {
+
+            // codigo en ASCII representacion al presionar una letra
+            var code = (evt.which) ? evt.which : evt.keyCode;
+
+            if (code == 8) { // backspace.
+                return true;
+            } else if (code >= 48 && code <= 57) { // is a number.
+                return true;
+            } else {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Solo puedes ingresar un numero'
+                })
+            }
+        }
+    </script>
+    <!-- Validar todo lo demas -->
     <script>
         function validarFormulario() {
 
@@ -488,12 +520,20 @@
                     text: 'El nombre no puede contener numeros'
                 })
             }
+            var Valdescripcion = numerost.test(Valdescripcion);
+            if (!Valdescripcion) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'el nombre no puede tener caracteres especiales'
+                })
+            }
             var validoNombre = NoEspeciales.test(Valnombre);
             if (!validoNombre) {
                 return Swal.fire({
                     icon: 'error',
                     title: 'Oops...',
-                    text: 'el nombre no puede tener caracteres especiales'
+                    text: 'El precio no puede tener letras y otros caracteres no reconocidos'
                 })
             }
 
@@ -509,7 +549,7 @@
                 return Swal.fire({
                     icon: 'error',
                     title: 'Oops...',
-                    text: 'Tienes que poner una descripcion'
+                    text: 'Tienes que poner un precio'
                 })
             }
 
@@ -596,7 +636,7 @@
                 return Swal.fire({
                     icon: 'error',
                     title: 'Oops...',
-                    text: 'Tienes que ingresar una descripcion'
+                    text: 'Tienes que ingresar un precio '
                 })
             }
 

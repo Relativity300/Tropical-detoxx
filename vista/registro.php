@@ -7,12 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="../css/registro.css">
   <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+  <!-- Favicon icon -->
+  <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
   <title>Tropical Detox </title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -23,10 +25,10 @@
   <section class="form-register">
     <center>
 
-    <h4>Formulario Registro</h4>
+      <h4>Formulario Registro</h4>
     </center>
-  
-    
+
+
     <form name="frmUsuario" id="formulario" method="POST" action="">
       <input class="controls" type="text" name="nombreusuario" id="nombre" placeholder="ingrese su nombre">
       <input class="controls" type="text" name="nombreusuario" id="apellido" placeholder="ingrese su apellido">
@@ -39,8 +41,8 @@
         <button class="btn btn-transparent btn-sm" type="button" onclick="mostrarContrasena1()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
       </div>
       <div class="d-flex">
-        <input class="controls" type="password"  id="Confirmclave" placeholder="Confirmar contraseña">
-        <button class="btn btn-transparent btn-sm" type="button" onclick="mostrarContrasena2()" ><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+        <input class="controls" type="password" id="Confirmclave" placeholder="Confirmar contraseña">
+        <button class="btn btn-transparent btn-sm" type="button" onclick="mostrarContrasena2()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
       </div>
 
 
@@ -58,23 +60,24 @@
 
 
   <script>
-    function mostrarContrasena1(){
-    var tipo = document.getElementById("contrasenia");
-    if(tipo.type == "password"){
+    function mostrarContrasena1() {
+      var tipo = document.getElementById("contrasenia");
+      if (tipo.type == "password") {
         tipo.type = "text";
-    }else{
+      } else {
         tipo.type = "password";
+      }
     }
-}
 
-function mostrarContrasena2(){
-    var tipo = document.getElementById("Confirmclave");
-    if(tipo.type == "password"){
+    function mostrarContrasena2() {
+      var tipo = document.getElementById("Confirmclave");
+      if (tipo.type == "password") {
         tipo.type = "text";
-    }else{
+      } else {
         tipo.type = "password";
+      }
     }
-}
+
     function validarFormulario() {
 
 
@@ -215,7 +218,7 @@ function mostrarContrasena2(){
     }
   </script>
 
-<?php require_once'campo/footer.php';?>
+  <?php require_once 'campo/footer.php'; ?>
 </body>
 
 </html>

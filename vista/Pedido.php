@@ -11,7 +11,8 @@
 
   <link rel="stylesheet" href="../css/Pedido.css">
   <link rel="stylesheet" href="../css/campo/fondoAzul.css">
-
+  <!-- Favicon icon -->
+  <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
   <title>Tropical Detox </title>
 </head>
 

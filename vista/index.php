@@ -16,9 +16,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!-- Site Icons -->
-    <link rel="shortcut icon" href="../images/favicon.ico" type="../image/x-icon" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
 
     <!-- Bootstrap CSS -->
     <!-- CSS only -->
