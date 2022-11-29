@@ -82,6 +82,10 @@
                                 <img src="plugins/images/users/varun.jpg" alt="user-img" width="36" class="img-circle"><span class="text-white font-medium">Steave</span></a>
                         </li>
                     </ul>
+                    <li>
+                        <a class="profile-pic" href="modificar cuenta.php">
+                            <span class="text-white font-medium">cerrar sesion</span>
+                    </li>
                 </div>
             </nav>
         </header>
@@ -135,8 +139,8 @@
                                 <span class="hide-menu">pedido</span>
                             </a>
                         </li>
-                       
-                        
+
+
 
                     </ul>
 
@@ -196,7 +200,7 @@
     <!-- ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc -->
     <section class=" ">
         <div class="cdenter">
-            
+
 
             <div class="pt-5">
                 <h1 class="display-4 text-center ">Jugos de frutas</h1>

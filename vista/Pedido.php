@@ -17,7 +17,7 @@
 
 <body>
   <?php require_once 'campo/Nav.php'; ?>
-
+  <h1 class="titlo">Mis pedidos</h1>
   <section>
     <form action="">
       <input type="search" name="nombre" placeholder="Buscar">

@@ -6,10 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords"
-        content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Ample lite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Ample admin lite dashboard bootstrap 5 dashboard template">
-    <meta name="description"
-        content="Ample Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
+    <meta name="keywords" content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Ample lite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Ample admin lite dashboard bootstrap 5 dashboard template">
+    <meta name="description" content="Ample Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
     <meta name="robots" content="noindex,nofollow">
     <title>Tropical Detox Administrador</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/ample-admin-lite/" />
@@ -39,8 +37,7 @@
     <!-- ============================================================== -->
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
-    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full"
-        data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full" data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
         <!-- ============================================================== -->
         <!-- Topbar header - style you can find in pages.scss -->
         <!-- ============================================================== -->
@@ -61,8 +58,7 @@
                     <!-- ============================================================== -->
                     <!-- toggle and nav items -->
                     <!-- ============================================================== -->
-                    <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none"
-                        href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                    <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
                 </div>
                 <!-- ============================================================== -->
                 <!-- End Logo -->
@@ -70,8 +66,7 @@
                 <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
                     <ul class="navbar-nav d-none d-md-block d-lg-none">
                         <li class="nav-item">
-                            <a class="nav-toggler nav-link waves-effect waves-light text-white"
-                                href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                            <a class="nav-toggler nav-link waves-effect waves-light text-white" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
                         </li>
                     </ul>
                     <!-- ============================================================== -->
@@ -82,21 +77,17 @@
                         <!-- ============================================================== -->
                         <!-- Search -->
                         <!-- ============================================================== -->
-                        <li class=" in">
-                            <form role="search" class="app-search d-none d-md-block me-3">
-                                <input type="text" placeholder="Search..." class="form-control mt-0">
-                                <a href="" class="active">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </form>
-                        </li>
+                        
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
                         <li>
                             <a class="profile-pic" href="#">
-                                <img src="plugins/images/users/varun.jpg" alt="user-img" width="36"
-                                    class="img-circle"><span class="text-white font-medium">Steave</span></a>
+                                <img src="plugins/images/users/varun.jpg" alt="user-img" width="36" class="img-circle"><span class="text-white font-medium">Steave</span></a>
+                        </li>
+                        <li>
+                            <a class="profile-pic" href="modificar cuenta.php">
+                                <span class="text-white font-medium">cerrar sesion</span>
                         </li>
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
@@ -155,8 +146,8 @@
                                 <span class="hide-menu">pedido</span>
                             </a>
                         </li>
-                       
-                        
+
+
 
                     </ul>
 
@@ -171,74 +162,72 @@
         <!-- ============================================================== -->
         <!-- Page wrapper  -->
         <!-- ============================================================== -->
-            <!-- ============================================================== -->
-            <!-- Bread crumb and right sidebar toggle -->
-            <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Bread crumb and right sidebar toggle -->
+        <!-- ============================================================== -->
 
 
-            <div class="page-breadcrumb bg-white">
+        <div class="page-breadcrumb bg-white">
 
-            
 
-                <div class="">
-                    <div class="d-md-flex">
-                        <ol class="breadcrumb ms-auto">
-                            <li><a href="grafica.php"
-                                    class="btn btn-primary  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Grafica
-                                </a>
-                            </li>
-                        </ol>
-                        <ol class="breadcrumb ms-auto">
 
-                            <a href="top10.php"
-                                class="btn btn-primary  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Top:5</a>
-                        </ol>
+            <div class="">
+                <div class="d-md-flex">
+                    <ol class="breadcrumb ms-auto">
+                        <li><a href="grafica.php" class="btn btn-primary  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Grafica
+                            </a>
+                        </li>
+                    </ol>
+                    <ol class="breadcrumb ms-auto">
 
-                    </div>
-                </div>
+                        <a href="top10.php" class="btn btn-primary  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Top:5</a>
+                    </ol>
 
-            </div>
-            <!-- ============================================================== -->
-            <!-- End Bread crumb and right sidebar toggle -->
-            <!-- ============================================================== -->
-            <!-- ============================================================== -->
-            <!-- Container fluid  -->
-            <!-- ============================================================== -->
-            <!-- https://codepen.io/jlalovi/details/bIyAr -->
-
-            <!-- https://codepen.io/jlalovi/details/bIyAr -->
-           
-           
-            <div class="container">
-               <h1 class="titulo-grafica">Grafica.</h1>
-                <div class="bar-chart-block block">
-                    <div class="fechas">
-
-                    <input type="month" class="mes" name="mes" min="2022-00" max="2022-12" > 
-                    <input type="month" class="mes"  name="mes" min="2022-00" max="2022-12">
-                </div> 
-                    <div class='grafico bar-chart'>
-                        <ul class='eje-y'>
-                            <li data-ejeY='60 uni'></li>
-                            <li data-ejeY='45 uni'></li>
-                            <li data-ejeY='30 uni'></li>
-                            <li data-ejeY='15 uni'></li>
-                            <li data-ejeY='0 uni'></li>
-                        </ul>
-                        <ul class='eje-x'>
-                            <li data-ejeX='37'><i>enero</i></li>
-                            <li data-ejeX='56'><i>febrero</i></li>
-                            <li data-ejeX='25'><i>marzo</i></li>
-                            <li data-ejeX='18'><i>abril</i></li>
-                            <li data-ejeX='45'><i>Mayo</i></li>
-                            <li data-ejeX='50'><i>junio</i></li>
-                            <li data-ejeX='33'><i>julio</i></li>
-                        </ul>
-                    </div>
                 </div>
             </div>
 
-          
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Bread crumb and right sidebar toggle -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Container fluid  -->
+        <!-- ============================================================== -->
+        <!-- https://codepen.io/jlalovi/details/bIyAr -->
+
+        <!-- https://codepen.io/jlalovi/details/bIyAr -->
+
+
+        <div class="container">
+            <h1 class="titulo-grafica">Grafica.</h1>
+            <div class="bar-chart-block block">
+                <div class="fechas">
+
+                    <input type="month" class="mes" name="mes" min="2022-00" max="2022-12">
+                    <input type="month" class="mes" name="mes" min="2022-00" max="2022-12">
+                </div>
+                <div class='grafico bar-chart'>
+                    <ul class='eje-y'>
+                        <li data-ejeY='60 uni'></li>
+                        <li data-ejeY='45 uni'></li>
+                        <li data-ejeY='30 uni'></li>
+                        <li data-ejeY='15 uni'></li>
+                        <li data-ejeY='0 uni'></li>
+                    </ul>
+                    <ul class='eje-x'>
+                        <li data-ejeX='37'><i>enero</i></li>
+                        <li data-ejeX='56'><i>febrero</i></li>
+                        <li data-ejeX='25'><i>marzo</i></li>
+                        <li data-ejeX='18'><i>abril</i></li>
+                        <li data-ejeX='45'><i>Mayo</i></li>
+                        <li data-ejeX='50'><i>junio</i></li>
+                        <li data-ejeX='33'><i>julio</i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
         <!-- ============================================================== -->
         <!-- End Page wrapper  -->
         <!-- ============================================================== -->

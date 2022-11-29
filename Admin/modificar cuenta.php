@@ -5,19 +5,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Tell the browser to be responsive to screen width -->
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords"
-        content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Ample lite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Ample admin lite dashboard bootstrap 5 dashboard template">
-    <meta name="description"
-        content="Ample Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Ample lite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Ample admin lite dashboard bootstrap 5 dashboard template">
+    <meta name="description" content="Ample Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
     <meta name="robots" content="noindex,nofollow">
     <title>Tropical Detox Administrador</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/ample-admin-lite/" />
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
     <!-- Custom CSS -->
-   <link href="css/style.min.css" rel="stylesheet">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="css/style.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 
 <body>
@@ -33,8 +31,7 @@
     <!-- ============================================================== -->
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
-    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full"
-        data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full" data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
         <!-- ============================================================== -->
         <!-- Topbar header - style you can find in pages.scss -->
         <!-- ============================================================== -->
@@ -59,8 +56,7 @@
                     <!-- ============================================================== -->
                     <!-- toggle and nav items -->
                     <!-- ============================================================== -->
-                    <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none"
-                        href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                    <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
                 </div>
                 <!-- ============================================================== -->
                 <!-- End Logo -->
@@ -68,8 +64,7 @@
                 <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
                     <ul class="navbar-nav d-none d-md-block d-lg-none">
                         <li class="nav-item">
-                            <a class="nav-toggler nav-link waves-effect waves-light text-white"
-                                href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                            <a class="nav-toggler nav-link waves-effect waves-light text-white" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
                         </li>
                     </ul>
                     <!-- ============================================================== -->
@@ -80,13 +75,17 @@
                         <!-- ============================================================== -->
                         <!-- Search -->
                         <!-- ============================================================== -->
-                        
+
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
                         <li>
                             <a class="profile-pic" href="modificar cuenta.php">
                                 <img src="plugins/images/users/varun.jpg" alt="user-img" width="36" class="img-circle"><span class="text-white font-medium">Steave</span></a>
+                        </li>
+                        <li>
+                            <a class="profile-pic" href="modificar cuenta.php">
+                                <span class="text-white font-medium">cerrar sesion</span>
                         </li>
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
@@ -145,8 +144,8 @@
                                 <span class="hide-menu">pedido</span>
                             </a>
                         </li>
-                       
-                        
+
+
 
                     </ul>
 
@@ -170,7 +169,7 @@
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
                         <h4 class="page-title">Modificar cuenta</h4>
                     </div>
-                 
+
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -190,138 +189,137 @@
                     <!-- Column -->
                     <!-- Column -->
                     <div class="container">
-        <div class="row mb-5">
-            <div class="col-md-8 offset-md-2">
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" role="tab" aria-controls="home" aria-selected="true" type="button"> Datos Usuario</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" role="tab" aria-controls="home" aria-selected="false" type="button"> Contraseña</button>
-                    </li>
-                </ul>
-                <div class="tab-content" id="myTabContent">
-                    <br>
-                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="row mb-5">
+                            <div class="col-md-8 offset-md-2">
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" role="tab" aria-controls="home" aria-selected="true" type="button"> Datos Usuario</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" role="tab" aria-controls="home" aria-selected="false" type="button"> Contraseña</button>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <br>
+                                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 
-                        <div class="row">
-                            <div class="col-4">
-                                <img class="img-thumbnail" src="https://cdn2.iconfinder.com/data/icons/website-icons/512/User_Avatar-512.png" alt="">
-                            </div>
-                            <div class="col-8">
-                                <form id="formularioEditar">
-                                    <div class="form-group row">
-                                        <label for="codigo" class="col-2"> Nombre:</label>
-                                        <div class="col-8">
-                                            <input type="text" class="form-control" id="nombre1">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img class="img-thumbnail" src="https://cdn2.iconfinder.com/data/icons/website-icons/512/User_Avatar-512.png" alt="">
+                                            </div>
+                                            <div class="col-8">
+                                                <form id="formularioEditar">
+                                                    <div class="form-group row">
+                                                        <label for="codigo" class="col-2"> Nombre:</label>
+                                                        <div class="col-8">
+                                                            <input type="text" class="form-control" id="nombre1">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="codigo" class="col-2"> apellido:</label>
+                                                        <div class="col-8">
+                                                            <input type="text" class="form-control" id="apellido1">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="codigo" class="col-2"> identificacion:</label>
+                                                        <div class="col-8">
+                                                            <input type="number" class="form-control" id="cedula1">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="usuarop" class="col-2"> Correo:</label>
+                                                        <div class="col-8">
+                                                            <input type="email" class="form-control" id="correo1">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="email" class="col-2"> Telefono:</label>
+                                                        <div class="col-8">
+                                                            <input type="number" class="form-control" id="telefono1">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="text" class="col-2"> Direccion:</label>
+                                                        <div class="col-8">
+                                                            <input type="text" class="form-control" id="direccion1">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group text-center">
+                                                        <button class="btn btn-info" type="button" onclick="validarFormulario2()">Actualizar</button>
+                                                    </div>
+                                                </form>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="form-group row">
-                                        <label for="codigo" class="col-2"> apellido:</label>
-                                        <div class="col-8">
-                                            <input type="text" class="form-control" id="apellido1">
-                                        </div>
+
+                                    <div class="tab-pane fade mb-5" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                        <form name="frmUsuario" id="formulario" method="POST" action="">
+                                            <div class="col-md-6 offset-md-3">
+                                                <h3 class="text-center">Cambio Contraseña</h3>
+                                                <div class="form-group row">
+
+
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label class="col-4">contraseña:</label>
+                                                    <div class="d-flex">
+                                                        <input class="form-control" type="password" id="contrasenia">
+                                                        <button class="btn btn-primary" type="button" onclick="mostrarContrasena1()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label class="col-4">Repetir contraseña:</label>
+                                                    <div class="d-flex">
+                                                        <input class="form-control" type="password" id="Confirmclave">
+                                                        <button class="btn btn-primary" type="button" onclick="mostrarContrasena2()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group text-center">
+                                                    <button class="btn btn-danger" name="submit" id="submit" type="button" onclick="validarFormulario()">Actualizar</button>
+                                                </div>
+                                        </form>
                                     </div>
-                                    <div class="form-group row">
-                                        <label for="codigo" class="col-2"> identificacion:</label>
-                                        <div class="col-8">
-                                            <input type="number" class="form-control" id="cedula1">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label for="usuarop" class="col-2"> Correo:</label>
-                                        <div class="col-8">
-                                            <input type="email" class="form-control" id="correo1">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label for="email" class="col-2"> Telefono:</label>
-                                        <div class="col-8">
-                                            <input type="number" class="form-control" id="telefono1">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label for="text" class="col-2"> Direccion:</label>
-                                        <div class="col-8">
-                                            <input type="text" class="form-control" id="direccion1">
-                                        </div>
-                                    </div>
-                                    <div class="form-group text-center">
-                                        <button class="btn btn-info" type="button" onclick="validarFormulario2()">Actualizar</button>
-                                    </div>
-                                </form>
+                                </div>
+
                             </div>
                         </div>
+
                     </div>
 
-                    <div class="tab-pane fade mb-5" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                        <form name="frmUsuario" id="formulario" method="POST" action="">
-                            <div class="col-md-6 offset-md-3">
-                                <h3 class="text-center">Cambio Contraseña</h3>
-                                <div class="form-group row">
-
-
-                                </div>
-                                <div class="form-group row">
-                                    <label class="col-4">contraseña:</label>
-                                    <div class="d-flex">
-                                        <input class="form-control" type="password" id="contrasenia">
-                                        <button class="btn btn-primary" type="button" onclick="mostrarContrasena1()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label class="col-4">Repetir contraseña:</label>
-                                    <div class="d-flex">
-                                        <input class="form-control" type="password" id="Confirmclave">
-                                        <button class="btn btn-primary" type="button" onclick="mostrarContrasena2()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
-                                    </div>
-                                </div>
-
-                                <div class="form-group text-center">
-                                    <button class="btn btn-danger" name="submit" id="submit" type="button" onclick="validarFormulario()">Actualizar</button>
-                                </div>
-                        </form>
-                    </div>
                 </div>
 
             </div>
+            <!-- Column -->
         </div>
-
-    </div>
-
-    </div>
-
-    </div>
-                    <!-- Column -->
-                </div>
-                <!-- Row -->
-                <!-- ============================================================== -->
-                <!-- End PAge Content -->
-                <!-- ============================================================== -->
-                <!-- ============================================================== -->
-                <!-- Right sidebar -->
-                <!-- ============================================================== -->
-                <!-- .right-sidebar -->
-                <!-- ============================================================== -->
-                <!-- End Right sidebar -->
-                <!-- ============================================================== -->
-            </div>
-            <!-- ============================================================== -->
-            <!-- End Container fluid  -->
-            <!-- ============================================================== -->
-            <!-- ============================================================== -->
-            <!-- footer -->
-            <!-- ============================================================== -->
-            <footer class="footer text-center"> 2021 © Ample Admin brought to you by <a
-                    href="https://www.wrappixel.com/">wrappixel.com</a>
-            </footer>
-            <!-- ============================================================== -->
-            <!-- End footer -->
-            <!-- ============================================================== -->
-        </div>
+        <!-- Row -->
         <!-- ============================================================== -->
-        <!-- End Page wrapper  -->
+        <!-- End PAge Content -->
         <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Right sidebar -->
+        <!-- ============================================================== -->
+        <!-- .right-sidebar -->
+        <!-- ============================================================== -->
+        <!-- End Right sidebar -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Container fluid  -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- footer -->
+    <!-- ============================================================== -->
+    <footer class="footer text-center"> 2021 © Ample Admin brought to you by <a href="https://www.wrappixel.com/">wrappixel.com</a>
+    </footer>
+    <!-- ============================================================== -->
+    <!-- End footer -->
+    <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Page wrapper  -->
+    <!-- ============================================================== -->
     </div>
     <!-- ============================================================== -->
     <!-- End Wrapper -->
@@ -340,27 +338,27 @@
     <!--Custom JavaScript -->
     <script src="js/custom.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    
-    
+
+
     <script>
+        function mostrarContrasena1() {
+            var tipo = document.getElementById("contrasenia");
+            if (tipo.type == "password") {
+                tipo.type = "text";
+            } else {
+                tipo.type = "password";
+            }
+        }
 
-function mostrarContrasena1(){
-    var tipo = document.getElementById("contrasenia");
-    if(tipo.type == "password"){
-        tipo.type = "text";
-    }else{
-        tipo.type = "password";
-    }
-}
+        function mostrarContrasena2() {
+            var tipo = document.getElementById("Confirmclave");
+            if (tipo.type == "password") {
+                tipo.type = "text";
+            } else {
+                tipo.type = "password";
+            }
+        }
 
-function mostrarContrasena2(){
-    var tipo = document.getElementById("Confirmclave");
-    if(tipo.type == "password"){
-        tipo.type = "text";
-    }else{
-        tipo.type = "password";
-    }
-}
         function validarFormulario() {
 
             var Valcontraseina = document.getElementById('contrasenia').value;
@@ -545,11 +543,11 @@ function mostrarContrasena2(){
 
 
 
- 
 
-    
 
-    
+
+
+
 </body>
 
 </html>

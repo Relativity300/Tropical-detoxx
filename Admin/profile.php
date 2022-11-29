@@ -5,18 +5,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Tell the browser to be responsive to screen width -->
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords"
-        content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Ample lite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Ample admin lite dashboard bootstrap 5 dashboard template">
-    <meta name="description"
-        content="Ample Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Ample lite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Ample admin lite dashboard bootstrap 5 dashboard template">
+    <meta name="description" content="Ample Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
     <meta name="robots" content="noindex,nofollow">
     <title>Tropical Detox Administrador</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/ample-admin-lite/" />
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
     <!-- Custom CSS -->
-   <link href="css/style.min.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -38,8 +36,7 @@
     <!-- ============================================================== -->
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
-    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full"
-        data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full" data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
         <!-- ============================================================== -->
         <!-- Topbar header - style you can find in pages.scss -->
         <!-- ============================================================== -->
@@ -68,8 +65,7 @@
                     <!-- ============================================================== -->
                     <!-- toggle and nav items -->
                     <!-- ============================================================== -->
-                    <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none"
-                        href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                    <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
                 </div>
                 <!-- ============================================================== -->
                 <!-- End Logo -->
@@ -77,8 +73,7 @@
                 <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
                     <ul class="navbar-nav d-none d-md-block d-lg-none">
                         <li class="nav-item">
-                            <a class="nav-toggler nav-link waves-effect waves-light text-white"
-                                href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                            <a class="nav-toggler nav-link waves-effect waves-light text-white" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
                         </li>
                     </ul>
                     <!-- ============================================================== -->
@@ -89,13 +84,17 @@
                         <!-- ============================================================== -->
                         <!-- Search -->
                         <!-- ============================================================== -->
-                       
+
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
                         <li>
                             <a class="profile-pic" href="modificar cuenta.php">
                                 <img src="plugins/images/users/varun.jpg" alt="user-img" width="36" class="img-circle"><span class="text-white font-medium">Steave</span></a>
+                        </li>
+                        <li>
+                            <a class="profile-pic" href="modificar cuenta.php">
+                                <span class="text-white font-medium">cerrar sesion</span>
                         </li>
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
@@ -154,8 +153,8 @@
                                 <span class="hide-menu">pedido</span>
                             </a>
                         </li>
-                       
-                        
+
+
 
                     </ul>
 
@@ -184,8 +183,7 @@
                             <ol class="breadcrumb ms-auto">
                                 <li><a href="#" class="fw-normal">Dashboard</a></li>
                             </ol>
-                            <a href="https://www.wrappixel.com/templates/ampleadmin/" target="_blank"
-                                class="btn btn-danger  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Upgrade
+                            <a href="https://www.wrappixel.com/templates/ampleadmin/" target="_blank" class="btn btn-danger  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Upgrade
                                 to Pro</a>
                         </div>
                     </div>
@@ -210,8 +208,7 @@
                             <div class="user-bg"> <img width="100%" alt="user" src="plugins/images/large/img1.jpg">
                                 <div class="overlay-box">
                                     <div class="user-content">
-                                        <a href="javascript:void(0)"><img src="plugins/images/users/genu.jpg"
-                                                class="thumb-lg img-circle" alt="img"></a>
+                                        <a href="javascript:void(0)"><img src="plugins/images/users/genu.jpg" class="thumb-lg img-circle" alt="img"></a>
                                         <h4 class="text-white mt-2">User Name</h4>
                                         <h5 class="text-white mt-2">info@myadmin.com</h5>
                                     </div>
@@ -239,15 +236,13 @@
                                     <div class="form-group mb-4">
                                         <label class="col-md-12 p-0">Full Name</label>
                                         <div class="col-md-12 border-bottom p-0">
-                                            <input type="text" placeholder="Johnathan Doe"
-                                                class="form-control p-0 border-0"> </div>
+                                            <input type="text" placeholder="Johnathan Doe" class="form-control p-0 border-0">
+                                        </div>
                                     </div>
                                     <div class="form-group mb-4">
                                         <label for="example-email" class="col-md-12 p-0">Email</label>
                                         <div class="col-md-12 border-bottom p-0">
-                                            <input type="email" placeholder="johnathan@admin.com"
-                                                class="form-control p-0 border-0" name="example-email"
-                                                id="example-email">
+                                            <input type="email" placeholder="johnathan@admin.com" class="form-control p-0 border-0" name="example-email" id="example-email">
                                         </div>
                                     </div>
                                     <div class="form-group mb-4">
@@ -259,8 +254,7 @@
                                     <div class="form-group mb-4">
                                         <label class="col-md-12 p-0">Phone No</label>
                                         <div class="col-md-12 border-bottom p-0">
-                                            <input type="text" placeholder="123 456 7890"
-                                                class="form-control p-0 border-0">
+                                            <input type="text" placeholder="123 456 7890" class="form-control p-0 border-0">
                                         </div>
                                     </div>
                                     <div class="form-group mb-4">
@@ -311,8 +305,7 @@
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
-            <footer class="footer text-center"> 2021 © Ample Admin brought to you by <a
-                    href="https://www.wrappixel.com/">wrappixel.com</a>
+            <footer class="footer text-center"> 2021 © Ample Admin brought to you by <a href="https://www.wrappixel.com/">wrappixel.com</a>
             </footer>
             <!-- ============================================================== -->
             <!-- End footer -->

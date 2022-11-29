@@ -87,6 +87,10 @@
                             <a class="profile-pic" href="modificar cuenta.php">
                                 <img src="plugins/images/users/varun.jpg" alt="user-img" width="36" class="img-circle"><span class="text-white font-medium">Steave</span></a>
                         </li>
+                        <li>
+                            <a class="profile-pic" href="modificar cuenta.php">
+                                <span class="text-white font-medium">cerrar sesion</span>
+                        </li>
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
@@ -251,66 +255,66 @@
 
                                             </div>
                                             <form action="">
-                                            <div class="modal-body">
-                                                <form name="frmUsuario" id="formulario1" method="POST" action="">
-                                                    <div class="mb-3">
-                                                        <label for="documento" class="form-label" id="xd">Documento</label>
-                                                        <input type="number" class="form-control" id="cedula" autofocus>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="Nombre" class="form-label">Nombre</label>
-                                                        <input type="text" class="form-control" id="nombre">
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="Apellidos" class="form-label">Apellidos</label>
-                                                        <input type="text" class="form-control" id="apellido">
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="telefono" class="form-label">Teléfono</label>
-                                                        <input type="number" class="form-control" id="telefono">
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="correo" class="form-label">Correo
-                                                            Electrónico</label>
-                                                        <input type="email" class="form-control" id="correo">
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="direccion" class="form-label">Dirección</label>
-                                                        <input type="text" class="form-control" id="direccion">
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label>Rol</label>
-                                                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-                                                            <option selected>Administrador</option>
-                                                            <option value="1">Cliente</option>
-                                                        </select>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label>Estado</label>
-                                                        <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled" checked disabled>
-                                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                <div class="modal-body">
+                                                    <form name="frmUsuario" id="formulario1" method="POST" action="">
+                                                        <div class="mb-3">
+                                                            <label for="documento" class="form-label" id="xd">Documento</label>
+                                                            <input type="number" class="form-control" id="cedula" autofocus>
                                                         </div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="password" class="form-label">Contraseña</label>
-                                                        <div class="d-flex">
-                                                            <input class="form-control" type="password" id="contrasenia">
-                                                            <button class="btn btn-primary" type="button" onclick="mostrarContrasena()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+                                                        <div class="mb-3">
+                                                            <label for="Nombre" class="form-label">Nombre</label>
+                                                            <input type="text" class="form-control" id="nombre">
                                                         </div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="password" class="form-label">Confirmar Contraseña</label>
-                                                        <div class="d-flex">
-                                                            <input class="form-control" type="password" id="Confirmclave">
-                                                            <button class="btn btn-primary" type="button" onclick="mostrarContrasena2()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+                                                        <div class="mb-3">
+                                                            <label for="Apellidos" class="form-label">Apellidos</label>
+                                                            <input type="text" class="form-control" id="apellido">
                                                         </div>
-                                                    </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-                                                <button class="btn btn-success" type="button" onclick="validarFormulario()">Guardar</button>
-                                            </div>
+                                                        <div class="mb-3">
+                                                            <label for="telefono" class="form-label">Teléfono</label>
+                                                            <input type="number" class="form-control" id="telefono">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="correo" class="form-label">Correo
+                                                                Electrónico</label>
+                                                            <input type="email" class="form-control" id="correo">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="direccion" class="form-label">Dirección</label>
+                                                            <input type="text" class="form-control" id="direccion">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label>Rol</label>
+                                                            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                                                <option selected>Administrador</option>
+                                                                <option value="1">Cliente</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label>Estado</label>
+                                                            <div class="form-check form-switch">
+                                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled" checked disabled>
+                                                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="password" class="form-label">Contraseña</label>
+                                                            <div class="d-flex">
+                                                                <input class="form-control" type="password" id="contrasenia">
+                                                                <button class="btn btn-primary" type="button" onclick="mostrarContrasena()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="password" class="form-label">Confirmar Contraseña</label>
+                                                            <div class="d-flex">
+                                                                <input class="form-control" type="password" id="Confirmclave">
+                                                                <button class="btn btn-primary" type="button" onclick="mostrarContrasena2()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                                                    <button class="btn btn-success" type="button" onclick="validarFormulario()">Guardar</button>
+                                                </div>
                                             </form>
 
                                         </div>
@@ -327,63 +331,63 @@
                                             <div class="modal-header">
                                                 <h2>Editar Usuario</h2>
                                                 <button class="close" data-bs-dismiss="modal"><span>&times;</span></button>
-                                            
+
                                             </div>
                                             <form action="">
-                                            <div class="modal-body">
-                                                <form name="frmUsuario" id="formulario" method="POST" action="">
-                                                    <div class="mb-3">
-                                                        <label for="documento" class="form-label">Documento</label>
-                                                        <input type="number" class="form-control" id="cedula1" autofocus>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="Nombre" class="form-label">Nombre</label>
-                                                        <input type="text" class="form-control" id="nombre1">
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="Apellidos" class="form-label">Apellidos</label>
-                                                        <input type="text" class="form-control" id="apellido1">
-                                                    </div>
+                                                <div class="modal-body">
+                                                    <form name="frmUsuario" id="formulario" method="POST" action="">
+                                                        <div class="mb-3">
+                                                            <label for="documento" class="form-label">Documento</label>
+                                                            <input type="number" class="form-control" id="cedula1" autofocus>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="Nombre" class="form-label">Nombre</label>
+                                                            <input type="text" class="form-control" id="nombre1">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="Apellidos" class="form-label">Apellidos</label>
+                                                            <input type="text" class="form-control" id="apellido1">
+                                                        </div>
 
-                                                    <div class="mb-3">
-                                                        <label for="telefono" class="form-label">Teléfono</label>
-                                                        <input type="number" class="form-control" id="telefono1">
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="correo" class="form-label">Correo
-                                                            Electrónico</label>
-                                                        <input type="email" class="form-control" id="correo1">
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="direccion" class="form-label">Dirección</label>
-                                                        <input type="text" class="form-control" id="direccion1">
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label>Estado</label>
-                                                        <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                        <div class="mb-3">
+                                                            <label for="telefono" class="form-label">Teléfono</label>
+                                                            <input type="number" class="form-control" id="telefono1">
                                                         </div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="password" class="form-label">Contraseña</label>
-                                                        <div class="d-flex">
-                                                            <input class="form-control" type="password" id="contrasenia1">
-                                                            <button class="btn btn-primary" type="button" onclick="mostrarContrasena3()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+                                                        <div class="mb-3">
+                                                            <label for="correo" class="form-label">Correo
+                                                                Electrónico</label>
+                                                            <input type="email" class="form-control" id="correo1">
                                                         </div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="password" class="form-label">Confirmar Contraseña</label>
-                                                        <div class="d-flex">
-                                                            <input class="form-control" type="password" id="Confirmclave1">
-                                                            <button class="btn btn-primary" type="button" onclick="mostrarContrasena4()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+                                                        <div class="mb-3">
+                                                            <label for="direccion" class="form-label">Dirección</label>
+                                                            <input type="text" class="form-control" id="direccion1">
                                                         </div>
-                                                    </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-                                                <button type="button" class="btn btn-success" onclick="validarFormulario2()">Guardar</button>
-                                            </div>
+                                                        <div class="mb-3">
+                                                            <label>Estado</label>
+                                                            <div class="form-check form-switch">
+                                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="password" class="form-label">Contraseña</label>
+                                                            <div class="d-flex">
+                                                                <input class="form-control" type="password" id="contrasenia1">
+                                                                <button class="btn btn-primary" type="button" onclick="mostrarContrasena3()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="password" class="form-label">Confirmar Contraseña</label>
+                                                            <div class="d-flex">
+                                                                <input class="form-control" type="password" id="Confirmclave1">
+                                                                <button class="btn btn-primary" type="button" onclick="mostrarContrasena4()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                                                    <button type="button" class="btn btn-success" onclick="validarFormulario2()">Guardar</button>
+                                                </div>
                                             </form>
 
                                         </div>
@@ -493,139 +497,139 @@
             //         text: 'La cedula solo puede tener numeros'
             //     })
             // }
-        
 
-        //NOOMBRE
-        if (!Valnombre) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Ingrese su nombre'
+
+            //NOOMBRE
+            if (!Valnombre) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Ingrese su nombre'
+                })
+            }
+            if (typeof Valnombre === "number") {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El nombre no puede contener numeros'
+                })
+            }
+            var validoNombre = NoEspeciales.test(Valnombre);
+            if (!validoNombre) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El nombre no puede tener caracteres especiales'
+                })
+            }
+
+
+            /////////////CEDULA/////////////////
+            if (!Valcedula) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Tienes que ingresar la cedula'
+                })
+            }
+
+            if (typeof Valcedula == "number") {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'la cedula no puede contener un dato numerico'
+                })
+            }
+
+            var validoCedula = cedulaNum.test(Valcedula);
+            if (!validoCedula) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Solo numeros (9) digitos'
+                })
+            }
+            //telefono
+            var Validotelefono = numerost.test(Valtelefono)
+
+            if (!Validotelefono) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El numero debe tener 10 digitos'
+                })
+            }
+
+
+            ///////////////CORREO////////////////
+            if (!Valcorreo) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Tienes que ingresar el correo'
+                })
+            }
+
+            var valido = expReg.test(Valcorreo);
+            if (!valido) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El correo debe terminar en @gmail.com'
+                })
+            }
+            //contraseña
+            if (!Valcontraseina) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Tienes que ingresar la contraseña'
+                })
+            }
+
+            if (!(Valconfirmcontraseina === Valcontraseina)) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Las contraseñas tienen que ser iguales'
+                })
+            }
+
+            var validocContraseina = contraseVali.test(Valcontraseina);
+            if (!validocContraseina) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Minimo 8 caracteres-Maximo 15, 1 letra mayúscula,1 letra minucula,Al menos un dígito,Al menos 1 caracter especial'
+                })
+            }
+
+            if (!Valdireccion) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Ingrese su direccion'
+                })
+            }
+
+
+
+
+
+
+
+            Swal.fire({
+                icon: 'success',
+                title: ';)',
+                text: 'Se ha creado exitosamente'
             })
-        }
-        if (typeof Valnombre === "number") {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'El nombre no puede contener numeros'
-            })
-        }
-        var validoNombre = NoEspeciales.test(Valnombre);
-        if (!validoNombre) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'El nombre no puede tener caracteres especiales'
-            })
+
+
+
+
+
         }
 
-
-        /////////////CEDULA/////////////////
-        if (!Valcedula) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Tienes que ingresar la cedula'
-            })
-        }
-
-        if (typeof Valcedula == "number") {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'la cedula no puede contener un dato numerico'
-            })
-        }
-
-        var validoCedula = cedulaNum.test(Valcedula);
-        if (!validoCedula) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Solo numeros (9) digitos'
-            })
-        }
-        //telefono
-        var Validotelefono = numerost.test(Valtelefono)
-
-        if (!Validotelefono) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'El numero debe tener 10 digitos'
-            })
-        }
-
-
-        ///////////////CORREO////////////////
-        if (!Valcorreo) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Tienes que ingresar el correo'
-            })
-        }
-
-        var valido = expReg.test(Valcorreo);
-        if (!valido) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'El correo debe terminar en @gmail.com'
-            })
-        }
-        //contraseña
-        if (!Valcontraseina) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Tienes que ingresar la contraseña'
-            })
-        }
-
-        if (!(Valconfirmcontraseina === Valcontraseina)) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Las contraseñas tienen que ser iguales'
-            })
-        }
-
-        var validocContraseina = contraseVali.test(Valcontraseina);
-        if (!validocContraseina) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Minimo 8 caracteres-Maximo 15, 1 letra mayúscula,1 letra minucula,Al menos un dígito,Al menos 1 caracter especial'
-            })
-        }
-
-        if (!Valdireccion) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Ingrese su direccion'
-            })
-        }
-
-
-
-
-
-
-
-        Swal.fire({
-            icon: 'success',
-            title: ';)',
-            text: 'Se ha creado exitosamente'
-        })
-
-
-
-
-
-    }
-        
 
 
 
@@ -783,7 +787,6 @@
 
 
         }
-    
     </script>
 
 
