@@ -198,7 +198,7 @@
 
 
     <!-- ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc -->
-    <section class=" ">
+    <section class="centered">
         <div class="cdenter">
 
 
@@ -264,7 +264,7 @@
                     </div>
                 </div>
             </div>
-
+<!-- Editar jugo -->
             <div class="modal fade" id="editar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -304,6 +304,7 @@
 
             </div>
 
+            <!-- Crear jugo -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
                 <div class="modal-dialog">
@@ -332,7 +333,7 @@
                             <div class="modal-footer">
                                 <!-- -->
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                <button type="button" onkeypress="return valideKey(event);" onclick="validarFormulario()" class="btn btn-primary">
+                                <button type="button"  onclick="validarFormulario()" class="btn btn-primary" onkeypress="return valideKey(event);">
                                     Crear
                                 </button>
 
@@ -504,11 +505,12 @@
                 return Swal.fire({
                     icon: 'error',
                     title: 'Oops...',
-                    text: 'Solo puedes ingresar un numero'
+                    text: 'Solo puedes ingresar numeros'
                 })
             }
         }
     </script>
+
     <!-- Validar todo lo demas -->
     <script>
         function validarFormulario() {
@@ -528,7 +530,7 @@
 
 
             //TODOS LOS CAMPOS VACIOS 
-            if (!Valnombre && !Valdescripcion && !Valimg) {
+            if (Valnombre && Valdescripcion && Valimg) {
                 return Swal.fire({
                     icon: 'error',
                     title: 'Oops...',
@@ -538,7 +540,7 @@
 
 
             //NOOMBRE
-            if (!Valnombre) {
+            if (Valnombre) {
                 return Swal.fire({
                     icon: 'error',
                     title: 'Oops...',
@@ -561,7 +563,7 @@
                 })
             }
             var validoNombre = NoEspeciales.test(Valnombre);
-            if (!validoNombre) {
+            if (validoNombre) {
                 return Swal.fire({
                     icon: 'error',
                     title: 'Oops...',
@@ -569,7 +571,7 @@
                 })
             }
 
-            if (!Valimg) {
+            if (Valimg) {
                 return Swal.fire({
                     icon: 'error',
                     title: 'Oops...',
