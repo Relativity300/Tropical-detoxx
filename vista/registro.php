@@ -95,7 +95,7 @@
       let cedulaNum = /^\d{0,10}$/ // 0 a 9 numeros.
       let numerost = /^\d{0,11}$/
       let contraseVali = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/;
-
+      var valoresAceptados = /^[0-9]+$/;
 
       //TODOS LOS CAMPOS VACIOS 
       if (!Valnombre && !Valcedula && !Valcorreo && !Valcontraseina && !Valapellido && !Valtelefono && !Valdireccion && !Valconfirmcontraseina) {
@@ -133,31 +133,64 @@
 
 
       /////////////CEDULA/////////////////
+      /////////////CEDULA/////////////////
       if (!Valcedula) {
-        return Swal.fire({
-          icon: 'error',
-          title: 'Oops...',
-          text: 'Tienes que ingresar la cedula'
-        })
-      }
-      var validoCedula = cedulaNum.test(Valcedula);
-      if (!validoCedula) {
-        return Swal.fire({
-          icon: 'error',
-          title: 'Oops...',
-          text: 'Solo son numeros y solo puede ser de 9 digitos'
-        })
-      }
-      //telefono
-      var Validotelefono = numerost.test(Valtelefono)
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'La identificacion es invalida'
+            })
+        }
 
-      if (!Validotelefono) {
-        return Swal.fire({
-          icon: 'error',
-          title: 'Oops...',
-          text: 'El numero debe contener 10 digitos'
-        })
-      }
+       
+
+        var validoCedula = cedulaNum.test(Valcedula);
+        if (!validoCedula) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Solo numeros (9) digitos'
+            })
+        }
+
+        
+        var validoCedula = valoresAceptados.test(Valcedula);
+            if (!validoCedula) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'La cedula solo puede tener numeros'
+                })
+            }
+
+        //telefono
+
+        if (!Valtelefono) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Telefono no valido'
+            })
+        }
+
+        var Validotelefono = numerost.test(Valtelefono)
+
+        if (!Validotelefono) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Telefono no valido'
+            })
+        }
+
+        var ValidotelefonoT = valoresAceptados.test(Valtelefono);
+            if (!ValidotelefonoT) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El telefono no puede contener letras'
+                })
+            }
 
 
       ///////////////CORREO////////////////

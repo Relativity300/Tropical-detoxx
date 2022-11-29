@@ -477,7 +477,8 @@
             let cedulaNum = /^\d{0,10}$/ // 0 a 9 numeros.
             let numerost = /^\d{0,11}$/
             let contraseVali = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/;
-            // let ExpRegSoloNumeros = "^[0-9]+$";
+            
+            var valoresAceptados = /^[0-9]+$/;
 
             //TODOS LOS CAMPOS VACIOS 
             if (!Valnombre && !Valcedula && !Valcorreo && !Valapellido && !Valtelefono && !Valdireccion && !Valcontraseina && !Valconfirmcontraseina) {
@@ -489,147 +490,162 @@
             }
 
 
-            // var validoCedula = ExpRegSoloNumeros.test(Valcedula);
-            // if (!validoCedula) {
-            //     return Swal.fire({
-            //         icon: 'error',
-            //         title: 'Oops...',
-            //         text: 'La cedula solo puede tener numeros'
-            //     })
-            // }
+        
+
+        //NOOMBRE
+        if (!Valnombre) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Ingrese su nombre'
+            })
+        }
+        if (typeof Valnombre === "number") {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'El nombre no puede contener numeros'
+            })
+        }
+        var validoNombre = NoEspeciales.test(Valnombre);
+        if (!validoNombre) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'El nombre no puede tener caracteres especiales'
+            })
+        }
 
 
-            //NOOMBRE
-            if (!Valnombre) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'Ingrese su nombre'
-                })
-            }
-            if (typeof Valnombre === "number") {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'El nombre no puede contener numeros'
-                })
-            }
-            var validoNombre = NoEspeciales.test(Valnombre);
-            if (!validoNombre) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'El nombre no puede tener caracteres especiales'
-                })
-            }
+        /////////////CEDULA/////////////////
+        if (!Valcedula) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'La cedula es invalida'
+            })
+        }
 
+       
 
-            /////////////CEDULA/////////////////
-            if (!Valcedula) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'Tienes que ingresar la cedula'
-                })
-            }
+        var validoCedula = cedulaNum.test(Valcedula);
+        if (!validoCedula) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Solo numeros (9) digitos'
+            })
+        }
 
-            if (typeof Valcedula == "number") {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'la cedula no puede contener un dato numerico'
-                })
-            }
-
-            var validoCedula = cedulaNum.test(Valcedula);
+        
+        var validoCedula = valoresAceptados.test(Valcedula);
             if (!validoCedula) {
                 return Swal.fire({
                     icon: 'error',
                     title: 'Oops...',
-                    text: 'Solo numeros (9) digitos'
-                })
-            }
-            //telefono
-            var Validotelefono = numerost.test(Valtelefono)
-
-            if (!Validotelefono) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'El numero debe tener 10 digitos'
+                    text: 'La cedula solo puede tener numeros'
                 })
             }
 
+        //telefono
 
-            ///////////////CORREO////////////////
-            if (!Valcorreo) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'Tienes que ingresar el correo'
-                })
-            }
-
-            var valido = expReg.test(Valcorreo);
-            if (!valido) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'El correo debe terminar en @gmail.com'
-                })
-            }
-            //contraseña
-            if (!Valcontraseina) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'Tienes que ingresar la contraseña'
-                })
-            }
-
-            if (!(Valconfirmcontraseina === Valcontraseina)) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'Las contraseñas tienen que ser iguales'
-                })
-            }
-
-            var validocContraseina = contraseVali.test(Valcontraseina);
-            if (!validocContraseina) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'Minimo 8 caracteres-Maximo 15, 1 letra mayúscula,1 letra minucula,Al menos un dígito,Al menos 1 caracter especial'
-                })
-            }
-
-            if (!Valdireccion) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'Ingrese su direccion'
-                })
-            }
-
-
-
-
-
-
-
-            Swal.fire({
-                icon: 'success',
-                title: ';)',
-                text: 'Se ha creado exitosamente'
+        if (!Valtelefono) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Telefono no valido'
             })
-
-
-
-
-
         }
 
+        var Validotelefono = numerost.test(Valtelefono)
+
+        if (!Validotelefono) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Telefono no valido'
+            })
+        }
+
+        var ValidotelefonoT = valoresAceptados.test(Valtelefono);
+            if (!ValidotelefonoT) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El telefono no puede contener letras'
+                })
+            }
+
+
+        ///////////////CORREO////////////////
+        if (!Valcorreo) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Tienes que ingresar el correo'
+            })
+        }
+
+        var valido = expReg.test(Valcorreo);
+        if (!valido) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'El correo debe terminar en @gmail.com'
+            })
+        }
+        //contraseña
+        if (!Valcontraseina) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Tienes que ingresar la contraseña'
+            })
+        }
+
+        if (!(Valconfirmcontraseina === Valcontraseina)) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Las contraseñas tienen que ser iguales'
+            })
+        }
+
+        var validocContraseina = contraseVali.test(Valcontraseina);
+        if (!validocContraseina) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Minimo 8 caracteres-Maximo 15, 1 letra mayúscula,1 letra minucula,Al menos un dígito,Al menos 1 caracter especial'
+            })
+        }
+
+        if (!Valdireccion) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Ingrese su direccion'
+            })
+        }
+
+
+
+
+
+
+
+        Swal.fire({
+            icon: 'success',
+            title: ';)',
+            text: 'Se ha creado exitosamente'
+        })
+
+
+
+
+
+    }
+        
 
 
 
@@ -650,7 +666,7 @@
             let cedulaNum = /^\d{0,10}$/ // 0 a 9 numeros.
             let numerost = /^\d{0,11}$/
             let contraseVali = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/;
-
+            var valoresAceptados = /^[0-9]+$/;
 
             //TODOS LOS CAMPOS VACIOS 
             if (!Valnombre1 && !Valcedula1 && !Valcorreo1 && !Valapellido1 && !Valtelefono1 && !Valdireccion1 && !Valcontraseina1 && !Valconfirmcontraseina1) {
@@ -695,31 +711,62 @@
 
             /////////////CEDULA/////////////////
             if (!Valcedula1) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'Tienes que ingresar la cedula'
-                })
-            }
-            var validoCedula1 = cedulaNum.test(Valcedula1);
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'La identificacion es invalida'
+            })
+        }
+
+       
+
+        var validoCedula1 = cedulaNum.test(Valcedula1);
+        if (!validoCedula1) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Solo numeros (9) digitos'
+            })
+        }
+
+        
+        var validoCedula1 = valoresAceptados.test(Valcedula1);
             if (!validoCedula1) {
                 return Swal.fire({
                     icon: 'error',
                     title: 'Oops...',
-                    text: 'Solo numeros (9) digitos'
+                    text: 'La cedula solo puede tener numeros'
                 })
             }
-            //telefono
-            var Validotelefono1 = numerost.test(Valtelefono1)
 
-            if (!Validotelefono1) {
+            //telefono
+            if (!Valtelefono1) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Telefono no valido'
+            })
+        }
+
+        var Validotelefono1 = numerost.test(Valtelefono1)
+
+        if (!Validotelefono1) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Telefono no valido'
+            })
+        }
+
+        var ValidotelefonoT1 = valoresAceptados.test(Valtelefono1);
+            if (!ValidotelefonoT1) {
                 return Swal.fire({
                     icon: 'error',
                     title: 'Oops...',
-                    text: 'El numero debe tner 10 digitos'
+                    text: 'El telefono no puede contener letras'
                 })
-
             }
+
 
             ///////////////CORREO////////////////
             if (!Valcorreo1) {
@@ -787,8 +834,8 @@
 
 
         }
+    
     </script>
-
 
 
 </body>

@@ -37,15 +37,15 @@
                         <h2 class="h2-Cantidad">Cantidad jugos</h2>
 
                         <input class="cantidad" type="number" name="" id="">
-
-                        <svg class="masss" xmlns="http://www.w3.org/2000/svg" width="40" height="4    0" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
-                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
-                        </svg>
                     </div>
 
-                    <form action="">
-                        <input type="search" name="nombre" placeholder="Buscar">
-                    </form>
+                    <div class="input-wrapper">
+                        <input type="search" class="input" placeholder="Search">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
                     <br><br><br><br><br><br>
 
 
@@ -54,23 +54,23 @@
 
                     <div class="checkbox">
 
-                        <label for="checkbox1" class="frutas">Jugos de mango</label>
-                        <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
+                        <label for="checkbox1">fruta</label>
+                        <input type="checkbox" name="checkbox" id="checkbox1"><br>
 
-                        <label for="checkbox1" class="frutas">Jugos de mango</label>
-                        <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
+                        <label for="checkbox1">fruta</label>
+                        <input type="checkbox" name="checkbox" id="checkbox1"><br>
 
-                        <label for="checkbox1" class="frutas">Jugos de mango</label>
-                        <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
+                        <label for="checkbox1">fruta</label>
+                        <input type="checkbox" name="checkbox" id="checkbox1"><br>
 
-                        <label for="checkbox1" class="frutas">Jugos de mango</label>
-                        <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
+                        <label for="checkbox1">fruta</label>
+                        <input type="checkbox" name="checkbox" id="checkbox1"><br>
 
-                        <label for="checkbox1" class="frutas">Jugos de mango</label>
-                        <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
+                        <label for="checkbox1">fruta</label>
+                        <input type="checkbox" name="checkbox" id="checkbox1"><br>
 
-                        <label for="checkbox1" class="frutas">Jugos de mango</label>
-                        <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
+                        <label for="checkbox1">fruta</label>
+                        <input type="checkbox" name="checkbox" id="checkbox1"><br>
 
 
 
@@ -93,33 +93,10 @@
 
             <div>
                 <div class="proceso2">
-
-                    <div class="pedido">
-                        <div class="checkbox">
-                            <h1>Sabores elegidos</h1>
-
-                            <label for="checkbox1" class="frutas">Jugos de mango</label>
-
-                            <label for="checkbox1" class="frutas">Jugos de mango</label>
-
-                            <label for="checkbox1" class="frutas">Jugos de mango</label>
-
-                            <label for="checkbox1" class="frutas">Jugos de mango</label>
-
-                            <label for="checkbox1" class="frutas">Jugos de mango</label>
-
-                            <label for="checkbox1" class="frutas">Jugos de mango</label>
-
-
-                        </div>
-
-                    </div>
+                    <h1>Sabores elegidos</h1>
                 </div>
             </div>
     </section>
-
-    <br><br><br><br><br><br><br>
-
     <?php require_once 'campo/footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
