@@ -186,13 +186,13 @@
                         <div class="modal-body modallll">
                             <form action="">
                                 <label for="">Nombre</label>
-                                <input class="gteneral" type="name" name="name"><br>
+                                <input class="gteneral" type="name" name="name" id="nombre"><br>
 
                                 <label for="">Telefono</label>
-                                <input class="gteneral" type="number" name="" id=""><br>
+                                <input class="gteneral" type="number" name="" id="telefono"><br>
 
                                 <label for="">Dirrecion</label>
-                                <input class="gteneral" type="text" name="" id="">
+                                <input class="gteneral" type="text" name="" id="direccion">
 
                                 <div class="pagoSeletor">
                                     <p class="pago"><b>metodo de pago.</b></p>
@@ -233,9 +233,12 @@
                                 </div>
                             </div>
                         </div>
+
+
                         <div class="div-botones">
                             <button type="button" class="bbb btn btn-success " data-bs-dismiss="modal">Eliminar.</button>
-                            <button type="button" class="bbb btn btn-danger" data-bs-dismiss="modal">Editar.</button>
+                            <!-- <button type="button" class="bbb btn btn-danger" data-bs-dismiss="modal" onclick="validarFormulario()" >Editar.</button> -->
+                            <button class="bbb btn btn-danger" type="button" data-bs-dismiss="modal" onclick="validarFormulario()">Guardar</button>
                         </div>
                     </div>
                 </div>
@@ -450,23 +453,24 @@
 
 
             <!-- Modal1 -->
+            <!-- Editar -->
             <div class="modal fade" id="elliminar" tabindex="-1" aria-labelledby="elliminar" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="titulo-Modal ">Crear</h1>
+                            <h1 class="titulo-Modal ">Editar</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body modallll">
-                            <form action="">
+                        <form action="">
                                 <label for="">Nombre</label>
-                                <input class="gteneral" type="name" name="name"><br>
+                                <input class="gteneral" type="name" name="name" id="nombre1"><br>
 
                                 <label for="">Telefono</label>
-                                <input class="gteneral" type="number" name="" id=""><br>
+                                <input class="gteneral" type="number" name="" id="telefono1"><br>
 
                                 <label for="">Dirrecion</label>
-                                <input class="gteneral" type="text" name="" id="">
+                                <input class="gteneral" type="text" name="" id="direccion1">
 
                                 <div class="pagoSeletor">
                                     <p class="pago"><b>metodo de pago.</b></p>
@@ -510,7 +514,7 @@
                         </div>
                         <div class="div-botones">
                             <button type="button" class="bbb btn btn-success " data-bs-dismiss="modal">Eliminar.</button>
-                            <button type="button" class="bbb btn btn-danger" data-bs-dismiss="modal">Editar.</button>
+                            <button type="button" class="bbb btn btn-danger" data-bs-dismiss="modal" onclick="validarFormulario2()" >Editar.</button>
                         </div>
                     </div>
                 </div>
@@ -572,6 +576,233 @@
     <script src="js/sidebarmenu.js"></script>
     <!--Custom JavaScript -->
     <script src="js/custom.js"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+ <script src="plugins/bower_components/jquery/dist/jquery.min.js"></script>
+                    <!-- Bootstrap tether Core JavaScript -->
+                    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+                    <script src="js/app-style-switcher.js"></script>
+                    <!--Wave Effects -->
+                    <script src="js/waves.js"></script>
+                    <!--Menu sidebar -->
+                    <script src="js/sidebarmenu.js"></script>
+                    <!--Custom JavaScript -->
+                    <script src="js/custom.js"></script>
+                    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+    <script>
+                        function mostrarContrasena() {
+                            var tipo = document.getElementById("contrasenia");
+                            if (tipo.type == "password") {
+                                tipo.type = "text";
+                            } else {
+                                tipo.type = "password";
+                            }
+                        }
+
+                        function mostrarContrasena2() {
+                            var tipo = document.getElementById("Confirmclave");
+                            if (tipo.type == "password") {
+                                tipo.type = "text";
+                            } else {
+                                tipo.type = "password";
+                            }
+                        }
+
+                        function mostrarContrasena3() {
+                            var tipo = document.getElementById("contrasenia1");
+                            if (tipo.type == "password") {
+                                tipo.type = "text";
+                            } else {
+                                tipo.type = "password";
+                            }
+                        }
+
+
+
+                        function mostrarContrasena4() {
+                            var tipo = document.getElementById("Confirmclave1");
+                            if (tipo.type == "password") {
+                                tipo.type = "text";
+                            } else {
+                                tipo.type = "password";
+                            }
+                        }
+
+
+
+                        function validarFormulario() {
+
+
+                            var Valnombre = document.getElementById('nombre').value;
+                            var Valdireccion = document.getElementById('direccion').value;
+                            var Valtelefono = document.getElementById('telefono').value;
+
+                            let NoEspeciales = /^[a-zA-ZÀ-ÿ\s]{1,40}$/ // Letras y espacios, pueden llevar acentos.
+                            var expReg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                            let cedulaNum = /^\d{0,10}$/ // 0 a 9 numeros.
+                            let numerost = /^\d{0,11}$/
+                            let contraseVali = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/;
+
+
+                            //TODOS LOS CAMPOS VACIOS 
+                            if (!Valnombre && !Valtelefono && !Valdireccion) {
+                                return Swal.fire({
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: 'Tienes que ingresar todos los campos'
+                                })
+                            }
+
+
+                            //NOOMBRE
+                            if (!Valnombre) {
+                                return Swal.fire({
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: 'Ingrese su nombre'
+                                })
+                            }
+                            if (typeof Valnombre === "number") {
+                                return Swal.fire({
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: 'El nombre no puede contener numeros'
+                                })
+                            }
+                            var validoNombre = NoEspeciales.test(Valnombre);
+                            if (!validoNombre) {
+                                return Swal.fire({
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: 'El nombre no puede tener caracteres especiales'
+                                })
+                            }
+
+                            //telefono
+                            var Validotelefono = numerost.test(Valtelefono)
+
+                            if (!Validotelefono) {
+                                return Swal.fire({
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: 'El numero debe tener 10 digitos'
+                                })
+                            }
+
+
+                            if (!Valdireccion) {
+                                return Swal.fire({
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: 'Ingrese su direccion'
+                                })
+                            }
+
+
+
+                            Swal.fire({
+                                icon: 'success',
+                                title: ';)',
+                                text: 'Se ha creado exitosamente'
+                            })
+
+
+
+
+
+
+                        }
+
+
+
+                        function validarFormulario2() {
+
+
+                            var Valnombre1 = document.getElementById('nombre1').value;
+                            var Valdireccion1 = document.getElementById('direccion1').value;
+                            var Valtelefono1 = document.getElementById('telefono1').value;
+
+                            let NoEspeciales = /^[a-zA-ZÀ-ÿ\s]{1,40}$/ // Letras y espacios, pueden llevar acentos.
+                            var expReg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                            let cedulaNum = /^\d{0,10}$/ // 0 a 9 numeros.
+                            let numerost = /^\d{0,11}$/
+                            let contraseVali = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/;
+
+
+                            //TODOS LOS CAMPOS VACIOS 
+                            if (!Valnombre1  && !Valtelefono1 && !Valdireccion1 ) {
+                                return Swal.fire({
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: 'Tienes que ingresar todos los campos'
+                                })
+                            }
+
+
+                            if (!Valdireccion1) {
+                                return Swal.fire({
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: 'Ingrese su direccion'
+                                })
+                            }
+
+                            //NOOMBRE
+                            if (!Valnombre1) {
+                                return Swal.fire({
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: 'Ingrese su nombre'
+                                })
+                            }
+                            if (typeof Valnombre1 === "number") {
+                                return Swal.fire({
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: 'El nombre no puede contener numeros'
+                                })
+                            }
+                            var validoNombre1 = NoEspeciales.test(Valnombre1);
+                            if (!validoNombre1) {
+                                return Swal.fire({
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: 'El nombre no puede tener caracteres especiales'
+                                })
+                            }
+
+                            if (!Valdireccion1) {
+                                return Swal.fire({
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: 'Ingrese su direccion'
+                                })
+                            }
+                           
+                            Swal.fire({
+                                icon: 'success',
+                                title: ';)',
+                                text: 'Se ha editado exitosamente'
+                            })
+
+
+                            //FALTA TERMINA LA ALERTA Y QUE TE LLEVE EL OK AL LOGIN 
+                            // Swal.fire({
+                            //   icon: 'success',
+                            //   title: ':)',
+                            //   text: 'El usuario fue creado exitosamente',
+                            // })
+                            // return window.location.href = "/";
+
+
+
+                        }
+                    </script>
 </body>
 
 </html>

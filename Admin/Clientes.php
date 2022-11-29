@@ -369,7 +369,7 @@
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-                                                <button type="button" class="btn btn-success">Guardar</button>
+                                                <button type="button" class="btn btn-success" onclick="validarFormulario()">Guardar</button>
                                             </div>
 
                                         </div>
@@ -666,14 +666,14 @@
                                     text: 'Tienes que ingresar la cedula'
                                 })
                             }
-                            var validoCedula1 = cedulaNum.test(Valcedula1);
-                            if (!validoCedula1) {
-                                return Swal.fire({
-                                    icon: 'error',
-                                    title: 'Oops...',
-                                    text: 'Solo numeros (9) digitos'
-                                })
-                            }
+                            // var validoCedula1 = cedulaNum.test(Valcedula1);
+                            // if (!validoCedula1) {
+                            //     return Swal.fire({
+                            //         icon: 'error',
+                            //         title: 'Oops...',
+                            //         text: 'Solo numeros (9) digitos'
+                            //     })
+                            // }
                             //telefono
                             var Validotelefono1 = numerost.test(Valtelefono1)
 

@@ -1,6 +1,7 @@
 @charset "UTF-8";@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800);@import 'icons/font-awesome/css/fontawesome-all.min.css';@import 'icons/themify-icons/themify-icons.css';.search-box .app-search .form-control{border-radius:0px}.topbar .dropdown-menu .with-arrow>span{transform:rotate(45deg);-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);-o-transform:rotate(45deg);-moz-transform:rotate(45deg)}
 .button{
     border: 0ch solid rgba(255, 255, 255, 0) !important;
+    background-color: rgba(0, 0, 0, 0) ;
 }
 input[type="search"]{
     width: 50px; /*ancho por defecto*/
