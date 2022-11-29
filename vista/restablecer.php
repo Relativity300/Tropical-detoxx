@@ -32,7 +32,9 @@
 
 
       <p>Correo con el que creaste tu cuenta </p>
+      
       <button class="botons" type="button" onclick="validar()">Enviar correo de recuperacion</button>
+      <a href="recuperar.php">x</a>
 
 
     </form>

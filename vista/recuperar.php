@@ -29,75 +29,10 @@
     <?php require_once 'campo/Nav.php'; ?>
 
 
-    <div class="container">
-        <div class="row mb-5">
-            <div class="col-md-8 offset-md-2">
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" role="tab" aria-controls="home" aria-selected="true" type="button"> Datos Usuario</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" role="tab" aria-controls="home" aria-selected="false" type="button"> Contraseña</button>
-                    </li>
-                </ul>
-                <div class="tab-content" id="myTabContent">
-                    <br>
-                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-
-                        <div class="row">
-                            <div class="col-4">
-                                <img class="img-thumbnail" src="https://cdn2.iconfinder.com/data/icons/website-icons/512/User_Avatar-512.png" alt="">
-                            </div>
-                            <div class="col-8">
-                                <form id="formularioEditar">
-                                    <div class="form-group row">
-                                        <label for="codigo" class="col-2"> Nombre:</label>
-                                        <div class="col-8">
-                                            <input type="text" class="form-control" id="nombre1">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label for="codigo" class="col-2"> apellido:</label>
-                                        <div class="col-8">
-                                            <input type="text" class="form-control" id="apellido1">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label for="codigo" class="col-2"> identificacion:</label>
-                                        <div class="col-8">
-                                            <input type="number" class="form-control" id="cedula1">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label for="usuarop" class="col-2"> Correo:</label>
-                                        <div class="col-8">
-                                            <input type="email" class="form-control" id="correo1">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label for="email" class="col-2"> Telefono:</label>
-                                        <div class="col-8">
-                                            <input type="number" class="form-control" id="telefono1">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label for="text" class="col-2"> Direccion:</label>
-                                        <div class="col-8">
-                                            <input type="text" class="form-control" id="direccion1">
-                                        </div>
-                                    </div>
-                                    <div class="form-group text-center">
-                                        <button class="btn btn-info" type="button" onclick="validarFormulario2()">Actualizar</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade mb-5" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+    
                         <form name="frmUsuario" id="formulario" method="POST" action="">
                             <div class="col-md-6 offset-md-3">
-                                <h3 class="text-center">Cambio Contraseña</h3>
+                                <h3 class="text-center">Restablecer contraseña</h3>
                                 <div class="form-group row">
 
 
@@ -105,7 +40,7 @@
                                 <div class="form-group row">
                                     <label class="col-4">contraseña:</label>
                                     <div class="d-flex">
-                                        <input class="form-control" type="password" id="contrasenia">
+                                        <input  class="form-control" type="password" id="contrasenia">
                                         <button class="btn btn-dark" type="button" onclick="mostrarContrasena1()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
                                     </div>
                                 </div>
@@ -116,18 +51,12 @@
                                         <button class="btn btn-dark" type="button" onclick="mostrarContrasena2()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
                                     </div>
                                 </div>
-
+                                    <br>
                                 <div class="form-group text-center">
                                     <button class="btn btn-danger" name="submit" id="submit" type="button" onclick="validarFormulario()">Actualizar</button>
                                 </div>
                         </form>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
+                    
 
     </div>
     <br>
@@ -142,6 +71,15 @@
     <br>
     <br>
     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    
+
 
     <?php require_once 'campo/footer.php'; ?>
 
