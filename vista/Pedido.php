@@ -23,79 +23,102 @@
     <form action="">
       <input type="search" name="nombre" placeholder="Buscar">
     </form>
-    <div class="card carta" style="width: 18rem;">
-      <h5 class="card-title producto">Jugo de mango : 4</h5>
-      <img src="../IMG/jugo1.jpg" class="card-img-top iimg " alt="jugos">
-      <p class="precio">5.000$</p>
+
+
+    <div class="cartOrden">
+
+
+      <div class="card carta" style="width: 18rem;">
+        <h5 class="card-title producto">Jugo de mango : 4</h5>
+        <img src="../IMG/jugo1.jpg" class="card-img-top iimg " alt="jugos">
+        <p class="precio">5.000$</p>
 
 
 
-      <div class="botones">
+        <div class="botones">
 
-        <!-- Button trigger modal -->
-        <button type="button" class="btn  button-boton" data-bs-toggle="modal" data-bs-target="#exampleModal">
-          <i class=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
-              <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z" />
-              <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z" />
-            </svg></i>
-        </button>
-
-        <p class="Estado">Estado:</p>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn  button-boton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+              </svg></i>
+          </button>
 
 
+
+
+
+        </div>
+
+      </div>
+      <div class="card carta" style="width: 18rem;">
+        <h5 class="card-title producto">Jugo de mango : 4</h5>
+        <img src="../IMG/jugo1.jpg" class="card-img-top iimg " alt="jugos">
+        <p class="precio">5.000$</p>
+
+
+
+        <div class="botones">
+
+          <!-- Button trigger modal -->
+          <button type="button" class="btn  button-boton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+              </svg></i>
+          </button>
+
+
+
+
+
+        </div>
+
+      </div>
+      <div class="card carta" style="width: 18rem;">
+        <h5 class="card-title producto">Jugo de mango : 4</h5>
+        <img src="../IMG/jugo1.jpg" class="card-img-top iimg " alt="jugos">
+        <p class="precio">5.000$</p>
+
+
+
+        <div class="botones">
+
+          <!-- Button trigger modal -->
+          <button type="button" class="btn  button-boton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+              </svg></i>
+          </button>
+
+
+
+
+
+        </div>
 
       </div>
     </div>
 
-    <div class="card carta" style="width: 18rem;">
-      <h5 class="card-title producto">Jugo de mango : 4</h5>
-      <img src="../IMG/jugo1.jpg" class="card-img-top iimg " alt="jugos">
-      <p class="precio">5.000$</p>
 
 
 
-      <div class="botones">
-
-        <!-- Button trigger modal -->
-        <button type="button" class="btn  button-boton" data-bs-toggle="modal" data-bs-target="#exampleModal">
-          <i class=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
-              <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z" />
-              <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z" />
-            </svg></i>
-        </button>
-
-        <p class="Estado">Estado:</p>
 
 
 
-      </div>
-
-    </div>
-
-    <div class="card carta" style="width: 18rem;">
-      <h5 class="card-title producto">Jugo de mango : 4</h5>
-      <img src="../IMG/jugo1.jpg" class="card-img-top iimg " alt="jugos">
-      <p class="precio">5.000$</p>
 
 
 
-      <div class="botones">
-
-        <!-- Button trigger modal -->
-        <button type="button" class="btn  button-boton" data-bs-toggle="modal" data-bs-target="#exampleModal">
-          <i class=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
-              <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z" />
-              <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z" />
-            </svg></i>
-        </button>
-
-        <p class="Estado">Estado:</p>
 
 
 
-      </div>
 
-    </div>
+
+
+
+
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -108,6 +131,7 @@
           <div class="modal-body">
             <h4>Cantidad: 3/vaso mediano</h4>
             <h4>Precio: 2000$</h4>
+            <h4>Estado:</h4>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Atras</button>
@@ -125,7 +149,6 @@
 
 
 
-    </div>
 
 
     <!-- <div class="div-p">

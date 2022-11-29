@@ -23,7 +23,7 @@
     <?= require_once 'campo/Nav.php'; ?>
 
     <section>
-        <div class="cotenedor mb-5">
+        <div class="cotenedor">
             <div class="proceso1">
                 <form action="" c>
                     <div class="div-select-h2">
@@ -54,22 +54,22 @@
 
                     <div class="checkbox">
 
-                        <label for="checkbox1" class="frutas">Fruta de manzana</label>
+                        <label for="checkbox1" class="frutas">Jugos de mango</label>
                         <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
 
-                        <label for="checkbox1" class="frutas">Fruta de pera</label>
+                        <label for="checkbox1" class="frutas">Jugos de mango</label>
                         <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
 
-                        <label for="checkbox1" class="frutas">fruta de mango</label>
+                        <label for="checkbox1" class="frutas">Jugos de mango</label>
                         <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
 
-                        <label for="checkbox1" class="frutas">fruta de uva</label>
+                        <label for="checkbox1" class="frutas">Jugos de mango</label>
                         <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
 
-                        <label for="checkbox1" class="frutas">fruta de piña</label>
+                        <label for="checkbox1" class="frutas">Jugos de mango</label>
                         <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
 
-                        <label for="checkbox1" class="frutas">fruta de sandia</label>
+                        <label for="checkbox1" class="frutas">Jugos de mango</label>
                         <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
 
 
@@ -98,71 +98,17 @@
                         <div class="checkbox">
                             <h1>Sabores elegidos</h1>
 
-                            <label for="checkbox1" class="frutas">Fruta de manzana
-                                <!-- Eliminar -->
-                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar" onclick="validarFormulario3()">
-                                    <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
-                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
-                                            <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
-                                        </svg>
-                                    </i>
-                                </button>
-                            </label>
+                            <label for="checkbox1" class="frutas">Jugos de mango</label>
 
-                            <label for="checkbox1" class="frutas">Fruta de pera
-                                <!-- Eliminar -->
-                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar" onclick="validarFormulario3()">
-                                    <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
-                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
-                                            <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
-                                        </svg>
-                                    </i>
-                                </button>
-                            </label>
+                            <label for="checkbox1" class="frutas">Jugos de mango</label>
 
-                            <label for="checkbox1" class="frutas">ruta de mango
-                                <!-- Eliminar -->
-                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar" onclick="validarFormulario3()">
-                                    <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
-                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
-                                            <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
-                                        </svg>
-                                    </i>
-                                </button>
-                            </label>
+                            <label for="checkbox1" class="frutas">Jugos de mango</label>
 
-                            <label for="checkbox1" class="frutas">fruta de uva
-                                <!-- Eliminar -->
-                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar" onclick="validarFormulario3()">
-                                    <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
-                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
-                                            <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
-                                        </svg>
-                                    </i>
-                                </button>
-                            </label>
+                            <label for="checkbox1" class="frutas">Jugos de mango</label>
 
-                            <label for="checkbox1" class="frutas">fruta de piña
-                                <!-- Eliminar -->
-                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar" onclick="validarFormulario3()">
-                                    <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
-                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
-                                            <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
-                                        </svg>
-                                    </i>
-                                </button>
-                            </label>
+                            <label for="checkbox1" class="frutas">Jugos de mango</label>
 
-                            <label for="checkbox1" class="frutas">fruta de sandia
-                                <!-- Eliminar -->
-                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar" onclick="validarFormulario3()">
-                                    <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
-                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
-                                            <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
-                                        </svg>
-                                    </i>
-                                </button>
-                            </label>
+                            <label for="checkbox1" class="frutas">Jugos de mango</label>
 
 
                         </div>
@@ -172,32 +118,11 @@
             </div>
     </section>
 
+    <br><br><br><br><br><br><br>
 
     <?php require_once 'campo/footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script>
-        function validarFormulario3() {
-            Swal.fire({
-                title: 'Are you sure?',
-                text: "You won't be able to revert this!",
-                icon: 'warning',
-                showCancelButton: true,
-                confirmButtonColor: '#3085d6',
-                cancelButtonColor: '#d33',
-                confirmButtonText: 'Yes, delete it!'
-            }).then((result) => {
-                if (result.isConfirmed) {
-                    Swal.fire(
-                        'Deleted!',
-                        'Your file has been deleted.',
-                        'success'
-                    )
-                }
-            })
-        }
-    </script>
 </body>
 
 </html>

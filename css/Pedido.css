@@ -1,3 +1,22 @@
+
+
+
+
+
+
+
+.precio{
+    font-size: 2em;
+    position: relative;
+    /* background-color:rgba(153, 136, 102, 0.235); */
+    position: relative;
+    bottom: .3em;
+    left: 3.3em;
+
+}
+
+
+
 .titlo{
     text-align: center;
     font-size: 3em;
@@ -30,14 +49,6 @@
     
 
 }
-.precio{
-    font-size: 2em;
-    position: relative;
-    background-color:rgba(153, 136, 102, 0.235);
-    position: relative;
-    bottom: .3em;
-
-}
 .div-p{
     width: 100%;
 
@@ -47,15 +58,9 @@
     border: 2px solid rgba(0, 0, 0, 0) !important;
     color: #000 !important;
     position: relative;
-    left: 14em;
+    left: 12.5em;
     top: .0em;
     
-}
-.Estado{
-    font-size: 2em;
-    position: relative;
-    bottom: 10em;
-    left: 10em;
 }
 .button-boton:hover{
     background-color: rgba(220, 232, 82, 0.441) !important;
@@ -86,7 +91,7 @@
 }
 section{
     position: relative;
-    top: 1em;
+    top: 3em;
 }
 .p-jugo{
     font-size:3em;
@@ -146,10 +151,10 @@ input[type="search"]:focus{
     color: #000;
     background-color: #8590d93b;
 }
-/* -modal-body{
+-modal-body{
     background-color: rgba(127, 255, 212, 0) !important;
     color: #000;
-} */
+}
 
 .cartOrden{
     display: flex !important;
@@ -166,3 +171,5 @@ input[type="search"]:focus{
 .jugoletra{
     margin: 1em;
 }
+
+
