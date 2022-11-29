@@ -158,13 +158,7 @@
             <div class="page-breadcrumb bg-white">
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                        <h4 class="page-title">Crud Roles</h4>
-                        <form role="search" >
-                                <input type="text" placeholder="Search..." >
-                                <a href="" class="active">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </form>
+                        
                     </div>
                     <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
                     </div>
@@ -180,6 +174,11 @@
                                 <table class="table text-nowrap">
                                     <thead>
                                         <tr>
+                                        <tr>
+                                            <form action="" class="bucar_list espacio">
+                                            <input type="search" name="nombre" placeholder="Buscar">
+                                        </form>
+                                            </tr>
                                             <th class="border-top-0">ID</th>
                                             <th class="border-top-0">Rol</th>
                                             <th class="border-top-0">Estado</th>
@@ -195,14 +194,18 @@
                                                 <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
                                               </div>
                                             </td>
-                                            <td><button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#ventanaModal2" type="button">Editar</button></td> 
+                                            <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#ventanaModal2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                                            <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                                        </svg>
+                                    </button></td>
                                             <td>
-                                                <button class="btn"  onclick="validarFormulario3()" data-bs-toggle="modal" data-bs-target="#EliminarProducto">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" style="color: #f62d51;" class="bi bi-dash-circle-fill" viewBox="0 0 16 16">
-                                                        <path
-                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7z" />
-                                                    </svg>
-                                                </button> 
+                                            <button type="button" onclick="validarFormulario3()" class="button" data-bs-toggle="modal" data-bs-target="#EliminarProducto">
+                                        <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
+                                                <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
+                                            </svg></i>
+                                    </button>
                                                 
                                             </td>        
                                         </tr>
@@ -213,13 +216,17 @@
                                                 <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
                                               </div>
                                             </td>
-                                            <td><button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#ventanaModal2" type="button">Editar</button></td> 
+                                            <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#ventanaModal2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                                            <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                                        </svg>
+                                    </button></td> 
                                             <td>
-                                                <button class="btn"  onclick="validarFormulario3()" data-bs-toggle="modal" data-bs-target="#EliminarProducto">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" style="color: #f62d51;" class="bi bi-dash-circle-fill" viewBox="0 0 16 16">
-                                                        <path
-                                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7z" />
-                                                    </svg>
+                                            <button type="button" onclick="validarFormulario3()" class="button" data-bs-toggle="modal" data-bs-target="#EliminarProducto">
+                                        <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
+                                                <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
+                                            </svg></i>
                                                 </button> 
                                                 
 

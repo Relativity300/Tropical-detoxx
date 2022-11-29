@@ -78,9 +78,9 @@
           </ul>
           <ul class="navbar-nav ms-auto d-flex align-items-center">
             <li>
-                            <a class="profile-pic" href="modificar cuenta.php">
-                                <img src="plugins/images/users/varun.jpg" alt="user-img" width="36" class="img-circle"><span class="text-white font-medium">Steave</span></a>
-                        </li>
+              <a class="profile-pic" href="modificar cuenta.php">
+                <img src="plugins/images/users/varun.jpg" alt="user-img" width="36" class="img-circle"><span class="text-white font-medium">Steave</span></a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -92,59 +92,59 @@
     <!-- Left Sidebar - style you can find in sidebar.scss  -->
     <!-- ============================================================== -->
     <aside class="left-sidebar" data-sidebarbg="skin6">
-            <!-- Sidebar scroll-->
-            <div class="scroll-sidebar">
-                <!-- Sidebar navigation-->
-                <nav class="sidebar-nav">
-                    <ul id="sidebarnav">
-                        <!-- User Profile-->
-                        <li class="sidebar-item pt-2">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="configuracion.php" aria-expanded="false">
-                                <i class="far fa-clock" aria-hidden="true"></i>
-                                <span class="hide-menu">Configuracion</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="usuarios.php" aria-expanded="false">
-                                <i class="fa fa-user" aria-hidden="true"></i>
-                                <span class="hide-menu">Usuarios</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="categoria de productos.php" aria-expanded="false">
-                                <i class="fa fa-table" aria-hidden="true"></i>
-                                <span class="hide-menu">Categoria de productos</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="Clientes.php" aria-expanded="false">
-                                <i class="fa fa-font" aria-hidden="true"></i>
-                                <span class="hide-menu">Clientes</span>
-                            </a>
-                        </li>
+      <!-- Sidebar scroll-->
+      <div class="scroll-sidebar">
+        <!-- Sidebar navigation-->
+        <nav class="sidebar-nav">
+          <ul id="sidebarnav">
+            <!-- User Profile-->
+            <li class="sidebar-item pt-2">
+              <a class="sidebar-link waves-effect waves-dark sidebar-link" href="configuracion.php" aria-expanded="false">
+                <i class="far fa-clock" aria-hidden="true"></i>
+                <span class="hide-menu">Configuracion</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link waves-effect waves-dark sidebar-link" href="usuarios.php" aria-expanded="false">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <span class="hide-menu">Usuarios</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link waves-effect waves-dark sidebar-link" href="categoria de productos.php" aria-expanded="false">
+                <i class="fa fa-table" aria-hidden="true"></i>
+                <span class="hide-menu">Categoria de productos</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link waves-effect waves-dark sidebar-link" href="Clientes.php" aria-expanded="false">
+                <i class="fa fa-font" aria-hidden="true"></i>
+                <span class="hide-menu">Clientes</span>
+              </a>
+            </li>
 
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.php" aria-expanded="false">
-                                <i class="fa fa-columns" aria-hidden="true"></i>
-                                <span class="hide-menu">Ventas</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="pedido.php" aria-expanded="false">
-                                <i class="fa fa-columns" aria-hidden="true"></i>
-                                <span class="hide-menu">pedido</span>
-                            </a>
-                        </li>
-                       
-                        
+            <li class="sidebar-item">
+              <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.php" aria-expanded="false">
+                <i class="fa fa-columns" aria-hidden="true"></i>
+                <span class="hide-menu">Ventas</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link waves-effect waves-dark sidebar-link" href="pedido.php" aria-expanded="false">
+                <i class="fa fa-columns" aria-hidden="true"></i>
+                <span class="hide-menu">pedido</span>
+              </a>
+            </li>
 
-                    </ul>
 
-                </nav>
-                <!-- End Sidebar navigation -->
-            </div>
-            <!-- End Sidebar scroll-->
-        </aside>
+
+          </ul>
+
+        </nav>
+        <!-- End Sidebar navigation -->
+      </div>
+      <!-- End Sidebar scroll-->
+    </aside>
 
     <!-- ============================================================== -->
     <!-- End Left Sidebar - style you can find in sidebar.scss  -->
@@ -201,15 +201,12 @@
       </div>
 
       <div class="row">
-    <div class="col-md-4">
-      <div class="display-10 text-center">
-        <form role="search">
-          <input type="text" placeholder="Search...">
-          <a href="" class="active">
-            <i class="fa fa-search"></i>
-          </a>
-        </form>
-        </div>
+        <div class="col-md-4">
+          <div class="display-10 text-center">
+          <form action="" class="bucar_list espacio">
+                                            <input style="background-color: #8590d9b5" type="search" name="nombre" placeholder="Buscar">
+                                        </form>
+          </div>
         </div>
       </div>
 
@@ -347,7 +344,7 @@
           <div class="col mb-5">
             <div class="card h-100">
               <!-- Product image-->
-              <img class="card-img-top" src="../IMG/fresas.jpg" alt="..." />
+              <a href="jugosVerdes.php"><img class="card-img-top" src="../IMG/fresas.jpg" alt="..." /></a>
               <!-- Product details-->
               <div class="card-body p-4 ">
                 <div class="text-center">
@@ -362,8 +359,17 @@
 
               <div class="box-2 text-center">
                 <h5>Inactivo / Activo</h5>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editar" data-bs-whatever="@fat">Editar</button>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#info" data-bs-whatever="@fat">Info</button>
+                <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                      <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                    </svg>
+                  </button></td>
+                  <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#info">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                      <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                    </svg>
+                  </button></td>
 
               </div>
             </div>
@@ -389,8 +395,17 @@
               <!-- Product actions-->
               <div class="box-2 text-center">
                 <h5>Inactivo / Activo</h5>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editar" data-bs-whatever="@fat">Editar</button>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#info" data-bs-whatever="@fat">Info</button>
+                <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                      <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                    </svg>
+                  </button></td>
+                  <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#info">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                      <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                    </svg>
+                  </button></td>
               </div>
             </div>
           </div>
@@ -413,8 +428,17 @@
               <!-- Product actions-->
               <div class="box-2 text-center">
                 <h5>Inactivo / Activo</h5>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editar" data-bs-whatever="@fat">Editar</button>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#info" data-bs-whatever="@fat">Info</button>
+                <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                      <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                    </svg>
+                  </button></td>
+                <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#info">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                      <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                    </svg>
+                  </button></td>
               </div>
             </div>
           </div>
@@ -453,7 +477,7 @@
       var Valimg = document.getElementById('img').value;
 
 
-
+      
       let NoEspeciales = /^[a-zA-ZÀ-ÿ\s]{1,40}$/ // Letras y espacios, pueden llevar acentos.
       var expReg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
       let cedulaNum = /^\d{0,10}$/ // 0 a 9 numeros.
@@ -469,6 +493,8 @@
           text: 'Tienes que ingresar todos los campos'
         })
       }
+
+      
 
 
       //NOOMBRE

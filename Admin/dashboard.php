@@ -198,15 +198,18 @@
                         <thead>
                             <tr>
                             <tr>
+                                
                                 <th colspan="6" class="text-center">
                                     <h1 class="titulo-ventas ">Ventas de jugos</h1>
+                                    
                                 </th>
                             </tr>
+                            
                             <th class="border-top-0">ID</th>
                             <th class="border-top-0">Nombre</th>
                             <th class="border-top-0">Producto</th>
                             <th class="border-top-0">Cantidad</th>
-                            <th class="border-top-0">Prcio</th>
+                            <th class="border-top-0">Precio</th>
                             <th class="border-top-0">Opciones</th>
 
                             </tr>

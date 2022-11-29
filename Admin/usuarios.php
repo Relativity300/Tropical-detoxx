@@ -79,7 +79,7 @@
                         <!-- ============================================================== -->
                         <!-- Search -->
                         <!-- ============================================================== -->
-                        
+
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
@@ -144,8 +144,8 @@
                                 <span class="hide-menu">pedido</span>
                             </a>
                         </li>
-                       
-                        
+
+
 
                     </ul>
 
@@ -164,14 +164,8 @@
             <div class="page-breadcrumb bg-white">
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                        <h4 class="page-title">CRUD</h4>
-                            <form role="search" >
-                                <input type="text" placeholder="Search..." >
-                                <a href="" class="active">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </form>
-                        
+
+
                     </div>
                     <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
                     </div>
@@ -186,16 +180,21 @@
                                 <table class="table text-nowrap">
                                     <thead>
                                         <tr>
-                                            <th class="border-top-0">ID</th>
-                                            <th class="border-top-0">Documento</th>
-                                            <th class="border-top-0">Nombre</th>
-                                            <th class="border-top-0">Apellidos</th>
-                                            <th class="border-top-0">Teléfono</th>
-                                            <th class="border-top-0">Correo</th>
-                                            <th class="border-top-0">Dirección</th>
-                                            <th class="border-top-0">Rol</th>
-                                            <th class="border-top-0">Inactivo / Activo</th>
-                                            <th class="border-top-0">Editar</th>
+                                        <tr>
+                                            <form action="" class="bucar_list espacio">
+                                                <input type="search" name="nombre" placeholder="Buscar">
+                                            </form>
+                                        </tr>
+                                        <th class="border-top-0">ID</th>
+                                        <th class="border-top-0">Documento</th>
+                                        <th class="border-top-0">Nombre</th>
+                                        <th class="border-top-0">Apellidos</th>
+                                        <th class="border-top-0">Teléfono</th>
+                                        <th class="border-top-0">Correo</th>
+                                        <th class="border-top-0">Dirección</th>
+                                        <th class="border-top-0">Rol</th>
+                                        <th class="border-top-0">Inactivo / Activo</th>
+                                        <th class="border-top-0">Editar</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -213,7 +212,11 @@
                                                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
                                                 </div>
                                             </td>
-                                            <td><button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#ventanaModal2" type="button">Editar</button></td>
+                                            <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#ventanaModal2">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                                                        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                                                    </svg>
+                                                </button></td>
                                         </tr>
                                         <tr>
                                             <td>2</td>
@@ -229,7 +232,11 @@
                                                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
                                                 </div>
                                             </td>
-                                            <td><button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#ventanaModal2" type="button">Editar</button></td>
+                                            <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#ventanaModal2">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                                                        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                                                    </svg>
+                                                </button></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -243,6 +250,7 @@
                                                 <button class="close" data-bs-dismiss="modal"><span>&times;</span></button>
 
                                             </div>
+                                            <form action="">
                                             <div class="modal-body">
                                                 <form name="frmUsuario" id="formulario1" method="POST" action="">
                                                     <div class="mb-3">
@@ -294,14 +302,14 @@
                                                     <div class="mb-3">
                                                         <label for="password" class="form-label">Confirmar Contraseña</label>
                                                         <div class="d-flex">
-                                                            <input class="form-control" type="password"  id="Confirmclave">
+                                                            <input class="form-control" type="password" id="Confirmclave">
                                                             <button class="btn btn-primary" type="button" onclick="mostrarContrasena2()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
                                                         </div>
                                                     </div>
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-                                                <button class="btn btn-success" type="button"  onclick="validarFormulario()">Guardar</button>
+                                                <button class="btn btn-success" type="button" onclick="validarFormulario()">Guardar</button>
                                             </div>
                                             </form>
 
@@ -319,8 +327,9 @@
                                             <div class="modal-header">
                                                 <h2>Editar Usuario</h2>
                                                 <button class="close" data-bs-dismiss="modal"><span>&times;</span></button>
-
+                                            
                                             </div>
+                                            <form action="">
                                             <div class="modal-body">
                                                 <form name="frmUsuario" id="formulario" method="POST" action="">
                                                     <div class="mb-3">
@@ -350,13 +359,6 @@
                                                         <input type="text" class="form-control" id="direccion1">
                                                     </div>
                                                     <div class="mb-3">
-                                                        <label>Rol</label>
-                                                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-                                                            <option selected>Cliente</option>
-                                                            <option>Administrador</option>
-                                                        </select>
-                                                    </div>
-                                                    <div class="mb-3">
                                                         <label>Estado</label>
                                                         <div class="form-check form-switch">
                                                             <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
@@ -373,7 +375,7 @@
                                                     <div class="mb-3">
                                                         <label for="password" class="form-label">Confirmar Contraseña</label>
                                                         <div class="d-flex">
-                                                            <input class="form-control" type="password"  id="Confirmclave1">
+                                                            <input class="form-control" type="password" id="Confirmclave1">
                                                             <button class="btn btn-primary" type="button" onclick="mostrarContrasena4()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
                                                         </div>
                                                     </div>
@@ -382,7 +384,7 @@
                                                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
                                                 <button type="button" class="btn btn-success" onclick="validarFormulario2()">Guardar</button>
                                             </div>
-
+                                            </form>
 
                                         </div>
 
@@ -410,47 +412,47 @@
     <!--Custom JavaScript -->
     <script src="js/custom.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
 
     <script>
+        function mostrarContrasena() {
+            var tipo = document.getElementById("contrasenia");
+            if (tipo.type == "password") {
+                tipo.type = "text";
+            } else {
+                tipo.type = "password";
+            }
+        }
 
-function mostrarContrasena(){
-    var tipo = document.getElementById("contrasenia");
-    if(tipo.type == "password"){
-        tipo.type = "text";
-    }else{
-        tipo.type = "password";
-    }
-}
+        function mostrarContrasena2() {
+            var tipo = document.getElementById("Confirmclave");
+            if (tipo.type == "password") {
+                tipo.type = "text";
+            } else {
+                tipo.type = "password";
+            }
+        }
 
-function mostrarContrasena2(){
-    var tipo = document.getElementById("Confirmclave");
-    if(tipo.type == "password"){
-        tipo.type = "text";
-    }else{
-        tipo.type = "password";
-    }
-}
-
-function mostrarContrasena3(){
-    var tipo = document.getElementById("contrasenia1");
-    if(tipo.type == "password"){
-        tipo.type = "text";
-    }else{
-        tipo.type = "password";
-    }
-}
-
+        function mostrarContrasena3() {
+            var tipo = document.getElementById("contrasenia1");
+            if (tipo.type == "password") {
+                tipo.type = "text";
+            } else {
+                tipo.type = "password";
+            }
+        }
 
 
-function mostrarContrasena4(){
-    var tipo = document.getElementById("Confirmclave1");
-    if(tipo.type == "password"){
-        tipo.type = "text";
-    }else{
-        tipo.type = "password";
-    }
-}
+
+        function mostrarContrasena4() {
+            var tipo = document.getElementById("Confirmclave1");
+            if (tipo.type == "password") {
+                tipo.type = "text";
+            } else {
+                tipo.type = "password";
+            }
+        }
 
 
 
@@ -471,7 +473,7 @@ function mostrarContrasena4(){
             let cedulaNum = /^\d{0,10}$/ // 0 a 9 numeros.
             let numerost = /^\d{0,11}$/
             let contraseVali = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/;
-
+            // let ExpRegSoloNumeros = "^[0-9]+$";
 
             //TODOS LOS CAMPOS VACIOS 
             if (!Valnombre && !Valcedula && !Valcorreo && !Valapellido && !Valtelefono && !Valdireccion && !Valcontraseina && !Valconfirmcontraseina) {
@@ -483,128 +485,147 @@ function mostrarContrasena4(){
             }
 
 
-            //NOOMBRE
-            if (!Valnombre) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'Ingrese su nombre'
-                })
-            }
-            if (typeof Valnombre === "number") {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'El nombre no puede contener numeros'
-                })
-            }
-            var validoNombre = NoEspeciales.test(Valnombre);
-            if (!validoNombre) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'El nombre no puede tener caracteres especiales'
-                })
-            }
+            // var validoCedula = ExpRegSoloNumeros.test(Valcedula);
+            // if (!validoCedula) {
+            //     return Swal.fire({
+            //         icon: 'error',
+            //         title: 'Oops...',
+            //         text: 'La cedula solo puede tener numeros'
+            //     })
+            // }
+        
 
-
-            /////////////CEDULA/////////////////
-            if (!Valcedula) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'Tienes que ingresar la cedula'
-                })
-            }
-            var validoCedula = cedulaNum.test(Valcedula);
-            if (!validoCedula) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'Solo numeros (9) digitos'
-                })
-            }
-            //telefono
-            var Validotelefono = numerost.test(Valtelefono)
-
-            if (!Validotelefono) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'El numero debe tener 10 digitos'
-                })
-            }
-
-
-            ///////////////CORREO////////////////
-            if (!Valcorreo) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'Tienes que ingresar el correo'
-                })
-            }
-
-            var valido = expReg.test(Valcorreo);
-            if (!valido) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'El correo debe terminar en @gmail.com'
-                })
-            }
-            //contraseña
-            if (!Valcontraseina) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'Tienes que ingresar la contraseña'
-                })
-            }
-
-            if (!(Valconfirmcontraseina === Valcontraseina)) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'Las contraseñas tienen que ser iguales'
-                })
-            }
-
-            var validocContraseina = contraseVali.test(Valcontraseina);
-            if (!validocContraseina) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'Minimo 8 caracteres-Maximo 15, 1 letra mayúscula,1 letra minucula,Al menos un dígito,Al menos 1 caracter especial'
-                })
-            }
-
-            if (!Valdireccion) {
-                return Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'Ingrese su direccion'
-                })
-            }
-
-
-
-
-
-
-
-            Swal.fire({
-                icon: 'success',
-                title: ';)',
-                text: 'Se ha creado exitosamente'
+        //NOOMBRE
+        if (!Valnombre) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Ingrese su nombre'
             })
-
-
-
-
-
-
         }
+        if (typeof Valnombre === "number") {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'El nombre no puede contener numeros'
+            })
+        }
+        var validoNombre = NoEspeciales.test(Valnombre);
+        if (!validoNombre) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'El nombre no puede tener caracteres especiales'
+            })
+        }
+
+
+        /////////////CEDULA/////////////////
+        if (!Valcedula) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Tienes que ingresar la cedula'
+            })
+        }
+
+        if (typeof Valcedula == "number") {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'la cedula no puede contener un dato numerico'
+            })
+        }
+
+        var validoCedula = cedulaNum.test(Valcedula);
+        if (!validoCedula) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Solo numeros (9) digitos'
+            })
+        }
+        //telefono
+        var Validotelefono = numerost.test(Valtelefono)
+
+        if (!Validotelefono) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'El numero debe tener 10 digitos'
+            })
+        }
+
+
+        ///////////////CORREO////////////////
+        if (!Valcorreo) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Tienes que ingresar el correo'
+            })
+        }
+
+        var valido = expReg.test(Valcorreo);
+        if (!valido) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'El correo debe terminar en @gmail.com'
+            })
+        }
+        //contraseña
+        if (!Valcontraseina) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Tienes que ingresar la contraseña'
+            })
+        }
+
+        if (!(Valconfirmcontraseina === Valcontraseina)) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Las contraseñas tienen que ser iguales'
+            })
+        }
+
+        var validocContraseina = contraseVali.test(Valcontraseina);
+        if (!validocContraseina) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Minimo 8 caracteres-Maximo 15, 1 letra mayúscula,1 letra minucula,Al menos un dígito,Al menos 1 caracter especial'
+            })
+        }
+
+        if (!Valdireccion) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Ingrese su direccion'
+            })
+        }
+
+
+
+
+
+
+
+        Swal.fire({
+            icon: 'success',
+            title: ';)',
+            text: 'Se ha creado exitosamente'
+        })
+
+
+
+
+
+    }
+        
 
 
 
@@ -762,6 +783,7 @@ function mostrarContrasena4(){
 
 
         }
+    
     </script>
 
 

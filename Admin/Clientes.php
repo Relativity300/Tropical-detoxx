@@ -167,6 +167,8 @@
             </div>
             <!-- End Sidebar scroll-->
         </aside>
+
+        
         <!-- ============================================================== -->
         <!-- End Left Sidebar - style you can find in sidebar.scss  -->
         <!-- ============================================================== -->
@@ -174,6 +176,7 @@
         <!-- Page wrapper  -->
         <!-- ============================================================== -->
         <div class="page-wrapper">
+            
             <div class="page-breadcrumb bg-white">
                 <div class="row align-items-center">
                     <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
@@ -189,6 +192,11 @@
                                 <table class="table text-nowrap">
                                     <thead>
                                         <tr>
+                                        <tr>
+                                            <form action="" class="bucar_list espacio">
+                                            <input type="search" name="nombre" placeholder="Buscar">
+                                        </form>
+                                            </tr>
                                             <th class="border-top-0">ID</th>
                                             <th class="border-top-0">Documento</th>
                                             <th class="border-top-0">Nombre</th>
@@ -213,7 +221,11 @@
                                                 <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
                                               </div>
                                             </td>
-                                            <td><button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#ventanaModal2" type="button">Editar</button></td>      
+                                            <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#ventanaModal2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                                            <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                                        </svg>
+                                    </button></td>       
                                         </tr>
                                         <tr>
                                             <td>2</td>
@@ -227,66 +239,87 @@
                                                 <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
                                               </div>
                                             </td>
-                                            <td><button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#ventanaModal2" type="button">Editar</button></td> 
+                                            <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#ventanaModal2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                                            <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                                        </svg>
+                                    </button></td> 
                                         </tr>
                                     </tbody>
                                 </table>
                                     <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ventanaModal">Agregar Cliente</button>
                                     <div class="modal fade" id="ventanaModal" tabeindex="-1">
                                         <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h2>Agregar Cliente</h2>
-                                                    <button class="close" data-bs-dismiss="modal"><span>&times;</span></button>
-
-                                                </div>
-                                                <div class="modal-body">
-                                                    <form>
-                                                        <div class="mb-3">
-                                                          <label for="documento" class="form-label">Documento</label>
-                                                          <input type="number" class="form-control" id="documento" autofocus>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="Nombre" class="form-label">Nombre</label>
-                                                            <input type="text" class="form-control" id="Nombre">
-                                                          </div>
-                                                          <div class="mb-3">
-                                                            <label for="Apellidos" class="form-label">Apellidos</label>
-                                                            <input type="text" class="form-control" id="Apellidos">
-                                                          </div>
-                                                          <div class="mb-3">
-                                                            <label for="telefono" class="form-label">Teléfono</label>
-                                                            <input type="number" class="form-control" id="telefono">
-                                                          </div>
-                                                          <div class="mb-3">
-                                                            <label for="correo" class="form-label">Correo Electrónico</label>
-                                                            <input type="email" class="form-control" id="correo">
-                                                          </div>
-                                                          <div class="mb-3">
-                                                            <label for="direccion" class="form-label">Dirección</label>
-                                                            <input type="text" class="form-control" id="direccion">
-                                                          </div>                    
-                                                          <div class="mb-3">
-                                                            <label>Rol</label>
-                                                            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-                                                                <option selected>Administrador</option>
-                                                                <option value="1">Cliente</option>
-                                                              </select>
-                                                          </div>
-                                                          <div class="mb-3">
-                                                            <label>Estado</label>
-                                                            <div class="form-check form-switch">
-                                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled" checked disabled>
-                                                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
-                                                            </div>
-                                                          </div>
-                                                </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-success">Guardar</button>
-                                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-                                                </div>
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h2>Agregar Cliente</h2>
+                                                <button class="close" data-bs-dismiss="modal"><span>&times;</span></button>
 
                                             </div>
+                                            <form action="">
+                                            <div class="modal-body">
+                                                <form name="frmUsuario" id="formulario1" method="POST" action="">
+                                                    <div class="mb-3">
+                                                        <label for="documento" class="form-label" id="xd">Documento</label>
+                                                        <input type="number" class="form-control" id="cedula" autofocus>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="Nombre" class="form-label">Nombre</label>
+                                                        <input type="text" class="form-control" id="nombre">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="Apellidos" class="form-label">Apellidos</label>
+                                                        <input type="text" class="form-control" id="apellido">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="telefono" class="form-label">Teléfono</label>
+                                                        <input type="number" class="form-control" id="telefono">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="correo" class="form-label">Correo
+                                                            Electrónico</label>
+                                                        <input type="email" class="form-control" id="correo">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="direccion" class="form-label">Dirección</label>
+                                                        <input type="text" class="form-control" id="direccion">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label>Rol</label>
+                                                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                                            <option selected>Administrador</option>
+                                                            <option value="1">Cliente</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label>Estado</label>
+                                                        <div class="form-check form-switch">
+                                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled" checked disabled>
+                                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="password" class="form-label">Contraseña</label>
+                                                        <div class="d-flex">
+                                                            <input class="form-control" type="password" id="contrasenia">
+                                                            <button class="btn btn-primary" type="button" onclick="mostrarContrasena()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="password" class="form-label">Confirmar Contraseña</label>
+                                                        <div class="d-flex">
+                                                            <input class="form-control" type="password"  id="Confirmclave">
+                                                            <button class="btn btn-primary" type="button" onclick="mostrarContrasena2()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                                                <button class="btn btn-success" type="button"  onclick="validarFormulario()">Guardar</button>
+                                            </div>
+                                            </form>
+
+                                        </div>
 
                                         </div>
                                     </div>
@@ -366,6 +399,362 @@
     <script src="js/sidebarmenu.js"></script>
     <!--Custom JavaScript -->
     <script src="js/custom.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script>
+
+function mostrarContrasena(){
+    var tipo = document.getElementById("contrasenia");
+    if(tipo.type == "password"){
+        tipo.type = "text";
+    }else{
+        tipo.type = "password";
+    }
+}
+
+function mostrarContrasena2(){
+    var tipo = document.getElementById("Confirmclave");
+    if(tipo.type == "password"){
+        tipo.type = "text";
+    }else{
+        tipo.type = "password";
+    }
+}
+
+function mostrarContrasena3(){
+    var tipo = document.getElementById("contrasenia1");
+    if(tipo.type == "password"){
+        tipo.type = "text";
+    }else{
+        tipo.type = "password";
+    }
+}
+
+
+
+function mostrarContrasena4(){
+    var tipo = document.getElementById("Confirmclave1");
+    if(tipo.type == "password"){
+        tipo.type = "text";
+    }else{
+        tipo.type = "password";
+    }
+}
+
+
+
+        function validarFormulario() {
+
+
+            var Valnombre = document.getElementById('nombre').value;
+            var Valapellido = document.getElementById('apellido').value;
+            var Valcedula = document.getElementById('cedula').value;
+            var Valdireccion = document.getElementById('direccion').value;
+            var Valcorreo = document.getElementById('correo').value;
+            var Valtelefono = document.getElementById('telefono').value;
+            var Valcontraseina = document.getElementById('contrasenia').value;
+            var Valconfirmcontraseina = document.getElementById('Confirmclave').value;
+
+            let NoEspeciales = /^[a-zA-ZÀ-ÿ\s]{1,40}$/ // Letras y espacios, pueden llevar acentos.
+            var expReg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            let cedulaNum = /^\d{0,10}$/ // 0 a 9 numeros.
+            let numerost = /^\d{0,11}$/
+            let contraseVali = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/;
+
+
+            //TODOS LOS CAMPOS VACIOS 
+            if (!Valnombre && !Valcedula && !Valcorreo && !Valapellido && !Valtelefono && !Valdireccion && !Valcontraseina && !Valconfirmcontraseina) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Tienes que ingresar todos los campos'
+                })
+            }
+
+
+            //NOOMBRE
+            if (!Valnombre) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Ingrese su nombre'
+                })
+            }
+            if (typeof Valnombre === "number") {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El nombre no puede contener numeros'
+                })
+            }
+            var validoNombre = NoEspeciales.test(Valnombre);
+            if (!validoNombre) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El nombre no puede tener caracteres especiales'
+                })
+            }
+
+
+            /////////////CEDULA/////////////////
+            if (!Valcedula) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Tienes que ingresar la cedula'
+                })
+            }
+            var validoCedula = cedulaNum.test(Valcedula);
+            if (!validoCedula) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Solo numeros (9) digitos'
+                })
+            }
+            
+
+
+            //telefono
+            var Validotelefono = numerost.test(Valtelefono)
+
+            if (!Validotelefono) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El numero debe tener 10 digitos'
+                })
+            }
+
+
+            ///////////////CORREO////////////////
+            if (!Valcorreo) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Tienes que ingresar el correo'
+                })
+            }
+
+            var valido = expReg.test(Valcorreo);
+            if (!valido) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El correo debe terminar en @gmail.com'
+                })
+            }
+            //contraseña
+            if (!Valcontraseina) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Tienes que ingresar la contraseña'
+                })
+            }
+
+            if (!(Valconfirmcontraseina === Valcontraseina)) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Las contraseñas tienen que ser iguales'
+                })
+            }
+
+            var validocContraseina = contraseVali.test(Valcontraseina);
+            if (!validocContraseina) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Minimo 8 caracteres-Maximo 15, 1 letra mayúscula,1 letra minucula,Al menos un dígito,Al menos 1 caracter especial'
+                })
+            }
+
+            if (!Valdireccion) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Ingrese su direccion'
+                })
+            }
+
+
+
+
+
+
+
+            Swal.fire({
+                icon: 'success',
+                title: ';)',
+                text: 'Se ha creado exitosamente'
+            })
+
+
+
+
+
+
+        }
+
+
+
+        function validarFormulario2() {
+
+
+            var Valnombre1 = document.getElementById('nombre1').value;
+            var Valapellido1 = document.getElementById('apellido1').value;
+            var Valcedula1 = document.getElementById('cedula1').value;
+            var Valdireccion1 = document.getElementById('direccion1').value;
+            var Valcorreo1 = document.getElementById('correo1').value;
+            var Valtelefono1 = document.getElementById('telefono').value;
+            var Valcontraseina1 = document.getElementById('contrasenia1').value;
+            var Valconfirmcontraseina1 = document.getElementById('Confirmclave1').value;
+
+            let NoEspeciales = /^[a-zA-ZÀ-ÿ\s]{1,40}$/ // Letras y espacios, pueden llevar acentos.
+            var expReg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            let cedulaNum = /^\d{0,10}$/ // 0 a 9 numeros.
+            let numerost = /^\d{0,11}$/
+            let contraseVali = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/;
+
+
+            //TODOS LOS CAMPOS VACIOS 
+            if (!Valnombre1 && !Valcedula1 && !Valcorreo1 && !Valapellido1 && !Valtelefono1 && !Valdireccion1 && !Valcontraseina1 && !Valconfirmcontraseina1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Tienes que ingresar todos los campos'
+                })
+            }
+            if (!Valdireccion1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Ingrese su direccion'
+                })
+            }
+
+            //NOOMBRE
+            if (!Valnombre1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Ingrese su nombre'
+                })
+            }
+            if (typeof Valnombre1 === "number") {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El nombre no puede contener numeros'
+                })
+            }
+            var validoNombre1 = NoEspeciales.test(Valnombre1);
+            if (!validoNombre1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El nombre no puede tener caracteres especiales'
+                })
+            }
+
+
+            /////////////CEDULA/////////////////
+            if (!Valcedula1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Tienes que ingresar la cedula'
+                })
+            }
+            var validoCedula1 = cedulaNum.test(Valcedula1);
+            if (!validoCedula1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Solo numeros (9) digitos'
+                })
+            }
+            //telefono
+            var Validotelefono1 = numerost.test(Valtelefono1)
+
+            if (!Validotelefono1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El numero debe tner 10 digitos'
+                })
+
+            }
+
+            ///////////////CORREO////////////////
+            if (!Valcorreo1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Tienes que ingresar el correo'
+                })
+            }
+
+            var valido1 = expReg.test(Valcorreo1);
+            if (!valido1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El correo debe terminar en @gmail.com'
+                })
+            }
+            //contraseña
+            if (!Valcontraseina1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Tienes que ingresar la contraseña'
+                })
+            }
+
+            if (!(Valconfirmcontraseina1 === Valcontraseina1)) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Las contraseñas tienen que ser iguales'
+                })
+            }
+
+            var validocContraseina1 = contraseVali.test(Valcontraseina1);
+            if (!validocContraseina1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Minimo 8 caracteres-Maximo 15, 1 letra mayúscula,1 letra minucula,Al menos un dígito,Al menos 1 caracter especial'
+                })
+            }
+
+
+
+            ////////////CONTRASEÑA//////////////
+
+
+            Swal.fire({
+                icon: 'success',
+                title: ';)',
+                text: 'Se ha editado exitosamente'
+            })
+
+
+            //FALTA TERMINA LA ALERTA Y QUE TE LLEVE EL OK AL LOGIN 
+            // Swal.fire({
+            //   icon: 'success',
+            //   title: ':)',
+            //   text: 'El usuario fue creado exitosamente',
+            // })
+            // return window.location.href = "/";
+
+
+
+        }
+    </script>
 </body>
 
 </html>
