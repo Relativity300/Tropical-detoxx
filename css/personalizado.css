@@ -24,55 +24,35 @@ select{
     border-radius: .3em;
     height: 2em;
     position: relative;
-    top: .3em;
-    left: .5em;
+    top: 1em;
+    left: 18em;
 }
 .div-select-h2{
     display: flex;
 
 }
 .h2-Cantidad{
-    margin-left: 2em;
+    left: -1.9em;
+    position: relative;
+    top: .5em;
+    
 }
 
 .cantidad{
     width: 2.3em;
     height: 2em;
     position: relative;
-    left: 1em;
-    top: .3em;
+    left: -2.5em;
+    top: 1em;
+}
+.masss{
+    position: relative;
+    left: 9em;
+    top: 1em;
 }
 
 
 
-.input-wrapper {
-    position: relative;
-    top: 4em;
-    width: 271px;
-  }
-  
-  .input {
-    box-sizing: border-box;
-    color: #191919;
-    padding: 15px 15px 15px 35px;
-    width: 100%;
-  }
-
-
-
-
-
-
-  .input-icon {
-    color: #191919;
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  
 
   .frecha{
     display: flex;
@@ -80,7 +60,46 @@ select{
   }
 
 
+  input[type="search"]{
+    width: 50px; /*ancho por defecto*/
+    background: #ededed url('../IMG/luma.png') no-repeat 0px center; /*icono lupa*/
+    background-size: 2em;
+    background-color: #8590d9b5;
+    padding: 9px 10px 9px 32px;
+    border-radius: 15em;
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
+    position: relative;
+    top: 2em;
+    left: .5em;
+}
+input[type="search"]:focus{
+    width: 200px; /*tamaño del boton buscar al hacer click*/
+    padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+    color: #000;
+    background-color: #8590d93b;
+}
 
 
 
 
+.checkbox{
+    padding: .5em;
+    position: relative;
+    bottom: 3.3em;
+}
+.frutas{
+    font-size: 2em;
+}
+.numbere{
+    height: 1.5em;
+    width: 1.5em;
+    margin-left: .5em ;
+}
+.pedido{
+    position: relative;
+    top: 4em;
+}
