@@ -79,7 +79,7 @@
                         <!-- ============================================================== -->
                         <!-- Search -->
                         <!-- ============================================================== -->
-
+                       
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
@@ -144,8 +144,8 @@
                                 <span class="hide-menu">pedido</span>
                             </a>
                         </li>
-
-
+                       
+                        
 
                     </ul>
 
@@ -158,7 +158,7 @@
             <div class="page-breadcrumb bg-white">
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-
+                        
                     </div>
                     <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
                     </div>
@@ -169,402 +169,403 @@
                     <div class="col-sm-12">
                         <div class="white-box">
                             <h3 class="box-title">Roles</h3>
-
+                            
                             <div class="table-responsive">
                                 <table class="table text-nowrap">
                                     <thead>
                                         <tr>
                                         <tr>
                                             <form action="" class="bucar_list espacio">
-                                                <input type="search" name="nombre" placeholder="Buscar">
-                                            </form>
-                                        </tr>
-                                        <th class="border-top-0">ID</th>
-                                        <th class="border-top-0">Rol</th>
-                                        <th class="border-top-0">Estado</th>
-                                        <th class="border-top-0">Editar</th>
-                                        <th class="border-top-0">Eliminar</th>
+                                            <input type="search" name="nombre" placeholder="Buscar">
+                                        </form>
+                                            </tr>
+                                            <th class="border-top-0">ID</th>
+                                            <th class="border-top-0">Rol</th>
+                                            <th class="border-top-0">Estado</th>
+                                            <th class="border-top-0">Editar</th> 
+                                            <th class="border-top-0">Eliminar</th>               
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>1</td>
                                             <td>Administrador</td>
-                                            <td>
-                                                <div class="form-check form-switch">
-                                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                                </div>
+                                            <td><div class="form-check form-switch">
+                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                              </div>
                                             </td>
+                                            <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#ventanaModal2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                                            <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                                        </svg>
+                                    </button></td>
                                             <td>
-                                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#ventanaModal2">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
-                                                        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
-                                                    </svg>
-                                                </button>
-                                            </td>
-                                            <td>
-                                                <button type="button" onclick="validarFormulario3()" class="button" data-bs-toggle="modal" data-bs-target="#EliminarProducto">
-                                                    <i class="bi bi-trash">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
-                                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
-                                                            <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
-                                                        </svg>
-                                                    </i>
-                                                </button>
-
-                                            </td>
+                                            <button type="button" onclick="validarFormulario3()" class="button" data-bs-toggle="modal" data-bs-target="#EliminarProducto">
+                                        <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
+                                                <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
+                                            </svg></i>
+                                    </button>
+                                                
+                                            </td>        
                                         </tr>
                                         <tr>
                                             <td>2</td>
                                             <td>Cliente</td>
-                                            <td>
-                                                <div class="form-check form-switch">
-                                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                                </div>
+                                            <td><div class="form-check form-switch">
+                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                              </div>
                                             </td>
                                             <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#ventanaModal2">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
-                                                        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
-                                                    </svg>
-                                                </button></td>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                                            <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                                        </svg>
+                                    </button></td> 
                                             <td>
-                                                <button type="button" onclick="validarFormulario3()" class="button" data-bs-toggle="modal" data-bs-target="#EliminarProducto">
-                                                    <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
-                                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
-                                                            <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
-                                                        </svg></i>
-                                                </button>
-
+                                            <button type="button" onclick="validarFormulario3()" class="button" data-bs-toggle="modal" data-bs-target="#EliminarProducto">
+                                        <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
+                                                <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
+                                            </svg></i>
+                                                </button> 
+                                                
 
                                         </tr>
                                     </tbody>
                                 </table>
-                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ventanaModal">Agregar Rol</button>
-                                <div class="modal fade" id="ventanaModal" tabeindex="-1">
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ventanaModal">Agregar Rol</button>
+                                    <div class="modal fade" id="ventanaModal" tabeindex="-1">
                                     <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h2>Crear rol</h2>
-                                                <button class="close" data-bs-dismiss="modal"><span>&times;</span></button>
-
-                                            </div>
-                                            <div class="modal-body">
-                                                <form>
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h2>Crear rol</h2>
+                                                    <button class="close" data-bs-dismiss="modal"><span>&times;</span></button>
+    
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form>
                                                     <div class="mb-3">
                                                         <label for="documento" class="form-label" id="xd">Nombre de rol</label>
                                                         <input type="name" class="form-control" id="nombre" autofocus>
                                                     </div>
 
 
-                                                    <div class="mb-3">
-                                                        <label>Dashboard</label>
-                                                        <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label>Roles</label>
-                                                        <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label>Usuarios</label>
-                                                        <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label>Productos</label>
-                                                        <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label>Categoria de productos</label>
-                                                        <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label>Clientes</label>
-                                                        <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label>Ventas</label>
-                                                        <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label>Entradas</label>
-                                                        <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label>Estado</label>
-                                                        <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
-                                                        </div>
-                                                    </div>
+                                                        <div class="mb-3">
+                                                            <label>Dashboard</label>
+                                                            <div class="form-check form-switch">
+                                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                            </div>
+                                                          </div>
+                                                        <div class="mb-3">
+                                                            <label>Roles</label>
+                                                            <div class="form-check form-switch">
+                                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                            </div>
+                                                          </div>
+                                                          <div class="mb-3">
+                                                            <label>Usuarios</label>
+                                                            <div class="form-check form-switch">
+                                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                            </div>
+                                                          </div>
+                                                          <div class="mb-3">
+                                                            <label>Productos</label>
+                                                            <div class="form-check form-switch">
+                                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                            </div>
+                                                          </div>
+                                                          <div class="mb-3">
+                                                            <label>Categoria de productos</label>
+                                                            <div class="form-check form-switch">
+                                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                            </div>
+                                                          </div>
+                                                          <div class="mb-3">
+                                                            <label>Clientes</label>
+                                                            <div class="form-check form-switch">
+                                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                            </div>
+                                                          </div>            
+                                                          <div class="mb-3">
+                                                            <label>Ventas</label>
+                                                            <div class="form-check form-switch">
+                                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                            </div>
+                                                          </div>     
+                                                          <div class="mb-3">
+                                                            <label>Entradas</label>
+                                                            <div class="form-check form-switch">
+                                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                            </div>
+                                                          </div>  
+                                                          <div class="mb-3">
+                                                            <label>Estado</label>
+                                                            <div class="form-check form-switch">
+                                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                            </div>
+                                                          </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                                                    <button type="button" onclick="validarFormulario()"class="btn btn-success">Crear</button>
+                                                </div>
+    
                                             </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-                                                <button type="button" onclick="validarFormulario()" class="btn btn-success">Crear</button>
-                                            </div>
-
+    
                                         </div>
-
                                     </div>
-                                </div>
 
 
 
-                                <div class="modal fade" id="ventanaModal2" tabeindex="-1">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h2>Editar Rol y Permisos</h2>
-                                                <button class="close" data-bs-dismiss="modal"><span>&times;</span></button>
-
+                                    <div class="modal fade" id="ventanaModal2" tabeindex="-1">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h2>Editar Rol y Permisos</h2>
+                                                    <button class="close" data-bs-dismiss="modal"><span>&times;</span></button>
+    
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form>
+                                                        <div class="mb-3">
+                                                            <label>Dashboard</label>
+                                                            <div class="form-check form-switch">
+                                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                            </div>
+                                                          </div>
+                                                        <div class="mb-3">
+                                                            <label>Roles</label>
+                                                            <div class="form-check form-switch">
+                                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                            </div>
+                                                          </div>
+                                                          <div class="mb-3">
+                                                            <label>Usuarios</label>
+                                                            <div class="form-check form-switch">
+                                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                            </div>
+                                                          </div>
+                                                          <div class="mb-3">
+                                                            <label>Productos</label>
+                                                            <div class="form-check form-switch">
+                                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                            </div>
+                                                          </div>
+                                                          <div class="mb-3">
+                                                            <label>Categoria de productos</label>
+                                                            <div class="form-check form-switch">
+                                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                            </div>
+                                                          </div>
+                                                          <div class="mb-3">
+                                                            <label>Clientes</label>
+                                                            <div class="form-check form-switch">
+                                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                            </div>
+                                                          </div>            
+                                                          <div class="mb-3">
+                                                            <label>Ventas</label>
+                                                            <div class="form-check form-switch">
+                                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                            </div>
+                                                          </div>     
+                                                          <div class="mb-3">
+                                                            <label>Entradas</label>
+                                                            <div class="form-check form-switch">
+                                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                            </div>
+                                                          </div>  
+                                                          <div class="mb-3">
+                                                            <label>Estado</label>
+                                                            <div class="form-check form-switch">
+                                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
+                                                            </div>
+                                                          </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                                                    <button type="button" class="btn btn-success" onclick="validarFormulario2()">Guardar</button>
+                                                </div>
+    
                                             </div>
-                                            <div class="modal-body">
-                                                <form>
-                                                    <div class="mb-3">
-                                                        <label>Dashboard</label>
-                                                        <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label>Roles</label>
-                                                        <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label>Usuarios</label>
-                                                        <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label>Productos</label>
-                                                        <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label>Categoria de productos</label>
-                                                        <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label>Clientes</label>
-                                                        <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label>Ventas</label>
-                                                        <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label>Entradas</label>
-                                                        <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label>Estado</label>
-                                                        <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
-                                                        </div>
-                                                    </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-                                                <button type="button" class="btn btn-success" onclick="validarFormulario2()">Guardar</button>
-                                            </div>
-
+    
                                         </div>
-
                                     </div>
-                                </div>
 
 
 
-                            </div>
                         </div>
                     </div>
-                    <!-- ============================================================== -->
-                    <!-- End Left Sidebar - style you can find in sidebar.scss  -->
-                    <!-- ============================================================== -->
-                    <!-- ============================================================== -->
-                    <!-- Page wrapper  -->
-                    <!-- ============================================================== -->
-
-
-
-                    <!-- ============================================================== -->
-                    <!-- PRODUCTS YEARLY SALES -->
-                    <!-- ============================================================== -->
-
-                    <!-- footer -->
-                    <!-- ============================================================== -->
-
                 </div>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
 
+
+       
                 <!-- ============================================================== -->
-                <!-- End Page wrapper  -->
+                <!-- PRODUCTS YEARLY SALES -->
                 <!-- ============================================================== -->
-            </div>
-            <footer class="footer text-center"> 2022 ©
-            </footer>
+                
+            <!-- footer -->
             <!-- ============================================================== -->
-            <!-- End Wrapper -->
-            <!-- ============================================================== -->
-            <!-- ============================================================== -->
-            <!-- All Jquery -->
-            <!-- ============================================================== -->
-            <script src="plugins/bower_components/jquery/dist/jquery.min.js"></script>
-            <!-- Bootstrap tether Core JavaScript -->
-            <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-            <script src="js/app-style-switcher.js"></script>
-            <script src="plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js"></script>
-            <!--Wave Effects -->
-            <script src="js/waves.js"></script>
-            <!--Menu sidebar -->
-            <script src="js/sidebarmenu.js"></script>
-            <!--Custom JavaScript -->
-            <script src="js/custom.js"></script>
-            <!--This page JavaScript -->
-            <!--chartis chart-->
-            <script src="plugins/bower_components/chartist/dist/chartist.min.js"></script>
-            <script src="plugins/bower_components/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
-            <script src="js/pages/dashboards/dashboard1.js"></script>
-            <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+          
+        </div>
+        
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <footer class="footer text-center"> 2022 ©
+    </footer>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="plugins/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app-style-switcher.js"></script>
+    <script src="plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js"></script>
+    <!--Wave Effects -->
+    <script src="js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="js/custom.js"></script>
+    <!--This page JavaScript -->
+    <!--chartis chart-->
+    <script src="plugins/bower_components/chartist/dist/chartist.min.js"></script>
+    <script src="plugins/bower_components/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+    <script src="js/pages/dashboards/dashboard1.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-            <script>
-                function validarFormulario() {
-
-
-                    var Valnombre = document.getElementById('nombre').value;
-
-
-                    let NoEspeciales = /^[a-zA-ZÀ-ÿ\s]{1,40}$/ // Letras y espacios, pueden llevar acentos.
-                    var expReg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-                    let cedulaNum = /^\d{0,10}$/ // 0 a 9 numeros.
-                    let numerost = /^\d{0,11}$/
-                    let contraseVali = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/;
-
-
-                    //TODOS LOS CAMPOS VACIOS 
-                    if (!Valnombre) {
-                        return Swal.fire({
-                            icon: 'error',
-                            title: 'Oops...',
-                            text: 'Tienes que ingresar el campo'
-                        })
-                    }
-
-
-                    //NOOMBRE
-                    if (!Valnombre) {
-                        return Swal.fire({
-                            icon: 'error',
-                            title: 'Oops...',
-                            text: 'Ingrese su nombre'
-                        })
-                    }
-                    if (typeof Valnombre === "number") {
-                        return Swal.fire({
-                            icon: 'error',
-                            title: 'Oops...',
-                            text: 'El nombre no puede contener numeros'
-                        })
-                    }
-                    var validoNombre = NoEspeciales.test(Valnombre);
-                    if (!validoNombre) {
-                        return Swal.fire({
-                            icon: 'error',
-                            title: 'Oops...',
-                            text: 'El nombre no puede tener caracteres especiales'
-                        })
-                    }
+    <script>
 
 
 
+function validarFormulario() {
+    
 
-                    Swal.fire({
-                        icon: 'success',
-                        title: ';)',
-                        text: 'Se ha creado exitosamente'
-                    })
+    var Valnombre = document.getElementById('nombre').value;
+    
 
-
-
-
-                }
-
-                function validarFormulario2() {
-
-                    Swal.fire({
-                        icon: 'success',
-                        title: ';)',
-                        text: 'Se ha editado exitosamente'
-                    })
+    let NoEspeciales = /^[a-zA-ZÀ-ÿ\s]{1,40}$/ // Letras y espacios, pueden llevar acentos.
+    var expReg= /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    let cedulaNum = /^\d{0,10}$/ // 0 a 9 numeros.
+    let numerost = /^\d{0,11}$/
+    let contraseVali = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/;
 
 
-                }
-
-                function validarFormulario3() {
-                    Swal.fire({
-                        title: 'Are you sure?',
-                        text: "You won't be able to revert this!",
-                        icon: 'warning',
-                        showCancelButton: true,
-                        confirmButtonColor: '#3085d6',
-                        cancelButtonColor: '#d33',
-                        confirmButtonText: 'Yes, delete it!'
-                    }).then((result) => {
-                        if (result.isConfirmed) {
-                            Swal.fire(
-                                'Deleted!',
-                                'Your file has been deleted.',
-                                'success'
-                            )
-                        }
-                    })
+    //TODOS LOS CAMPOS VACIOS 
+    if(!Valnombre){
+        return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Tienes que ingresar el campo'
+      })
+    }
 
 
+    //NOOMBRE
+  if(!Valnombre){
+    return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Ingrese su nombre'
+      })
+    }
+    if(typeof Valnombre === "number"){
+        return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'El nombre no puede contener numeros'
+      })
+    }
+    var validoNombre = NoEspeciales.test(Valnombre);
+    if(!validoNombre){
+        return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'El nombre no puede tener caracteres especiales'
+      })
+    }
 
-                }
-            </script>
+
+
+
+    Swal.fire({
+                icon: 'success',
+                title: ';)',
+                text: 'Se ha creado exitosamente'
+            })
+ 
+    
+    
+  
+  }
+
+  function validarFormulario2(){
+
+    Swal.fire({
+                icon: 'success',
+                title: ';)',
+                text: 'Se ha editado exitosamente'
+            })
+
+
+  }
+
+  function validarFormulario3(){
+    Swal.fire({
+  title: 'Are you sure?',
+  text: "You won't be able to revert this!",
+  icon: 'warning',
+  showCancelButton: true,
+  confirmButtonColor: '#3085d6',
+  cancelButtonColor: '#d33',
+  confirmButtonText: 'Yes, delete it!'
+}).then((result) => {
+  if (result.isConfirmed) {
+    Swal.fire(
+      'Deleted!',
+      'Your file has been deleted.',
+      'success'
+    )
+  }
+})
+    
+
+
+}
+
+
+
+
+    </script>
 </body>
 
 </html>
