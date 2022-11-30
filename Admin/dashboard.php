@@ -165,241 +165,245 @@
         <!-- Page wrapper  -->
         <!-- ============================================================== -->
         <div class="page-wrapper">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="white-box">
+                        <!-- ============================================================== -->
+                        <!-- Bread crumb and right sidebar toggle -->
+                        <!-- ============================================================== -->
+
+                        <div class="page-breadcrumb bg-white">
+
+                            <div class="">
+                                <div class="d-md-flex">
+                                    <ol class="breadcrumb ms-auto">
+                                        <li><a href="grafica.php" class="btn btn-primary  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Grafica
+                                            </a>
+                                        </li>
+                                    </ol>
+                                    <ol class="breadcrumb ms-auto">
+
+                                        <a href="top10.php" class="btn btn-primary  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Top:5</a>
+                                    </ol>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-fluid">
+                            <div class="table-responsive">
+                                <table class="table no-wrap">
+                                    <thead>
+                                        <tr>
+                                        <tr>
+
+                                            <th colspan="6" class="text-center">
+                                                <h1 class="titulo-ventas ">Ventas de jugos</h1>
+
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="6">
+                                                <div class="formButton">
+                                                    <form action="" class="bucar_list espacio">
+                                                        <input type="search" name="nombre" placeholder="Buscar">
+                                                    </form>
+
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <th class="border-top-0">ID</th>
+                                        <th class="border-top-0">Nombre</th>
+                                        <th class="border-top-0">Producto</th>
+                                        <th class="border-top-0">Cantidad</th>
+                                        <th class="border-top-0">Precio</th>
+                                        <th class="border-top-0">Opciones</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td class="txt-oflo">Johan</td>
+                                            <td>jugo de mango</td>
+                                            <td class="txt-oflo">10</td>
+                                            <td><span class="text-success">$24</span></td>
+                                            <td class="txt-oflo">
+                                                <!-- eliminar -->
 
 
-            <!-- ============================================================== -->
-            <!-- Bread crumb and right sidebar toggle -->
-            <!-- ============================================================== -->
 
-            <div class="page-breadcrumb bg-white">
+                                                <!-- detalles -->
+                                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#Datos">
+                                                    <i class="bi bi-file-earmark-spreadsheet">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                                        </svg>
+                                                    </i>
+                                                </button>
+                                            </td>
 
-                <div class="">
-                    <div class="d-md-flex">
-                        <ol class="breadcrumb ms-auto">
-                            <li><a href="grafica.php" class="btn btn-primary  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Grafica
-                                </a>
-                            </li>
-                        </ol>
-                        <ol class="breadcrumb ms-auto">
+                                        </tr>
 
-                            <a href="top10.php" class="btn btn-primary  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Top:5</a>
-                        </ol>
+                                        <tr>
+                                            <td>1</td>
+                                            <td class="txt-oflo">Johan</td>
+                                            <td>jugo de mango</td>
+                                            <td class="txt-oflo">10</td>
+                                            <td><span class="text-success">$24</span></td>
+                                            <td class="txt-oflo">
+                                                <!-- eliminar -->
 
-                    </div>
-                </div>
-            </div>
 
-            <div class="container-fluid">
-                <div class="table-responsive">
-                    <table class="table no-wrap">
-                        <thead>
-                            <tr>
-                            <tr>
 
-                                <th colspan="6" class="text-center">
-                                    <h1 class="titulo-ventas ">Ventas de jugos</h1>
+                                                <!-- detalles -->
+                                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#Datos">
+                                                    <i class="bi bi-file-earmark-spreadsheet"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                                        </svg></i>
+                                                </button>
+                                            </td>
 
-                                </th>
-                            </tr>
-                            <tr>
-                                <th colspan="6">
-                                    <div class="formButton">
-                                        <form action="" class="bucar_list espacio">
-                                            <input type="search" name="nombre" placeholder="Buscar">
-                                        </form>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td class="txt-oflo">Johan</td>
+                                            <td>jugo de mango</td>
+                                            <td class="txt-oflo">10</td>
+                                            <td><span class="text-success">$24</span></td>
+                                            <td class="txt-oflo">
+                                                <!-- eliminar -->
 
+
+
+                                                <!-- detalles -->
+                                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#Datos">
+                                                    <i class="bi bi-file-earmark-spreadsheet"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                                        </svg></i>
+                                                </button>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td class="txt-oflo">Johan</td>
+                                            <td>jugo de mango</td>
+                                            <td class="txt-oflo">10</td>
+                                            <td><span class="text-success">$24</span></td>
+                                            <td class="txt-oflo">
+                                                <!-- eliminar -->
+
+
+
+                                                <!-- detalles -->
+                                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#Datos">
+                                                    <i class="bi bi-file-earmark-spreadsheet"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                                        </svg></i>
+                                                </button>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td class="txt-oflo">Johan</td>
+                                            <td>jugo de mango</td>
+                                            <td class="txt-oflo">10</td>
+                                            <td><span class="text-success">$24</span></td>
+                                            <td class="txt-oflo">
+                                                <!-- eliminar -->
+
+
+
+                                                <!-- detalles -->
+                                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#Datos">
+                                                    <i class="bi bi-file-earmark-spreadsheet"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                                        </svg></i>
+                                                </button>
+                                            </td>
+
+                                        </tr>
+
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+
+
+                        <!-- Modal1 -->
+                        <div class="modal fade" id="elliminar" tabindex="-1" aria-labelledby="elliminar" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="titulo-Modal ">Eliminar pedido: 1.</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                </th>
-                            </tr>
-                            <th class="border-top-0">ID</th>
-                            <th class="border-top-0">Nombre</th>
-                            <th class="border-top-0">Producto</th>
-                            <th class="border-top-0">Cantidad</th>
-                            <th class="border-top-0">Precio</th>
-                            <th class="border-top-0">Opciones</th>
-
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td class="txt-oflo">Johan</td>
-                                <td>jugo de mango</td>
-                                <td class="txt-oflo">10</td>
-                                <td><span class="text-success">$24</span></td>
-                                <td class="txt-oflo">
-                                    <!-- eliminar -->
-
-                                    
-
-                                    <!-- detalles -->
-                                    <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#Datos">
-                                        <i class="bi bi-file-earmark-spreadsheet">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
-                                            </svg>
-                                        </i>
-                                    </button>
-                                </td>
-
-                            </tr>
-
-                            <tr>
-                                <td>1</td>
-                                <td class="txt-oflo">Johan</td>
-                                <td>jugo de mango</td>
-                                <td class="txt-oflo">10</td>
-                                <td><span class="text-success">$24</span></td>
-                                <td class="txt-oflo">
-                                    <!-- eliminar -->
-
-                                    
-
-                                    <!-- detalles -->
-                                    <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#Datos">
-                                        <i class="bi bi-file-earmark-spreadsheet"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
-                                            </svg></i>
-                                    </button>
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td class="txt-oflo">Johan</td>
-                                <td>jugo de mango</td>
-                                <td class="txt-oflo">10</td>
-                                <td><span class="text-success">$24</span></td>
-                                <td class="txt-oflo">
-                                    <!-- eliminar -->
-
-                                    
-
-                                    <!-- detalles -->
-                                    <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#Datos">
-                                        <i class="bi bi-file-earmark-spreadsheet"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
-                                            </svg></i>
-                                    </button>
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td class="txt-oflo">Johan</td>
-                                <td>jugo de mango</td>
-                                <td class="txt-oflo">10</td>
-                                <td><span class="text-success">$24</span></td>
-                                <td class="txt-oflo">
-                                    <!-- eliminar -->
-
-                                    
-
-                                    <!-- detalles -->
-                                    <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#Datos">
-                                        <i class="bi bi-file-earmark-spreadsheet"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
-                                            </svg></i>
-                                    </button>
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td class="txt-oflo">Johan</td>
-                                <td>jugo de mango</td>
-                                <td class="txt-oflo">10</td>
-                                <td><span class="text-success">$24</span></td>
-                                <td class="txt-oflo">
-                                    <!-- eliminar -->
-
-                                    
-
-                                    <!-- detalles -->
-                                    <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#Datos">
-                                        <i class="bi bi-file-earmark-spreadsheet"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
-                                            </svg></i>
-                                    </button>
-                                </td>
-
-                            </tr>
-
-
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-
-
-            <!-- Modal1 -->
-            <div class="modal fade" id="elliminar" tabindex="-1" aria-labelledby="elliminar" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="titulo-Modal ">Eliminar pedido: 1.</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <div class="modal-body">
+                                        <p class="p-descri">Nombre: Johan</p>
+                                        <p class="p-descri"><b>productos:</b> <br>
+                                            1: jugo mango. <br>
+                                            2: jugo fresas. <br>
+                                            3: jugo piña. <br>
+                                        </p>
+                                        <p class="p-descri"><b>Precio:</b> 5.000</p>
+                                    </div>
+                                    <div class="div-botones ">
+                                        <button type="button" class=" m-2 btn-success eliminarr" data-bs-dismiss="modal">Eliminar.</button>
+                                        <button type="button" class="m-2 btn btn-danger" data-bs-dismiss="modal">cancelar.</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="modal-body">
-                            <p class="p-descri">Nombre: Johan</p>
-                            <p class="p-descri"><b>productos:</b> <br>
-                                1: jugo mango. <br>
-                                2: jugo fresas. <br>
-                                3: jugo piña. <br>
-                            </p>
-                            <p class="p-descri"><b>Precio:</b> 5.000</p>
+
+                        <!-- Modal2 -->
+                        <div class="modal fade" id="Datos" tabindex="-1" aria-labelledby="Datos" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="titulo-Modal ">Detalles: 1.</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="p-descri">Nombre:Johan</p>
+                                        <p class="p-descri">productos: <br>
+                                            1: jugo mango. <br>
+                                            2: jugo fresas. <br>
+                                            3: jugo piña. <br>
+                                        </p>
+                                        <p class="p-descri">Precio: 5.000</p>
+                                    </div>
+                                    <div class="m-4 div-botones atras">
+                                        <button type="button" class="dd btn btn-danger" data-bs-dismiss="modal">Atras.</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="div-botones ">
-                            <button type="button" class=" m-2 btn-success eliminarr" data-bs-dismiss="modal">Eliminar.</button>
-                            <button type="button" class="m-2 btn btn-danger" data-bs-dismiss="modal">cancelar.</button>
-                        </div>
+                        <!-- ============================================================== -->
+                        <!-- End Container fluid  -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- footer -->
+                        <!-- ============================================================== -->
+
+                        <!-- ============================================================== -->
+                        <!-- End footer -->
+                        <!-- ============================================================== -->
                     </div>
                 </div>
+                <!-- ============================================================== -->
+                <!-- End Page wrapper  -->
+                <!-- ============================================================== -->
             </div>
-
-            <!-- Modal2 -->
-            <div class="modal fade" id="Datos" tabindex="-1" aria-labelledby="Datos" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="titulo-Modal ">Detalles: 1.</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <p class="p-descri">Nombre:Johan</p>
-                            <p class="p-descri">productos: <br>
-                                1: jugo mango. <br>
-                                2: jugo fresas. <br>
-                                3: jugo piña. <br>
-                            </p>
-                            <p class="p-descri">Precio: 5.000</p>
-                        </div>
-                        <div class="m-4 div-botones atras">
-                            <button type="button" class="dd btn btn-danger" data-bs-dismiss="modal">Atras.</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- ============================================================== -->
-            <!-- End Container fluid  -->
-            <!-- ============================================================== -->
-            <!-- ============================================================== -->
-            <!-- footer -->
-            <!-- ============================================================== -->
-
-            <!-- ============================================================== -->
-            <!-- End footer -->
-            <!-- ============================================================== -->
         </div>
-        <!-- ============================================================== -->
-        <!-- End Page wrapper  -->
-        <!-- ============================================================== -->
     </div>
     <!-- ============================================================== -->
     <!-- End Wrapper -->

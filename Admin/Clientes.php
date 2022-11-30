@@ -178,21 +178,19 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="white-box">
-                            <h3 class="box-title">Cliente</h3>
                             <div class="table-responsive">
                                 <table class="table text-nowrap">
                                     <thead>
                                         <tr>
-                                            <!-- <tr>
-                                                <th colspan="6" class="text-center">
-                                                    <h1 class="titulo-ventas ">Jugos pedidos</h1>
-                                                </th>
-    
-                                            </tr> -->
+                                            <th colspan="9" class="text-center">
+                                                <h1 class="titulo-ventas ">Cliente</h1>
+                                            </th>
                                         <tr>
-                                            <form action="" class="bucar_list espacio">
-                                                <input type="search" name="nombre" placeholder="Buscar">
-                                            </form>
+                                            <th colspan="9" class="bucar_list espacio">
+                                                <form action="" class="bucar_list espacio">
+                                                    <input type="search" name="nombre" placeholder="Buscar">
+                                                </form>
+                                            </th>
                                         </tr>
                                         <th class="border-top-0">ID</th>
                                         <th class="border-top-0">Documento</th>
@@ -314,7 +312,7 @@
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-                                                    <button class="btn btn-success" type="button"  data-bs-dismiss="modal" onclick="validarFormulario2()">Guardar</button>
+                                                    <button class="btn btn-success" type="button" data-bs-dismiss="modal" onclick="validarFormulario2()">Guardar</button>
                                                 </div>
                                             </form>
 

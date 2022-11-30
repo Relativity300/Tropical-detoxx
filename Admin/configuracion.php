@@ -173,16 +173,22 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="white-box">
-                            <h3 class="box-title">Roles</h3>
 
                             <div class="table-responsive">
                                 <table class="table text-nowrap">
                                     <thead>
                                         <tr>
                                         <tr>
+                                            <th colspan="9" class="text-center">
+                                                <h1 class="titulo-ventas ">Roles</h1>
+                                            </th>
+                                        <tr>
+                                        <tr>
+                                        <th colspan="9" class="bucar_list espacio">
                                             <form action="" class="bucar_list espacio">
                                                 <input type="search" name="nombre" placeholder="Buscar">
                                             </form>
+                                            </th>
                                         </tr>
                                         <th class="border-top-0">ID</th>
                                         <th class="border-top-0">Rol</th>
