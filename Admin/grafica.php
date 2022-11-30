@@ -215,13 +215,13 @@
                         <li data-ejeY='0 uni'></li>
                     </ul>
                     <ul class='eje-x'>
-                        <li data-ejeX='37'><i>enero</i></li>
-                        <li data-ejeX='56'><i>febrero</i></li>
-                        <li data-ejeX='25'><i>marzo</i></li>
-                        <li data-ejeX='18'><i>abril</i></li>
-                        <li data-ejeX='45'><i>Mayo</i></li>
-                        <li data-ejeX='50'><i>junio</i></li>
-                        <li data-ejeX='33'><i>julio</i></li>
+                        <li data-ejeX='37'><i>enero: 50.000$ </i></li>
+                        <li data-ejeX='56'><i>febrero: 70.000$ </i></li>
+                        <li data-ejeX='25'><i>marzo: 30.000$ </i></li>
+                        <li data-ejeX='18'><i>abril: 20.000$ </i></li>
+                        <li data-ejeX='45'><i>Mayo: 30.000$ </i></li>
+                        <li data-ejeX='50'><i>junio: 60.000$ </i></li>
+                        <li data-ejeX='33'><i>julio: 40.000$ </i></li>
                     </ul>
                 </div>
             </div>

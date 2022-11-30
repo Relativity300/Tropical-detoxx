@@ -208,7 +208,9 @@
                                                     <form action="" class="bucar_list espacio">
                                                         <input type="search" name="nombre" placeholder="Buscar">
                                                     </form>
-
+                                                    <div class="fechas">
+                                                        <input type="month" class="mes" name="mes" min="2022-00" max="2022-12">
+                                                    </div>
                                                 </div>
                                             </th>
                                         </tr>

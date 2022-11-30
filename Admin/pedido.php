@@ -225,8 +225,22 @@
 
                                 <div class="editados">
                                     <ul>
-                                        <li class="edi2">Mango $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> </li>
-                                        <li class="edi2">Mango $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> </li>
+                                        <li class="edi2">Mango $2.000
+                                            <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#Insumo">
+                                                <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                                        <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
+                                                        <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
+                                                    </svg></i>
+                                            </button>
+                                        </li>
+                                        <li class="edi2">Mango $2.000
+                                            <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#Insumo">
+                                                <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                                        <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
+                                                        <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
+                                                    </svg></i>
+                                            </button>
+                                        </li>
                                         <li class="edi2"><b>Total: <samp>3.000</samp></b></li>
                                     </ul>
 
@@ -236,9 +250,9 @@
 
 
                         <div class="div-botones">
-                            <button type="button" class="bbb btn btn-success " data-bs-dismiss="modal">Eliminar.</button>
+                            <button type="button" class="bbb btn btn-danger" data-bs-dismiss="modal">Eliminar.</button>
                             <!-- <button type="button" class="bbb btn btn-danger" data-bs-dismiss="modal" onclick="validarFormulario()" >Editar.</button> -->
-                            <button class="bbb btn btn-danger" type="button" data-bs-dismiss="modal" onclick="validarFormulario()">Guardar</button>
+                            <button class="bbb btn btn-success" type="button" data-bs-dismiss="modal" onclick="validarFormulario()">Guardar</button>
                         </div>
                     </div>
                 </div>
@@ -250,17 +264,20 @@
                         <thead>
                             <tr>
                             <tr>
-                                <th colspan="6" class="text-center">
+                                <th colspan="6  " class="text-center">
                                     <h1 class="titulo-ventas ">Jugos pedidos</h1>
                                 </th>
 
                             </tr>
                             <tr>
-                                <th colspan="6">
+                                <th colspan="7">
                                     <div class="formButton">
                                         <form action="" class="bucar_list espacio">
                                             <input type="search" name="nombre" placeholder="Buscar">
                                         </form>
+                                        <div class="fechas">
+                                            <input type="month" class="mes" name="mes" min="2022-00" max="2022-12">
+                                        </div>
                                         <div class="Crearr">
                                             <button type="button " class=" button btn btn-primary" data-bs-toggle="modal" data-bs-target="#crear">
                                                 Crear
@@ -274,6 +291,7 @@
                             <th class="border-top-0">Direcion</th>
                             <th class="border-top-0">Pago</th>
                             <th class="border-top-0">Estado</th>
+                            <th class="border-top-0">Total</th>
                             <th class="border-top-0">Opciones</th>
 
                             </tr>
@@ -292,17 +310,18 @@
                                             <option value="">En cola.</option>
                                         </select>
                                     </span></td>
+                                <td>5.000</td>
                                 <td class="txt-oflo">
-                                 
-                                <!-- eliminar -->
-                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar">
+
+                                    <!-- eliminar -->
+                                    <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar">
                                         <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
                                                 <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
                                                 <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
                                             </svg></i>
-                                    </button>   
-                                
-                                <!-- detalles -->
+                                    </button>
+
+                                    <!-- detalles -->
 
                                     <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
@@ -335,17 +354,18 @@
                                             <option value="">En cola.</option>
                                         </select>
                                     </span></td>
+                                <td>5.000</td>
                                 <td class="txt-oflo">
-                                 
-                                <!-- eliminar -->
-                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar">
+
+                                    <!-- eliminar -->
+                                    <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar">
                                         <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
                                                 <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
                                                 <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
                                             </svg></i>
-                                    </button>   
-                                
-                                <!-- detalles -->
+                                    </button>
+
+                                    <!-- detalles -->
 
                                     <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
@@ -376,17 +396,18 @@
                                             <option value="">En cola.</option>
                                         </select>
                                     </span></td>
+                                <td>5.000</td>
                                 <td class="txt-oflo">
-                                 
-                                <!-- eliminar -->
-                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar">
+
+                                    <!-- eliminar -->
+                                    <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar">
                                         <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
                                                 <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
                                                 <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
                                             </svg></i>
-                                    </button>   
-                                
-                                <!-- detalles -->
+                                    </button>
+
+                                    <!-- detalles -->
 
                                     <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
@@ -417,17 +438,18 @@
                                             <option value="">En cola.</option>
                                         </select>
                                     </span></td>
+                                <td>5.000</td>
                                 <td class="txt-oflo">
-                                 
-                                <!-- eliminar -->
-                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar">
+
+                                    <!-- eliminar -->
+                                    <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar">
                                         <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
                                                 <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
                                                 <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
                                             </svg></i>
-                                    </button>   
-                                
-                                <!-- detalles -->
+                                    </button>
+
+                                    <!-- detalles -->
 
                                     <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
@@ -458,17 +480,18 @@
                                             <option value="">En cola.</option>
                                         </select>
                                     </span></td>
+                                <td>5.000</td>
                                 <td class="txt-oflo">
-                                 
-                                <!-- eliminar -->
-                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar">
+
+                                    <!-- eliminar -->
+                                    <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar">
                                         <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
                                                 <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
                                                 <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
                                             </svg></i>
-                                    </button>   
-                                
-                                <!-- detalles -->
+                                    </button>
+
+                                    <!-- detalles -->
 
                                     <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
@@ -507,7 +530,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body modallll">
-                        <form action="">
+                            <form action="">
                                 <label for="">Nombre</label>
                                 <input class="gteneral" type="name" name="name" id="nombre1"><br>
 
@@ -549,8 +572,22 @@
 
                                 <div class="editados">
                                     <ul>
-                                        <li class="edi2">Mango $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> </li>
-                                        <li class="edi2">Mango $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> </li>
+                                        <li class="edi2">Mango $2.000
+                                            <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#Insumo">
+                                                <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                                        <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
+                                                        <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
+                                                    </svg></i>
+                                            </button>
+                                        </li>
+                                        <li class="edi2">Mango $2.000
+                                            <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#Insumo">
+                                                <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                                        <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
+                                                        <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
+                                                    </svg></i>
+                                            </button>
+                                        </li>
                                         <li class="edi2"><b>Total: <samp>3.000</samp></b></li>
                                     </ul>
 
@@ -558,8 +595,8 @@
                             </div>
                         </div>
                         <div class="div-botones">
-                            <button type="button" class="bbb btn btn-success " data-bs-dismiss="modal">Eliminar.</button>
-                            <button type="button" class="bbb btn btn-danger" data-bs-dismiss="modal" onclick="validarFormulario2()" >Editar.</button>
+                            <button type="button" class="bbb btn btn-danger" data-bs-dismiss="modal">cancelar.</button>
+                            <button type="button" class="bbb btn btn-success" data-bs-dismiss="modal" onclick="validarFormulario2()">Editar.</button>
                         </div>
                     </div>
                 </div>
@@ -569,19 +606,34 @@
             <!-- detalles -->
             <div class="modal fade" id="Datos" tabindex="-1" aria-labelledby="Datos" aria-hidden="true">
                 <div class="modal-dialog">
-                    <div class="modal-content">
+                    <div class="modal-content wh">
                         <div class="modal-header">
                             <h1 class="titulo-Modal ">Detalles: 1.</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body">
-                            <p class="p-descri"><b>Nombre: </b>Johan</p>
-                            <p class="p-descri"><b>productos:</b> <br>
-                                1: jugo mango: 3.000 <br>
-                                2: jugo fresas: 1.000<br>
-                                3: jugo piña: 1.000<br>
-                            </p>
-                            <p class="p-descri"><b>Precio:</b> 5.000</p>
+
+                        <div class="modal-body hw">
+                            <div class="contenedor">
+                                <div class="datos">
+                                    <p class="li"><b>Nombre:</b> Johan</p>
+                                    <p class="li"><b>Telefono:</b> 3123521235</p>
+                                    <p class="li"><b>Fecha de compra:</b> 11/08/2022</p>
+                                    <p class="li"><b>Estado:</b> en proceso</p>
+                                    <p class="li"><b>Direcion:</b> Santa lucia</p>
+                                    <p class="li"><b>Personalizado:</b> no</p>
+
+                                </div>
+                                <div class="pedido">
+                                    <h1 class="tilepedido">Prductos</h1>
+                                    <ul>
+                                        <li class="li"><b>Vaso:</b> 2 de mango <br><b>Tamaño:</b> medio<br><b>Precio:</b> 2.000 </li>
+                                        <li class="li"><b>Vaso:</b> 1 de mango <br><b>Tamaño:</b> medio<br><b>Precio:</b> 1.000 </li>
+                                        <li class="li"><b>Vaso:</b> 3 de mango <br><b>Tamaño:</b> medio<br><b>Precio:</b> 3.000 </li>
+                                        <li class="li"><b>Total:<samp> 6.000</samp></b></li>
+                                    </ul>
+                                </div>
+                            </div>
+
                         </div>
                         <div class="div-boto nes">
                             <button type="button" class="bbb btn btn-danger" data-bs-dismiss="modal">Atras.</button>
@@ -592,9 +644,9 @@
 
 
 
-             <!-- Modal3 -->
-             <!-- Eliminar -->
-             <div class="modal fade" id="elliminar" tabindex="-1" aria-labelledby="elliminar" aria-hidden="true">
+            <!-- Modal3 -->
+            <!-- Eliminar -->
+            <div class="modal fade" id="elliminar" tabindex="-1" aria-labelledby="elliminar" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -603,20 +655,26 @@
                         </div>
                         <div class="modal-body">
                             <p class="p-descri">Nombre: Johan</p>
-                            <p class="p-descri"><b>productos:</b> <br>
-                                1: jugo mango. <br>
-                                2: jugo fresas. <br>
-                                3: jugo piña. <br>
-                            </p>
-                            <p class="p-descri"><b>Precio:</b> 5.000</p>
+                            <div class="">
+                                <h1 class="tilepedido">Prductos</h1>
+                                <ul class="ulEli">
+                                    <li class="li"><b>Vaso:</b> 2 de mango <b>Tamaño:</b> medio<b> Precio:</b> 2.000 </li>
+                                    <li class="li"><b>Vaso:</b> 1 de mango <b>Tamaño:</b> medio<b> Precio:</b> 1.000 </li>
+                                    <li class="li"><b>Vaso:</b> 3 de mango <b>Tamaño:</b> medio<b> Precio:</b> 3.000 </li>
+                                    <li class="li"><b>Total:<samp> 6.000</samp></b></li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="div-botones ">
-                            <button type="button" class=" m-2 btn-success eliminarr" data-bs-dismiss="modal">Eliminar.</button>
+                            <button type="button" class=" m-2 btn-success eliminarr" data-bs-dismiss="modal" onclick="elliminarr()">Eliminar.</button>
                             <button type="button" class="m-2 btn btn-danger" data-bs-dismiss="modal">cancelar.</button>
                         </div>
                     </div>
                 </div>
             </div>
+
+
+
             <!-- ============================================================== -->
             <!-- End Container fluid  -->
             <!-- ============================================================== -->
@@ -654,229 +712,236 @@
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
- <script src="plugins/bower_components/jquery/dist/jquery.min.js"></script>
-                    <!-- Bootstrap tether Core JavaScript -->
-                    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-                    <script src="js/app-style-switcher.js"></script>
-                    <!--Wave Effects -->
-                    <script src="js/waves.js"></script>
-                    <!--Menu sidebar -->
-                    <script src="js/sidebarmenu.js"></script>
-                    <!--Custom JavaScript -->
-                    <script src="js/custom.js"></script>
-                    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="plugins/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app-style-switcher.js"></script>
+    <!--Wave Effects -->
+    <script src="js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="js/custom.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
 
     <script>
-                        function mostrarContrasena() {
-                            var tipo = document.getElementById("contrasenia");
-                            if (tipo.type == "password") {
-                                tipo.type = "text";
-                            } else {
-                                tipo.type = "password";
-                            }
-                        }
+        function mostrarContrasena() {
+            var tipo = document.getElementById("contrasenia");
+            if (tipo.type == "password") {
+                tipo.type = "text";
+            } else {
+                tipo.type = "password";
+            }
+        }
 
-                        function mostrarContrasena2() {
-                            var tipo = document.getElementById("Confirmclave");
-                            if (tipo.type == "password") {
-                                tipo.type = "text";
-                            } else {
-                                tipo.type = "password";
-                            }
-                        }
+        function mostrarContrasena2() {
+            var tipo = document.getElementById("Confirmclave");
+            if (tipo.type == "password") {
+                tipo.type = "text";
+            } else {
+                tipo.type = "password";
+            }
+        }
 
-                        function mostrarContrasena3() {
-                            var tipo = document.getElementById("contrasenia1");
-                            if (tipo.type == "password") {
-                                tipo.type = "text";
-                            } else {
-                                tipo.type = "password";
-                            }
-                        }
-
-
-
-                        function mostrarContrasena4() {
-                            var tipo = document.getElementById("Confirmclave1");
-                            if (tipo.type == "password") {
-                                tipo.type = "text";
-                            } else {
-                                tipo.type = "password";
-                            }
-                        }
+        function mostrarContrasena3() {
+            var tipo = document.getElementById("contrasenia1");
+            if (tipo.type == "password") {
+                tipo.type = "text";
+            } else {
+                tipo.type = "password";
+            }
+        }
 
 
 
-                        function validarFormulario() {
+        function mostrarContrasena4() {
+            var tipo = document.getElementById("Confirmclave1");
+            if (tipo.type == "password") {
+                tipo.type = "text";
+            } else {
+                tipo.type = "password";
+            }
+        }
+
+        // elliminar
+        function elliminarr() {
+            Swal.fire({
+                icon: 'success',
+                title: ';)',
+                text: 'Pedido eliminado'
+            })
+        }
+
+        function validarFormulario() {
 
 
-                            var Valnombre = document.getElementById('nombre').value;
-                            var Valdireccion = document.getElementById('direccion').value;
-                            var Valtelefono = document.getElementById('telefono').value;
+            var Valnombre = document.getElementById('nombre').value;
+            var Valdireccion = document.getElementById('direccion').value;
+            var Valtelefono = document.getElementById('telefono').value;
 
-                            let NoEspeciales = /^[a-zA-ZÀ-ÿ\s]{1,40}$/ // Letras y espacios, pueden llevar acentos.
-                            var expReg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-                            let cedulaNum = /^\d{0,10}$/ // 0 a 9 numeros.
-                            let numerost = /^\d{0,11}$/
-                            let contraseVali = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/;
-
-
-                            //TODOS LOS CAMPOS VACIOS 
-                            if (!Valnombre && !Valtelefono && !Valdireccion) {
-                                return Swal.fire({
-                                    icon: 'error',
-                                    title: 'Oops...',
-                                    text: 'Tienes que ingresar todos los campos'
-                                })
-                            }
+            let NoEspeciales = /^[a-zA-ZÀ-ÿ\s]{1,40}$/ // Letras y espacios, pueden llevar acentos.
+            var expReg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            let cedulaNum = /^\d{0,10}$/ // 0 a 9 numeros.
+            let numerost = /^\d{0,11}$/
+            let contraseVali = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/;
 
 
-                            //NOOMBRE
-                            if (!Valnombre) {
-                                return Swal.fire({
-                                    icon: 'error',
-                                    title: 'Oops...',
-                                    text: 'Ingrese su nombre'
-                                })
-                            }
-                            if (typeof Valnombre === "number") {
-                                return Swal.fire({
-                                    icon: 'error',
-                                    title: 'Oops...',
-                                    text: 'El nombre no puede contener numeros'
-                                })
-                            }
-                            var validoNombre = NoEspeciales.test(Valnombre);
-                            if (!validoNombre) {
-                                return Swal.fire({
-                                    icon: 'error',
-                                    title: 'Oops...',
-                                    text: 'El nombre no puede tener caracteres especiales'
-                                })
-                            }
-
-                            //telefono
-                            var Validotelefono = numerost.test(Valtelefono)
-
-                            if (!Validotelefono) {
-                                return Swal.fire({
-                                    icon: 'error',
-                                    title: 'Oops...',
-                                    text: 'El numero debe tener 10 digitos'
-                                })
-                            }
+            //TODOS LOS CAMPOS VACIOS 
+            if (!Valnombre && !Valtelefono && !Valdireccion) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Tienes que ingresar todos los campos'
+                })
+            }
 
 
-                            if (!Valdireccion) {
-                                return Swal.fire({
-                                    icon: 'error',
-                                    title: 'Oops...',
-                                    text: 'Ingrese su direccion'
-                                })
-                            }
+            //NOOMBRE
+            if (!Valnombre) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Ingrese su nombre'
+                })
+            }
+            if (typeof Valnombre === "number") {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El nombre no puede contener numeros'
+                })
+            }
+            var validoNombre = NoEspeciales.test(Valnombre);
+            if (!validoNombre) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El nombre no puede tener caracteres especiales'
+                })
+            }
+
+            //telefono
+            var Validotelefono = numerost.test(Valtelefono)
+
+            if (!Validotelefono) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El numero debe tener 10 digitos'
+                })
+            }
 
 
-
-                            Swal.fire({
-                                icon: 'success',
-                                title: ';)',
-                                text: 'Se ha creado exitosamente'
-                            })
-
-
-
-
-
-
-                        }
-
-
-
-                        function validarFormulario2() {
-
-
-                            var Valnombre1 = document.getElementById('nombre1').value;
-                            var Valdireccion1 = document.getElementById('direccion1').value;
-                            var Valtelefono1 = document.getElementById('telefono1').value;
-
-                            let NoEspeciales = /^[a-zA-ZÀ-ÿ\s]{1,40}$/ // Letras y espacios, pueden llevar acentos.
-                            var expReg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-                            let cedulaNum = /^\d{0,10}$/ // 0 a 9 numeros.
-                            let numerost = /^\d{0,11}$/
-                            let contraseVali = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/;
-
-
-                            //TODOS LOS CAMPOS VACIOS 
-                            if (!Valnombre1  && !Valtelefono1 && !Valdireccion1 ) {
-                                return Swal.fire({
-                                    icon: 'error',
-                                    title: 'Oops...',
-                                    text: 'Tienes que ingresar todos los campos'
-                                })
-                            }
-
-
-                            if (!Valdireccion1) {
-                                return Swal.fire({
-                                    icon: 'error',
-                                    title: 'Oops...',
-                                    text: 'Ingrese su direccion'
-                                })
-                            }
-
-                            //NOOMBRE
-                            if (!Valnombre1) {
-                                return Swal.fire({
-                                    icon: 'error',
-                                    title: 'Oops...',
-                                    text: 'Ingrese su nombre'
-                                })
-                            }
-                            if (typeof Valnombre1 === "number") {
-                                return Swal.fire({
-                                    icon: 'error',
-                                    title: 'Oops...',
-                                    text: 'El nombre no puede contener numeros'
-                                })
-                            }
-                            var validoNombre1 = NoEspeciales.test(Valnombre1);
-                            if (!validoNombre1) {
-                                return Swal.fire({
-                                    icon: 'error',
-                                    title: 'Oops...',
-                                    text: 'El nombre no puede tener caracteres especiales'
-                                })
-                            }
-
-                            if (!Valdireccion1) {
-                                return Swal.fire({
-                                    icon: 'error',
-                                    title: 'Oops...',
-                                    text: 'Ingrese su direccion'
-                                })
-                            }
-                           
-                            Swal.fire({
-                                icon: 'success',
-                                title: ';)',
-                                text: 'Se ha editado exitosamente'
-                            })
-
-
-                            //FALTA TERMINA LA ALERTA Y QUE TE LLEVE EL OK AL LOGIN 
-                            // Swal.fire({
-                            //   icon: 'success',
-                            //   title: ':)',
-                            //   text: 'El usuario fue creado exitosamente',
-                            // })
-                            // return window.location.href = "/";
+            if (!Valdireccion) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Ingrese su direccion'
+                })
+            }
 
 
 
-                        }
-                    </script>
+            Swal.fire({
+                icon: 'success',
+                title: ';)',
+                text: 'Se ha creado exitosamente'
+            })
+
+
+
+
+
+
+        }
+
+
+
+        function validarFormulario2() {
+
+
+            var Valnombre1 = document.getElementById('nombre1').value;
+            var Valdireccion1 = document.getElementById('direccion1').value;
+            var Valtelefono1 = document.getElementById('telefono1').value;
+
+            let NoEspeciales = /^[a-zA-ZÀ-ÿ\s]{1,40}$/ // Letras y espacios, pueden llevar acentos.
+            var expReg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            let cedulaNum = /^\d{0,10}$/ // 0 a 9 numeros.
+            let numerost = /^\d{0,11}$/
+            let contraseVali = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/;
+
+
+            //TODOS LOS CAMPOS VACIOS 
+            if (!Valnombre1 && !Valtelefono1 && !Valdireccion1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Tienes que ingresar todos los campos'
+                })
+            }
+
+
+            if (!Valdireccion1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Ingrese su direccion'
+                })
+            }
+
+            //NOOMBRE
+            if (!Valnombre1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Ingrese su nombre'
+                })
+            }
+            if (typeof Valnombre1 === "number") {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El nombre no puede contener numeros'
+                })
+            }
+            var validoNombre1 = NoEspeciales.test(Valnombre1);
+            if (!validoNombre1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El nombre no puede tener caracteres especiales'
+                })
+            }
+
+            if (!Valdireccion1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Ingrese su direccion'
+                })
+            }
+
+            Swal.fire({
+                icon: 'success',
+                title: ';)',
+                text: 'Se ha editado exitosamente'
+            })
+
+
+            //FALTA TERMINA LA ALERTA Y QUE TE LLEVE EL OK AL LOGIN 
+            // Swal.fire({
+            //   icon: 'success',
+            //   title: ':)',
+            //   text: 'El usuario fue creado exitosamente',
+            // })
+            // return window.location.href = "/";
+
+
+
+        }
+    </script>
 </body>
 
 </html>

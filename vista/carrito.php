@@ -139,7 +139,7 @@
 
 
 
-      <!-- Modal -->
+      <!-- Modal1 -->
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -148,8 +148,8 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <h4>Cantidad: 3/vaso mediano</h4>
-              <h4>Precio: 2000$</h4>
+              <h4 class="letra">Cantidad: 3/vaso mediano</h4>
+              <h4 class="letra">Precio: 2000$</h4>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Atras</button>
@@ -261,14 +261,14 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Compar</h1>
+          <h1 class="modal-title fs-7" id="exampleModalLabel">Compar</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <h6>#1: jugo de mango / antidad: 1 / tamaño: pequelo / precio:2.000</h6>
-          <h6>#2: jugo de mango / antidad: 1 / tamaño: pequelo / precio:2.000</h6>
-          <h6>#3: jugo de mango / antidad: 1 / tamaño: pequelo / precio:2.000</h6>
-          <h6>Total:6.000</h6>
+          <h4  class="letra">#1: jugo de mango<br> cantidad: 1 <br> tamaño: pequelo <br> precio:2.000</h4><br>
+          <h4  class="letra">#2: jugo de mango<br> cantidad: 1 <br> tamaño: pequelo <br> precio:2.000</h4><br>
+          <h4  class="letra">#3: jugo de mango<br> cantidad: 1 <br> tamaño: pequelo <br> precio:2.000</h4><br>
+          <h4  class="letra">Total:6.000</h6>
 
         </div>
         <div class="modal-footer">

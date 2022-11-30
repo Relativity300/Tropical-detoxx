@@ -27,3 +27,18 @@
 .button{
     border: 0ch solid rgba(255, 255, 255, 0) !important;
 }
+
+
+
+.mes{
+    border-radius: 2em;
+    margin: 1em ;
+    margin-left: 2em;
+}
+.fechas{
+    display: flex;
+    justify-content: center;
+}
+.formButton{
+    display: flex;
+}

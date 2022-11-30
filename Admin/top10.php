@@ -183,23 +183,24 @@
         </div>
 
         <div class="s">
-            <h1 class="tituloo">TOP:5 <br> jugos vendidos</h1>
+            <h1 class="tituloo">TOP:5 <br> jugos mas vendidos</h1>
+            <input type="month" class="mes" name="mes" min="2022-00" max="2022-12">
 
             <ul class="chart-skills">
                 <li>
-                    <span>Mango</span>
+                    <span>Mango: 50%</span>
                 </li>
                 <li>
-                    <span>Mango</span>
+                    <span>Mango: 10%</span>
                 </li>
                 <li>
-                    <span>Mango</span>
+                    <span>Mango: 10%</span>
                 </li>
                 <li>
-                    <span>Mango</span>
+                    <span>Mango: 10%</span>
                 </li>
                 <li>
-                    <span>Mango</span>
+                    <span>Mango: 10%</span>
                 </li>
 
 

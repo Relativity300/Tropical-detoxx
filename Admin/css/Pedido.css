@@ -1,79 +1,142 @@
+.contenedor {
+    display: flex;
+}
+.tilepedido{
+    text-align: center;
+    font-size: 2em;
+
+}
+.wh{
+    width: 50em !important;
+}
+.hw{
+    height: 30em;
+}
+.li{
+    font-size: 1.3em;
+}
+.datos {
+    width: 50%;
+    height: 25em;  
+    margin: .5em;
+    font-size: 1.3em;
+
+}
 
 
+.pedido {
+    width: 50%;
+    margin: .5em;
+
+    height: 25em;  
+    background-color: rgb(233, 233, 233);  
+    box-shadow: #000  5px 5px 5px;
+    border: #000 solid 2px;
+}
+
+.pedidoEli{
+    width: 50%;
+    margin: .5em;
+
+    height: 25em;  
+    background-color: rgb(233, 233, 233);  
+    box-shadow: #000  5px 5px 5px;
+    border: #000 solid 2px;
+    display: grid;
+    justify-content: center;
+}
 
 
-
-.p-descri{
+.mes{
+    border-radius: 2em;
+    margin: 1em ;
+    margin-left: 2em;
+}
+.fechas{
+    display: flex;
+    justify-content: center;
+}
+.p-descri {
 
     font-size: 2em;
 
 }
-.div-botones{
-    
-    display: flex;
-    justify-content:right ;
-}
-.div-boto{
+
+.div-botones {
+
     display: flex;
     justify-content: right;
 }
 
-select{
+.div-boto {
+    display: flex;
+    justify-content: right;
+}
+
+select {
     border-radius: .2em;
 }
 
-label{
+label {
     font-size: 1.5em;
 }
-.bbb{
+
+.bbb {
     margin: 1em;
     display: flex;
 }
-.gteneral{
+
+.gteneral {
     border-radius: .5em;
     text-shadow: 3px 3px 3px #00000088;
     background-color: rgba(245, 244, 160, 0.062);
     border: 1px solid #000;
 }
-.seletor{
+
+.seletor {
     border-radius: .5em;
     text-shadow: 3px 3px 3px #00000088;
     background-color: rgba(245, 244, 160, 0.062);
-    border: 1.5px solid #000 ;
+    border: 1.5px solid #000;
     margin: 0%;
     padding: 0%;
-  
+
 }
-.pago{
+
+.pago {
     text-align: center;
     font-size: 1.2em;
 }
-.pagoSeletor{
+
+.pagoSeletor {
     display: grid;
     justify-content: center;
-width: 10em;
-position: relative;
-left: 22em;
-bottom: 8em;
+    width: 10em;
+    position: relative;
+    left: 22em;
+    bottom: 8em;
 }
-.cotenidoEdit{
+
+.cotenidoEdit {
     display: flex;
     justify-content: center;
     /* background-color: #000; */
     width: 100%;
     height: 15em;
     position: relative;
-    bottom:7em;
+    bottom: 7em;
 }
-.editar{
+
+.editar {
     width: 50%;
     height: 20em;
     background-color: #a6cc9136;
     border: 2px solid #000;
     margin-right: .5em;
-    
+
 }
-.editados{
+
+.editados {
     width: 50%;
     height: 20em;
     background-color: #a6cc9136;
@@ -83,12 +146,13 @@ bottom: 8em;
     margin-left: .5em;
 
 }
-.cantidad{
+
+.cantidad {
     width: 2em;
     height: 1.5em;
 }
 
-.edi{
+.edi {
     font-size: 1.5em;
     color: black;
     text-decoration: none;
@@ -97,7 +161,7 @@ bottom: 8em;
     top: 1em;
 }
 
-.edi2{
+.edi2 {
     font-size: 1.5em;
     color: black;
     text-decoration: none;
@@ -107,71 +171,91 @@ bottom: 8em;
 
 }
 
-.modallll{
+.modallll {
     height: 32em;
 }
 
-samp{
+samp {
     color: #ff0000;
 }
 
 
 
-input[type="search"]{
-    width: 50px; /*ancho por defecto*/
-    background: #ededed url('../IMG/luma.png') no-repeat 0px center; /*icono lupa*/
+input[type="search"] {
+    width: 50px;
+    /*ancho por defecto*/
+    background: #ededed url('../IMG/luma.png') no-repeat 0px center;
+    /*icono lupa*/
     background-size: 2em;
     background-color: #8590d9b5;
     padding: 9px 10px 9px 32px;
     border-radius: 15em;
-    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
-    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
-    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
-    transition: all .5s; /* transición de .5seg a todos los elementos*/
-    outline: none; /* ocultar el fucos automático de los input */
+    -webkit-transition: all .5s;
+    /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s;
+    /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s;
+    /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s;
+    /* transición de .5seg a todos los elementos*/
+    outline: none;
+    /* ocultar el fucos automático de los input */
     position: relative;
     /* left: 3em; */
     margin: 0em;
 }
-input[type="search"]:focus{
-    width: 200px; /*tamaño del boton buscar al hacer click*/
-    padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+
+input[type="search"]:focus {
+    width: 200px;
+    /*tamaño del boton buscar al hacer click*/
+    padding-left: 32px;
+    /*espacio entre el icono lupa y el placeholder*/
     color: #000;
     background-color: #8590d93b;
 }
 
 
-.mas{
+.mas {
     position: relative !important;
-    right:-26em !important;
+    right: -26em !important;
     bottom: 3.5em;
     z-index: 5 !important;
 }
-.mass{
-    display: flex;
-}
-.Crearr{
-    margin-left: 70%;
-    position: absolute;
-}
-.formButton{
+
+.mass {
     display: flex;
 }
 
-.page-wrapper{
+.Crearr {
+    margin-left: 70%;
+    position: absolute;
+}
+
+.formButton {
+    display: flex;
+    position: relative;
+    bottom:-.5em;
+   
+}
+
+.page-wrapper {
     position: relative;
     bottom: 5em;
 }
-.container-fluid{
+
+.container-fluid {
     position: relative;
     bottom: -4em;
 }
 
-.button{
+.button {
     border: 0ch solid rgba(255, 255, 255, 0);
+    position: relative;
+    top: .4em;
 }
-.seletor1{
+
+.seletor1 {
     width: .7em;
     height: .7em;
-    margin-left:.5em ;
+    margin-left: .5em;
 }
