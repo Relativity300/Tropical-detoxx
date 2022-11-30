@@ -129,7 +129,7 @@ label {
 
 .editar {
     width: 50%;
-    height: 20em;
+    height: 25em;
     background-color: #a6cc9136;
     border: 2px solid #000;
     margin-right: .5em;
@@ -138,7 +138,7 @@ label {
 
 .editados {
     width: 50%;
-    height: 20em;
+    height: 25em;
     background-color: #a6cc9136;
 
     border: 2px solid #000;
@@ -146,10 +146,14 @@ label {
     margin-left: .5em;
 
 }
-
+.wh{
+    width: 50em;
+    height: 45em;
+}
 .cantidad {
     width: 2em;
-    height: 1.5em;
+    height: 1.2em;
+    font-size: 1em;
 }
 
 .edi {
@@ -253,7 +257,10 @@ input[type="search"]:focus {
     position: relative;
     top: .4em;
 }
-
+.buttonn {
+    border: 0ch solid rgba(255, 255, 255, 0);
+    position: relative;
+}
 .seletor1 {
     width: .7em;
     height: .7em;
