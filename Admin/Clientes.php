@@ -260,28 +260,28 @@
                                                     <form name="frmUsuario" id="formulario1" method="POST" action="">
                                                         <div class="mb-3">
                                                             <label for="documento" class="form-label" id="xd">Documento</label>
-                                                            <input type="number" class="form-control" id="cedula" autofocus>
+                                                            <input type="number" class="form-control" id="cedula1" autofocus>
                                                         </div>
                                                         <div class="mb-3">
                                                             <label for="Nombre" class="form-label">Nombre</label>
-                                                            <input type="text" class="form-control" id="nombre">
+                                                            <input type="text" class="form-control" id="nombre1">
                                                         </div>
                                                         <div class="mb-3">
                                                             <label for="Apellidos" class="form-label">Apellidos</label>
-                                                            <input type="text" class="form-control" id="apellido">
+                                                            <input type="text" class="form-control" id="apellido1">
                                                         </div>
                                                         <div class="mb-3">
                                                             <label for="telefono" class="form-label">Teléfono</label>
-                                                            <input type="number" class="form-control" id="telefono">
+                                                            <input type="number" class="form-control" id="telefono1">
                                                         </div>
                                                         <div class="mb-3">
                                                             <label for="correo" class="form-label">Correo
                                                                 Electrónico</label>
-                                                            <input type="email" class="form-control" id="correo">
+                                                            <input type="email" class="form-control" id="correo1">
                                                         </div>
                                                         <div class="mb-3">
                                                             <label for="direccion" class="form-label">Dirección</label>
-                                                            <input type="text" class="form-control" id="direccion">
+                                                            <input type="text" class="form-control" id="direccion1">
                                                         </div>
                                                         <div class="mb-3">
                                                             <label>Rol</label>
@@ -300,21 +300,21 @@
                                                         <div class="mb-3">
                                                             <label for="password" class="form-label">Contraseña</label>
                                                             <div class="d-flex">
-                                                                <input class="form-control" type="password" id="contrasenia">
-                                                                <button class="btn btn-primary" type="button" onclick="mostrarContrasena()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+                                                                <input class="form-control" type="password" id="contrasenia1">
+                                                                <button class="btn btn-primary" type="button" onclick="mostrarContrasena3()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
                                                             </div>
                                                         </div>
                                                         <div class="mb-3">
                                                             <label for="password" class="form-label">Confirmar Contraseña</label>
                                                             <div class="d-flex">
-                                                                <input class="form-control" type="password" id="Confirmclave">
-                                                                <button class="btn btn-primary" type="button" onclick="mostrarContrasena2()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+                                                                <input class="form-control" type="password" id="Confirmclave1">
+                                                                <button class="btn btn-primary" type="button" onclick="mostrarContrasena4()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
                                                             </div>
                                                         </div>
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-                                                    <button class="btn btn-success" type="button" onclick="validarFormulario()">Guardar</button>
+                                                    <button class="btn btn-success" type="button"  data-bs-dismiss="modal" onclick="validarFormulario2()">Guardar</button>
                                                 </div>
                                             </form>
 
@@ -337,15 +337,15 @@
                                                 <form>
                                                     <div class="mb-3">
                                                         <label for="documento" class="form-label">Documento</label>
-                                                        <input type="number" class="form-control" id="documento" autofocus>
+                                                        <input type="number" class="form-control" id="cedula" autofocus>
                                                     </div>
                                                     <div class="mb-3">
                                                         <label for="Nombre" class="form-label">Nombre</label>
-                                                        <input type="text" class="form-control" id="Nombre">
+                                                        <input type="text" class="form-control" id="nombre">
                                                     </div>
                                                     <div class="mb-3">
                                                         <label for="Apellidos" class="form-label">Apellidos</label>
-                                                        <input type="text" class="form-control" id="Apellidos">
+                                                        <input type="text" class="form-control" id="apellido">
                                                     </div>
                                                     <div class="mb-3">
                                                         <label for="telefono" class="form-label">Teléfono</label>
@@ -366,10 +366,24 @@
                                                             <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Activo</label>
                                                         </div>
                                                     </div>
+                                                    <div class="mb-3">
+                                                        <label for="password" class="form-label">Contraseña</label>
+                                                        <div class="d-flex">
+                                                            <input class="form-control" type="password" id="contrasenia">
+                                                            <button class="btn btn-primary" type="button" onclick="mostrarContrasena()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="password" class="form-label">Confirmar Contraseña</label>
+                                                        <div class="d-flex">
+                                                            <input class="form-control" type="password" id="Confirmclave">
+                                                            <button class="btn btn-primary" type="button" onclick="mostrarContrasena2()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+                                                        </div>
+                                                    </div>
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-                                                <button type="button" class="btn btn-success" onclick="validarFormulario()">Guardar</button>
+                                                <button type="button" class="btn btn-success" data-bs-dismiss="modal" onclick="validarFormulario()">Guardar</button>
                                             </div>
 
                                         </div>
@@ -455,8 +469,8 @@
 
                             let NoEspeciales = /^[a-zA-ZÀ-ÿ\s]{1,40}$/ // Letras y espacios, pueden llevar acentos.
                             var expReg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-                            let cedulaNum = /^\d{0,10}$/ // 0 a 9 numeros.
-                            let numerost = /^\d{0,11}$/
+                            let cedulaNum = /^\d{8,10}$/ // 0 a 9 numeros.
+                            let numerost = /^\d{10}$/
                             let contraseVali = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/;
 
 
@@ -494,6 +508,30 @@
                                 })
                             }
 
+                            //Apellido
+                            if (!Valapellido) {
+                                return Swal.fire({
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: 'Ingrese su Apellido'
+                                })
+                            }
+                            if (typeof Valapellido === "number") {
+                                return Swal.fire({
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: 'El Apellido no puede contener numeros'
+                                })
+                            }
+                            var validoApellido = NoEspeciales.test(Valapellido);
+                            if (!validoApellido) {
+                                return Swal.fire({
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: 'El Apellido no puede tener caracteres especiales'
+                                })
+                            }
+
 
                             /////////////CEDULA/////////////////
                             if (!Valcedula) {
@@ -508,7 +546,7 @@
                                 return Swal.fire({
                                     icon: 'error',
                                     title: 'Oops...',
-                                    text: 'Solo numeros (9) digitos'
+                                    text: 'Solo numeros (10) digitos'
                                 })
                             }
 
@@ -606,14 +644,14 @@
                             var Valcedula1 = document.getElementById('cedula1').value;
                             var Valdireccion1 = document.getElementById('direccion1').value;
                             var Valcorreo1 = document.getElementById('correo1').value;
-                            var Valtelefono1 = document.getElementById('telefono').value;
+                            var Valtelefono1 = document.getElementById('telefono1').value;
                             var Valcontraseina1 = document.getElementById('contrasenia1').value;
                             var Valconfirmcontraseina1 = document.getElementById('Confirmclave1').value;
 
                             let NoEspeciales = /^[a-zA-ZÀ-ÿ\s]{1,40}$/ // Letras y espacios, pueden llevar acentos.
                             var expReg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-                            let cedulaNum = /^\d{0,10}$/ // 0 a 9 numeros.
-                            let numerost = /^\d{0,11}$/
+                            let cedulaNum = /^\d{8,10}$/ // 0 a 9 numeros.
+                            let numerost = /^\d{10}$/
                             let contraseVali = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/;
 
 
@@ -656,6 +694,29 @@
                                     text: 'El nombre no puede tener caracteres especiales'
                                 })
                             }
+                            //Apellido
+                            if (!Valapellido1) {
+                                return Swal.fire({
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: 'Ingrese su Apellido'
+                                })
+                            }
+                            if (typeof Valapellido1 === "number") {
+                                return Swal.fire({
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: 'El Apellido no puede contener numeros'
+                                })
+                            }
+                            var validoApellido1 = NoEspeciales.test(Valapellido1);
+                            if (!validoApellido1) {
+                                return Swal.fire({
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: 'El Apellido no puede tener caracteres especiales'
+                                })
+                            }
 
 
                             /////////////CEDULA/////////////////
@@ -666,22 +727,23 @@
                                     text: 'Tienes que ingresar la cedula'
                                 })
                             }
-                            // var validoCedula1 = cedulaNum.test(Valcedula1);
-                            // if (!validoCedula1) {
-                            //     return Swal.fire({
-                            //         icon: 'error',
-                            //         title: 'Oops...',
-                            //         text: 'Solo numeros (9) digitos'
-                            //     })
-                            // }
-                            //telefono
+                            var validoCedula1 = cedulaNum.test(Valcedula1);
+                            if (!validoCedula1) {
+                                return Swal.fire({
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: 'Solo numeros (10) digitos'
+                                })
+                            }
+
+
                             var Validotelefono1 = numerost.test(Valtelefono1)
 
                             if (!Validotelefono1) {
                                 return Swal.fire({
                                     icon: 'error',
                                     title: 'Oops...',
-                                    text: 'El numero debe tner 10 digitos'
+                                    text: 'El numero debe tener 10 digitos'
                                 })
 
                             }

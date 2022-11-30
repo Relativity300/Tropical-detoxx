@@ -203,7 +203,7 @@
 
 
             <div class="pt-5">
-                <h1 class="display-4 text-center ">Todos los jugos</h1>
+                <h1 class="display-4 text-center ">Jugos de frutas</h1>
             </div>
 
             <div class="row">

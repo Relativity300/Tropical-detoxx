@@ -432,8 +432,8 @@
 
             let NoEspeciales = /^[a-zA-ZÀ-ÿ\s]{1,40}$/ // Letras y espacios, pueden llevar acentos.
             var expReg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-            let cedulaNum = /^\d{0,10}$/ // 0 a 9 numeros.
-            let numerost = /^\d{0,11}$/
+            let cedulaNum = /^\d{8,10}$/ // 0 a 9 numeros.
+            let numerost = /^\d{10}$/
             let contraseVali = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/;
             var valoresAceptados = /^[0-9]+$/;
 
@@ -470,30 +470,53 @@
                     text: 'El nombre no puede tener caracteres especiales'
                 })
             }
+            //Apellido
+            if (!Valapellido1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Ingrese su Apellido'
+                })
+            }
+            if (typeof Valapellido1 === "number") {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El Apellido no puede contener numeros'
+                })
+            }
+            var validoApellido1 = NoEspeciales.test(Valapellido1);
+            if (!validoApellido1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El Apellido no puede tener caracteres especiales'
+                })
+            }
 
 
             /////////////CEDULA/////////////////
             if (!Valcedula1) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'La identificacion es invalida'
-            })
-        }
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'La identificacion es invalida'
+                })
+            }
 
-       
 
-        var validoCedula1 = cedulaNum.test(Valcedula1);
-        if (!validoCedula1) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Solo numeros (9) digitos'
-            })
-        }
 
-        
-        var validoCedula1 = valoresAceptados.test(Valcedula1);
+            var validoCedula1 = cedulaNum.test(Valcedula1);
+            if (!validoCedula1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'La cedula es invalida'
+                })
+            }
+
+
+            var validoCedula1 = valoresAceptados.test(Valcedula1);
             if (!validoCedula1) {
                 return Swal.fire({
                     icon: 'error',
@@ -504,24 +527,24 @@
 
             //telefono
             if (!Valtelefono1) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Telefono no valido'
-            })
-        }
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Telefono no valido'
+                })
+            }
 
-        var Validotelefono1 = numerost.test(Valtelefono1)
+            var Validotelefono1 = numerost.test(Valtelefono1)
 
-        if (!Validotelefono1) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Telefono no valido'
-            })
-        }
+            if (!Validotelefono1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Telefono no valido'
+                })
+            }
 
-        var ValidotelefonoT1 = valoresAceptados.test(Valtelefono1);
+            var ValidotelefonoT1 = valoresAceptados.test(Valtelefono1);
             if (!ValidotelefonoT1) {
                 return Swal.fire({
                     icon: 'error',

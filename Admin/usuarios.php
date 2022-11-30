@@ -474,8 +474,8 @@
 
             let NoEspeciales = /^[a-zA-ZÀ-ÿ\s]{1,40}$/ // Letras y espacios, pueden llevar acentos.
             var expReg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-            let cedulaNum = /^\d{0,10}$/ // 0 a 9 numeros.
-            let numerost = /^\d{0,11}$/
+            let cedulaNum = /^\d{8,10}$/ // 0 a 9 numeros.
+            let numerost = /^\d{10}$/
             let contraseVali = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/;
             
             var valoresAceptados = /^[0-9]+$/;
@@ -513,6 +513,30 @@
                 icon: 'error',
                 title: 'Oops...',
                 text: 'El nombre no puede tener caracteres especiales'
+            })
+        }
+
+         //Apellido
+         if (!Valapellido) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Ingrese su Apellido'
+            })
+        }
+        if (typeof Valapellido === "number") {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'El Apellido no puede contener numeros'
+            })
+        }
+        var validoApellido = NoEspeciales.test(Valapellido);
+        if (!validoApellido) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'El Apellido no puede tener caracteres especiales'
             })
         }
 
@@ -657,14 +681,14 @@
             var Valcedula1 = document.getElementById('cedula1').value;
             var Valdireccion1 = document.getElementById('direccion1').value;
             var Valcorreo1 = document.getElementById('correo1').value;
-            var Valtelefono1 = document.getElementById('telefono').value;
+            var Valtelefono1 = document.getElementById('telefono1').value;
             var Valcontraseina1 = document.getElementById('contrasenia1').value;
             var Valconfirmcontraseina1 = document.getElementById('Confirmclave1').value;
 
             let NoEspeciales = /^[a-zA-ZÀ-ÿ\s]{1,40}$/ // Letras y espacios, pueden llevar acentos.
             var expReg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-            let cedulaNum = /^\d{0,10}$/ // 0 a 9 numeros.
-            let numerost = /^\d{0,11}$/
+            let cedulaNum = /^\d{8,10}$/ // 0 a 9 numeros.
+            let numerost = /^\d{10}$/
             let contraseVali = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/;
             var valoresAceptados = /^[0-9]+$/;
 
@@ -707,6 +731,29 @@
                     text: 'El nombre no puede tener caracteres especiales'
                 })
             }
+            //Apellido
+         if (!Valapellido1) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Ingrese su Apellido'
+            })
+        }
+        if (typeof Valapellido1 === "number") {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'El Apellido no puede contener numeros'
+            })
+        }
+        var validoApellido1 = NoEspeciales.test(Valapellido1);
+        if (!validoApellido1) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'El Apellido no puede tener caracteres especiales'
+            })
+        }
 
 
             /////////////CEDULA/////////////////
@@ -744,7 +791,7 @@
             return Swal.fire({
                 icon: 'error',
                 title: 'Oops...',
-                text: 'Telefono no valido'
+                text: 'Telefono 1'
             })
         }
 
@@ -754,7 +801,7 @@
             return Swal.fire({
                 icon: 'error',
                 title: 'Oops...',
-                text: 'Telefono no valido'
+                text: 'Telefono 2'
             })
         }
 

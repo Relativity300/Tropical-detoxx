@@ -92,8 +92,8 @@
 
       let NoEspeciales = /^[a-zA-ZÀ-ÿ\s]{1,40}$/ // Letras y espacios, pueden llevar acentos.
       var expReg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-      let cedulaNum = /^\d{0,10}$/ // 0 a 9 numeros.
-      let numerost = /^\d{0,11}$/
+      let cedulaNum = /^\d{8,10}$/ // 0 a 9 numeros.
+      let numerost = /^\d{10}$/
       let contraseVali = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/;
       var valoresAceptados = /^[0-9]+$/;
 
@@ -130,6 +130,29 @@
           text: 'el nombre no puede tener caracteres especiales'
         })
       }
+      //Apellido
+      if (!Valapellido) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Ingrese su Apellido'
+            })
+        }
+        if (typeof Valapellido === "number") {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'El Apellido no puede contener numeros'
+            })
+        }
+        var validoApellido = NoEspeciales.test(Valapellido);
+        if (!validoApellido) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'El Apellido no puede tener caracteres especiales'
+            })
+        }
 
 
       /////////////CEDULA/////////////////
@@ -149,7 +172,7 @@
             return Swal.fire({
                 icon: 'error',
                 title: 'Oops...',
-                text: 'Solo numeros (9) digitos'
+                text: 'La cedula es invalida'
             })
         }
 
