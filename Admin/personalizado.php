@@ -278,8 +278,8 @@
                                     <input type="text" class="form-control" id="nombre1">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="message-text" class="col-form-label">Precio</label>
-                                    <input type="text" id="descripcion1">
+                                    <label for="message-text" class="col-form-label" >Precio</label>
+                                    <input type="text" id="descripcion1" onkeypress="return valideKey(event);">
                                 </div>
                                 <div class="mb-3">
                                     <label for="formFile" class="form-label">IMG</label>
@@ -289,7 +289,7 @@
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                <button type="button" class="btn btn-primary" id="boton1" name="boton1" onclick="validarFormulario2()">Editar</button>
+                                <button type="button" class="btn btn-primary" id="boton1" name="boton1" onclick="validarFormulario2()" onkeypress="return valideKey(event);">Editar</button>
 
                             </div>
                         </form>
@@ -503,6 +503,26 @@
     <script src="js/custom.js"></script>
 
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+       <!-- Solo numeros -->
+       <script>
+        function valideKey(evt) {
+
+            // codigo en ASCII representacion al presionar una letra
+            var code = (evt.which) ? evt.which : evt.keyCode;
+
+            if (code == 46) { // Se permite ingresar un punto "."
+                return true;
+            } else if (code >= 48 && code <= 57) { // is a number.
+                return true;
+            } else {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Solo puedes ingresar un numero'
+                })
+            }
+        }
+    </script>
     <script>
         function validarFormulario() {
 

@@ -493,8 +493,8 @@
 
             // code is the decimal ASCII representation of the pressed key.
             var code = (evt.which) ? evt.which : evt.keyCode;
-
-            if (code == 8) { // backspace.
+            
+            if (code == 46) { // Se permite ingresar un punto "."
                 return true;
             } else if (code >= 48 && code <= 57) { // is a number.
                 return true;
@@ -507,6 +507,7 @@
             }
         }
     </script>
+    <!-- Todo lo de más -->
     <script>
         function validarFormulario() {
 
