@@ -3,6 +3,10 @@ Css orignal https://codepen.io/jlalovi/details/bIyAr
 ************************/
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
 
+.izquierdad{
+  display: flex;
+  justify-content: right;
+}
 
 ul {
   list-style-type: none;

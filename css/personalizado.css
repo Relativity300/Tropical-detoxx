@@ -1,18 +1,10 @@
-body {
-    background-image: url('../IMG/registro.png');
-}
 
-* {
-    font-family: 'Bebas Neue', cursive;
-}
-
-.cotenedor {
+.cotenedor{
     display: flex;
     justify-content: center;
     /* align-items: flex-start; */
 }
-
-.proceso1 {
+.proceso1{
     background-color: aliceblue;
     border: 3px solid #000;
     width: 30em;
@@ -20,7 +12,7 @@ body {
     margin-right: 4em;
 }
 
-.proceso2 {
+.proceso2{
     background-color: aliceblue;
     border: 3px solid #000;
     width: 30em;
@@ -28,35 +20,32 @@ body {
     margin-left: 4em;
 }
 
-select {
+select{
     border-radius: .3em;
     height: 2em;
     position: relative;
     top: 1em;
     left: 18em;
 }
-
-.div-select-h2 {
+.div-select-h2{
     display: flex;
 
 }
-
-.h2-Cantidad {
+.h2-Cantidad{
     left: -1.9em;
     position: relative;
     top: .5em;
-
+    
 }
 
-.cantidad {
+.cantidad{
     width: 2.3em;
     height: 2em;
     position: relative;
     left: -2.5em;
     top: 1em;
 }
-
-.masss {
+.masss{
     position: relative;
     left: 9em;
     top: 1em;
@@ -65,41 +54,31 @@ select {
 
 
 
-.frecha {
+  .frecha{
     display: flex;
     align-items: center;
-}
+  }
 
 
-input[type="search"] {
-    width: 50px;
-    /*ancho por defecto*/
-    background: #ededed url('../IMG/luma.png') no-repeat 0px center;
-    /*icono lupa*/
+  input[type="search"]{
+    width: 50px; /*ancho por defecto*/
+    background: #ededed url('../IMG/luma.png') no-repeat 0px center; /*icono lupa*/
     background-size: 2em;
     background-color: #8590d9b5;
     padding: 9px 10px 9px 32px;
     border-radius: 15em;
-    -webkit-transition: all .5s;
-    /* transición de .5seg a todos los elementos para chrome*/
-    -moz-transition: all .5s;
-    /* transición de .5seg a todos los elementos para mozilla*/
-    -o-transition: all .5s;
-    /* transición de .5seg a todos los elementos para ophera*/
-    transition: all .5s;
-    /* transición de .5seg a todos los elementos*/
-    outline: none;
-    /* ocultar el fucos automático de los input */
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
     position: relative;
     top: 2em;
     left: .5em;
 }
-
-input[type="search"]:focus {
-    width: 200px;
-    /*tamaño del boton buscar al hacer click*/
-    padding-left: 32px;
-    /*espacio entre el icono lupa y el placeholder*/
+input[type="search"]:focus{
+    width: 200px; /*tamaño del boton buscar al hacer click*/
+    padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
     color: #000;
     background-color: #8590d93b;
 }
@@ -107,23 +86,20 @@ input[type="search"]:focus {
 
 
 
-.checkbox {
+.checkbox{
     padding: .5em;
     position: relative;
     bottom: 3.3em;
 }
-
-.frutas {
+.frutas{
     font-size: 2em;
 }
-
-.numbere {
+.numbere{
     height: 1.5em;
     width: 1.5em;
-    margin-left: .5em;
+    margin-left: .5em ;
 }
-
-.pedido {
+.pedido{
     position: relative;
     top: 4em;
 }

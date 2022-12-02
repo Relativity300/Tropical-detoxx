@@ -12,7 +12,7 @@
     <title>Tropical Detox Administrador</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/ample-admin-lite/" />
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo1.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
     <!-- Custom CSS -->
     <link href="css/style.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -77,7 +77,7 @@
                         <!-- ============================================================== -->
                         <!-- Search -->
                         <!-- ============================================================== -->
-
+                        
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
@@ -137,13 +137,13 @@
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.php" aria-expanded="false">
                                 <i class="fa fa-columns" aria-hidden="true"></i>
-                                <span class="hide-menu">Pedido</span>
+                                <span class="hide-menu">Ventas</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="pedido.php" aria-expanded="false">
                                 <i class="fa fa-columns" aria-hidden="true"></i>
-                                <span class="hide-menu">Ventas</span>
+                                <span class="hide-menu">pedido</span>
                             </a>
                         </li>
 
@@ -160,16 +160,18 @@
 
 
         <div class="page-breadcrumb bg-white">
-            <div class="">
+
+            <div class="izquierdad">
                 <div class="d-md-flex">
-                    <ol class="breadcrumb ms-auto">
-                        <li><a href="grafica.php" class="btn btn-primary  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Grafica
+                    <ol class="breadcrumb ">
+                        <li><a href="grafica.php"
+                                class="btn btn-primary  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Informe
                             </a>
                         </li>
                     </ol>
-                    <ol class="breadcrumb ms-auto">
-
-                        <a href="top10.php" class="btn btn-primary  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Top:5</a>
+                    <ol class="breadcrumb">
+                        <a href="top10.php"
+                            class="btn btn-primary  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Top:5</a>
                     </ol>
 
                 </div>

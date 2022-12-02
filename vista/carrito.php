@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
   <!-- Favicon icon -->
-  <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo1.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
 
   <link rel="stylesheet" href="../css/Carrito.css">
   <!-- <link rel="stylesheet" href="../css/campo/fondoAzul.css"> -->
@@ -21,7 +21,7 @@
   <?php require_once 'campo/Nav.php'; ?>
 
   <section>
-    <h1 class="titlo">Carito de conpras</h1>
+    <h1 class="titlo">Carrito de compras</h1>
     <form action="">
       <input type="search" name="nombre" placeholder="Buscar">
     </form>
@@ -261,14 +261,14 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-7" id="exampleModalLabel">Compar</h1>
+          <h1 class="modal-title fs-7" id="exampleModalLabel">comprar</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <h4 class="letra">#1: jugo de mango<br> cantidad: 1 <br> tamaño: pequelo <br> precio:2.000</h4><br>
-          <h4 class="letra">#2: jugo de mango<br> cantidad: 1 <br> tamaño: pequelo <br> precio:2.000</h4><br>
-          <h4 class="letra">#3: jugo de mango<br> cantidad: 1 <br> tamaño: pequelo <br> precio:2.000</h4><br>
-          <h4 class="letra">Total:6.000</h6>
+          <h4  class="letra">#1: jugo de mango<br> cantidad: 1 <br> tamaño: pequelo <br> precio:2.000</h4><br>
+          <h4  class="letra">#2: jugo de mango<br> cantidad: 1 <br> tamaño: pequelo <br> precio:2.000</h4><br>
+          <h4  class="letra">#3: jugo de mango<br> cantidad: 1 <br> tamaño: pequelo <br> precio:2.000</h4><br>
+          <h4  class="letra">Total:6.000</h6>
 
         </div>
         <div class="modal-footer">

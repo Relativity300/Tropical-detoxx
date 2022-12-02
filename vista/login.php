@@ -6,9 +6,9 @@
   <title>Tropical Detox </title>
   <link rel="stylesheet" href="../css/login.css">
   <link rel="stylesheet" href="../css/loginf.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
   <!-- Favicon icon -->
-  <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo1.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

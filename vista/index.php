@@ -12,9 +12,12 @@
 
     <!-- Site Metas -->
     <title>Tropical Detox </title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo1.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
 
     <!-- Bootstrap CSS -->
     <!-- CSS only -->

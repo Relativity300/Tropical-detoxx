@@ -1,4 +1,8 @@
 
+.izquierdad{
+    display: flex;
+    justify-content: right;
+}
 .p-descri{
 
     font-size: 1.5em;

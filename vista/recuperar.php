@@ -10,9 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo1.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <!-- CSS only -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">

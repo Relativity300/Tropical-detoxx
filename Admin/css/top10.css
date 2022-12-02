@@ -1,4 +1,8 @@
 
+.izquierdad{
+  display: flex;
+  justify-content: right;
+}
   .mes{
     border-radius: 2em;
     margin: 1em ;

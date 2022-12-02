@@ -1,8 +1,10 @@
 
 
 
-
-
+.todo{
+    position: relative;
+    top: 1.5em;
+}
 
 
 .precio{
@@ -41,6 +43,15 @@
      width: 100%;
 
 }
+.carta-per{
+
+    margin: 5em !important;
+    height: 20em !important;
+    width: 100%;
+    position: relative;
+    top: 5em;
+
+}
 .botones{
     bottom: 4.5em;
     height: 3em;
@@ -49,6 +60,7 @@
     
 
 }
+
 .div-p{
     width: 100%;
 
@@ -62,6 +74,7 @@
     top: .0em;
     
 }
+
 .button-boton:hover{
     background-color: rgba(220, 232, 82, 0.441) !important;
     border-radius: .5em !important;
@@ -159,6 +172,11 @@ input[type="search"]:focus{
 .cartOrden{
     display: flex !important;
     align-content: center;
+    border: solid 3px #000;
+}
+.Estado{
+    text-align: center;
+    font-size: 2em;
 }
 
 .letra{

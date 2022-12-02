@@ -221,8 +221,8 @@ input[type="search"]:focus {
 
 .mas {
     position: relative !important;
-    right: -26em !important;
-    bottom: 3.5em;
+    right: -16em !important;
+    bottom: 3em;
     z-index: 5 !important;
 }
 
@@ -265,4 +265,7 @@ input[type="search"]:focus {
     width: .7em;
     height: .7em;
     margin-left: .5em;
+}
+.elegidas{
+    margin: 1em
 }

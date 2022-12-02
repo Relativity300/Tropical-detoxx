@@ -12,7 +12,7 @@
     <title>Tropical Detox Administrador</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/ample-admin-lite/" />
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo1.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
     <!-- Custom CSS -->
     <link href="css/style.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -144,13 +144,13 @@
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.php" aria-expanded="false">
                                 <i class="fa fa-columns" aria-hidden="true"></i>
-                                <span class="hide-menu">Pedido</span>
+                                <span class="hide-menu">Ventas</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="pedido.php" aria-expanded="false">
                                 <i class="fa fa-columns" aria-hidden="true"></i>
-                                <span class="hide-menu">Ventas</span>
+                                <span class="hide-menu">pedido</span>
                             </a>
                         </li>
 
