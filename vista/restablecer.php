@@ -9,8 +9,8 @@
   <script src="https://kit.fontawesome.com/a81368914c.js"></script>
 
   <!-- Favicon icon -->
-  <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
-  
+  <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo1.png">
+
   <title>Tropical Detox </title>
 </head>
 
@@ -32,7 +32,7 @@
 
 
       <p>Correo con el que creaste tu cuenta </p>
-      
+
       <button class="botons" type="button" onclick="validar()">Enviar correo de recuperacion</button>
       <a href="recuperar.php">x</a>
 

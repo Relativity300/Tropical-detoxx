@@ -14,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="../css/stylish-portfolio.min.css" rel="stylesheet">
   <!-- Favicon icon -->
-  <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
+  <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo1.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">

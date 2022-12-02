@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
+    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo1.png">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <!-- CSS only -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
@@ -29,34 +29,34 @@
     <?php require_once 'campo/Nav.php'; ?>
 
 
-    
-                        <form name="frmUsuario" id="formulario" method="POST" action="">
-                            <div class="col-md-6 offset-md-3">
-                                <h3 class="text-center">Restablecer contraseña</h3>
-                                <div class="form-group row">
+
+    <form name="frmUsuario" id="formulario" method="POST" action="">
+        <div class="col-md-6 offset-md-3">
+            <h3 class="text-center">Restablecer contraseña</h3>
+            <div class="form-group row">
 
 
-                                </div>
-                                <div class="form-group row">
-                                    <label class="col-4">contraseña:</label>
-                                    <div class="d-flex">
-                                        <input  class="form-control" type="password" id="contrasenia">
-                                        <button class="btn btn-dark" type="button" onclick="mostrarContrasena1()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label class="col-4">Repetir contraseña:</label>
-                                    <div class="d-flex">
-                                        <input class="form-control" type="password" id="Confirmclave">
-                                        <button class="btn btn-dark" type="button" onclick="mostrarContrasena2()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
-                                    </div>
-                                </div>
-                                    <br>
-                                <div class="form-group text-center">
-                                    <button class="btn btn-danger" name="submit" id="submit" type="button" onclick="validarFormulario()">Actualizar</button>
-                                </div>
-                        </form>
-                    
+            </div>
+            <div class="form-group row">
+                <label class="col-4">contraseña:</label>
+                <div class="d-flex">
+                    <input class="form-control" type="password" id="contrasenia">
+                    <button class="btn btn-dark" type="button" onclick="mostrarContrasena1()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-4">Repetir contraseña:</label>
+                <div class="d-flex">
+                    <input class="form-control" type="password" id="Confirmclave">
+                    <button class="btn btn-dark" type="button" onclick="mostrarContrasena2()"><i class="fa-sharp fa-solid fa-eye-slash"></i></button>
+                </div>
+            </div>
+            <br>
+            <div class="form-group text-center">
+                <button class="btn btn-danger" name="submit" id="submit" type="button" onclick="validarFormulario()">Actualizar</button>
+            </div>
+    </form>
+
 
     </div>
     <br>
@@ -77,8 +77,8 @@
     <br>
     <br>
     <br>
-    
-    
+
+
 
 
     <?php require_once 'campo/footer.php'; ?>
@@ -218,28 +218,28 @@
             }
 
 
-           /////////////CEDULA/////////////////
-           if (!Valcedula1) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'La identificacion es invalida'
-            })
-        }
+            /////////////CEDULA/////////////////
+            if (!Valcedula1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'La identificacion es invalida'
+                })
+            }
 
-       
 
-        var validoCedula1 = cedulaNum.test(Valcedula1);
-        if (!validoCedula1) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Solo numeros (9) digitos'
-            })
-        }
 
-        
-        var validoCedula1 = valoresAceptados.test(Valcedula1);
+            var validoCedula1 = cedulaNum.test(Valcedula1);
+            if (!validoCedula1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Solo numeros (9) digitos'
+                })
+            }
+
+
+            var validoCedula1 = valoresAceptados.test(Valcedula1);
             if (!validoCedula1) {
                 return Swal.fire({
                     icon: 'error',
@@ -250,24 +250,24 @@
 
             //telefono
             if (!Valtelefono1) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Numero no valido'
-            })
-        }
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Numero no valido'
+                })
+            }
 
-        var Validotelefono1 = numerost.test(Valtelefono1)
+            var Validotelefono1 = numerost.test(Valtelefono1)
 
-        if (!Validotelefono1) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Telefono no valido'
-            })
-        }
+            if (!Validotelefono1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Telefono no valido'
+                })
+            }
 
-        var ValidotelefonoT1 = valoresAceptados.test(Valtelefono1);
+            var ValidotelefonoT1 = valoresAceptados.test(Valtelefono1);
             if (!ValidotelefonoT1) {
                 return Swal.fire({
                     icon: 'error',

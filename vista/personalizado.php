@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="../css/personalizado.css">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
+    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo1.png">
     <!-- letra -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

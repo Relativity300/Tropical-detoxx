@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
 
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
+    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo1.png">
     <title>Tropical Detox </title>
 </head>
 

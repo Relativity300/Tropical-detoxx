@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
+    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo1.png">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <!-- CSS only -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
@@ -279,52 +279,52 @@
                 })
             }
             //Apellido
-         if (!Valapellido1) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Ingrese su Apellido'
-            })
-        }
-        if (typeof Valapellido1 === "number") {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'El Apellido no puede contener numeros'
-            })
-        }
-        var validoApellido1 = NoEspeciales.test(Valapellido1);
-        if (!validoApellido1) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'El Apellido no puede tener caracteres especiales'
-            })
-        }
+            if (!Valapellido1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Ingrese su Apellido'
+                })
+            }
+            if (typeof Valapellido1 === "number") {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El Apellido no puede contener numeros'
+                })
+            }
+            var validoApellido1 = NoEspeciales.test(Valapellido1);
+            if (!validoApellido1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El Apellido no puede tener caracteres especiales'
+                })
+            }
 
 
-           /////////////CEDULA/////////////////
-           if (!Valcedula1) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'La identificacion es invalida'
-            })
-        }
+            /////////////CEDULA/////////////////
+            if (!Valcedula1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'La identificacion es invalida'
+                })
+            }
 
-       
 
-        var validoCedula1 = cedulaNum.test(Valcedula1);
-        if (!validoCedula1) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'La cedula es invalida'
-            })
-        }
 
-        
-        var validoCedula1 = valoresAceptados.test(Valcedula1);
+            var validoCedula1 = cedulaNum.test(Valcedula1);
+            if (!validoCedula1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'La cedula es invalida'
+                })
+            }
+
+
+            var validoCedula1 = valoresAceptados.test(Valcedula1);
             if (!validoCedula1) {
                 return Swal.fire({
                     icon: 'error',
@@ -335,24 +335,24 @@
 
             //telefono
             if (!Valtelefono1) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Numero no valido'
-            })
-        }
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Numero no valido'
+                })
+            }
 
-        var Validotelefono1 = numerost.test(Valtelefono1)
+            var Validotelefono1 = numerost.test(Valtelefono1)
 
-        if (!Validotelefono1) {
-            return Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Telefono no valido'
-            })
-        }
+            if (!Validotelefono1) {
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Telefono no valido'
+                })
+            }
 
-        var ValidotelefonoT1 = valoresAceptados.test(Valtelefono1);
+            var ValidotelefonoT1 = valoresAceptados.test(Valtelefono1);
             if (!ValidotelefonoT1) {
                 return Swal.fire({
                     icon: 'error',
