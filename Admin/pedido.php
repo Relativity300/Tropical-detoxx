@@ -6,10 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords"
-        content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Ample lite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Ample admin lite dashboard bootstrap 5 dashboard template">
-    <meta name="description"
-        content="Ample Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
+    <meta name="keywords" content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Ample lite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Ample admin lite dashboard bootstrap 5 dashboard template">
+    <meta name="description" content="Ample Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
     <meta name="robots" content="noindex,nofollow">
     <title>Tropical Detox Administrador</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/ample-admin-lite/" />
@@ -41,8 +39,7 @@
     <!-- ============================================================== -->
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
-    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full"
-        data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full" data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
         <!-- ============================================================== -->
         <!-- Topbar header - style you can find in pages.scss -->
         <!-- ============================================================== -->
@@ -63,8 +60,7 @@
                     <!-- ============================================================== -->
                     <!-- toggle and nav items -->
                     <!-- ============================================================== -->
-                    <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none"
-                        href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                    <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
                 </div>
                 <!-- ============================================================== -->
                 <!-- End Logo -->
@@ -72,8 +68,7 @@
                 <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
                     <ul class="navbar-nav d-none d-md-block d-lg-none">
                         <li class="nav-item">
-                            <a class="nav-toggler nav-link waves-effect waves-light text-white"
-                                href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                            <a class="nav-toggler nav-link waves-effect waves-light text-white" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
                         </li>
                     </ul>
                     <!-- ============================================================== -->
@@ -90,8 +85,7 @@
                         <!-- ============================================================== -->
                         <li>
                             <a class="profile-pic" href="#">
-                                <img src="plugins/images/users/varun.jpg" alt="user-img" width="36"
-                                    class="img-circle"><span class="text-white font-medium">Steave</span>
+                                <img src="plugins/images/users/varun.jpg" alt="user-img" width="36" class="img-circle"><span class="text-white font-medium">Steave</span>
 
                             </a>
                         </li>
@@ -120,46 +114,40 @@
                     <ul id="sidebarnav">
                         <!-- User Profile-->
                         <li class="sidebar-item pt-2">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="configuracion.php"
-                                aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="configuracion.php" aria-expanded="false">
                                 <i class="far fa-clock" aria-hidden="true"></i>
                                 <span class="hide-menu">Configuracion</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="usuarios.php"
-                                aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="usuarios.php" aria-expanded="false">
                                 <i class="fa fa-user" aria-hidden="true"></i>
                                 <span class="hide-menu">Usuarios</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="categoria de productos.php" aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="categoria de productos.php" aria-expanded="false">
                                 <i class="fa fa-table" aria-hidden="true"></i>
                                 <span class="hide-menu">Categoria de productos</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="Clientes.php"
-                                aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="Clientes.php" aria-expanded="false">
                                 <i class="fa fa-font" aria-hidden="true"></i>
                                 <span class="hide-menu">Clientes</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.php"
-                                aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="pedido.php" aria-expanded="false">
                                 <i class="fa fa-columns" aria-hidden="true"></i>
-                                <span class="hide-menu">Ventas</span>
+                                <span class="hide-menu">Pedido</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="pedido.php"
-                                aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.php" aria-expanded="false">
                                 <i class="fa fa-columns" aria-hidden="true"></i>
-                                <span class="hide-menu">pedido</span>
+                                <span class="hide-menu">Ventas</span>
                             </a>
                         </li>
 
@@ -227,50 +215,30 @@
                                         <input type="search" name="nombre" placeholder="Buscar">
                                     </form>
                                     <ul>
-                                        <li class="edi">jugo Mango $2.000<input type="checkbox" class="seletor1" id="cbox1"
-                                                value="first_checkbox"> <input type="number" name="" id=""
-                                                class="cantidad"> <br></li>
-                                        <li class="edi">jugo Piña  $2.000<input type="checkbox" class="seletor1" id="cbox1"
-                                                value="first_checkbox"> <input type="number" name="" id=""
-                                                class="cantidad"></li>
-                                        <li class="edi">jugo coco  $2.000<input type="checkbox" class="seletor1" id="cbox1"
-                                                value="first_checkbox"> <input type="number" name="" id=""
-                                                class="cantidad"></li>
-                                        <li class="edi">jugo Pomelo  $2.000<input type="checkbox" class="seletor1" id="cbox1"
-                                                value="first_checkbox"> <input type="number" name="" id=""
-                                                class="cantidad"></li>
-                                        <li class="edi">jugo Aguacate $2.000<input type="checkbox" class="seletor1" id="cbox1"
-                                                value="first_checkbox"> <input type="number" name="" id=""
-                                                class="cantidad"></li>
+                                        <li class="edi">jugo Mango $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> <input type="number" name="" id="" class="cantidad"> <br></li>
+                                        <li class="edi">jugo Piña $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> <input type="number" name="" id="" class="cantidad"></li>
+                                        <li class="edi">jugo coco $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> <input type="number" name="" id="" class="cantidad"></li>
+                                        <li class="edi">jugo Pomelo $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> <input type="number" name="" id="" class="cantidad"></li>
+                                        <li class="edi">jugo Aguacate $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> <input type="number" name="" id="" class="cantidad"></li>
                                     </ul>
                                 </div>
 
                                 <div class="editados">
                                     <ul>
-                                        <li class="edi2">jugo Mango $2.000 <input type="number" name="" id=""
-                                                class="cantidad">
-                                            <button type="button" class="buttonn" data-bs-toggle="modal"
-                                                data-bs-target="#Insumo">
+                                        <li class="edi2">jugo Mango $2.000 <input type="number" name="" id="" class="cantidad">
+                                            <button type="button" class="buttonn" data-bs-toggle="modal" data-bs-target="#Insumo">
                                                 <i class="bi bi-trash">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-                                                        fill="currentColor" class="bi bi-x-octagon-fill"
-                                                        viewBox="0 0 16 16">
-                                                        <path
-                                                            d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-octagon-fill" viewBox="0 0 16 16">
+                                                        <path d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
                                                     </svg>
                                                 </i>
                                             </button>
                                         </li>
-                                        <li class="edi2">jugo Mango $2.000 <input type="number" name="" id=""
-                                                class="cantidad">
-                                            <button type="button" class="buttonn" data-bs-toggle="modal"
-                                                data-bs-target="#Insumo">
+                                        <li class="edi2">jugo Mango $2.000 <input type="number" name="" id="" class="cantidad">
+                                            <button type="button" class="buttonn" data-bs-toggle="modal" data-bs-target="#Insumo">
                                                 <i class="bi bi-trash">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-                                                        fill="currentColor" class="bi bi-x-octagon-fill"
-                                                        viewBox="0 0 16 16">
-                                                        <path
-                                                            d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-octagon-fill" viewBox="0 0 16 16">
+                                                        <path d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
                                                     </svg>
                                                 </i>
                                             </button>
@@ -286,8 +254,7 @@
                         <div class="div-botones">
                             <button type="button" class="bbb btn btn-danger" data-bs-dismiss="modal">Eliminar.</button>
                             <!-- <button type="button" class="bbb btn btn-danger" data-bs-dismiss="modal" onclick="validarFormulario()" >Editar.</button> -->
-                            <button class="bbb btn btn-success" type="button" data-bs-dismiss="modal"
-                                onclick="validarFormulario()">Guardar</button>
+                            <button class="bbb btn btn-success" type="button" data-bs-dismiss="modal" onclick="validarFormulario()">Guardar</button>
                         </div>
                     </div>
                 </div>
@@ -334,21 +301,11 @@
                                         <input type="search" name="nombre" placeholder="Buscar">
                                     </form>
                                     <ul>
-                                        <li class="edi">Mango $2.000    <input type="checkbox" class="seletor1" id="cbox1"
-                                                value="first_checkbox"> <input type="number" name="" id=""
-                                                class="cantidad"> <br></li>
-                                        <li class="edi">Pomelo $2.000   <input type="checkbox" class="seletor1" id="cbox1"
-                                                value="first_checkbox"> <input type="number" name="" id=""
-                                                class="cantidad"></li>
-                                        <li class="edi">Piña $2.000     <input type="checkbox" class="seletor1" id="cbox1"
-                                                value="first_checkbox"> <input type="number" name="" id=""
-                                                class="cantidad"></li>
-                                        <li class="edi">Manzanas $2.000 <input type="checkbox" class="seletor1" id="cbox1"
-                                                value="first_checkbox"> <input type="number" name="" id=""
-                                                class="cantidad"></li>
-                                        <li class="edi">Coco $2.000     <input type="checkbox" class="seletor1" id="cbox1"
-                                                value="first_checkbox"> <input type="number" name="" id=""
-                                                class="cantidad"></li>
+                                        <li class="edi">Mango $2.000 <input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> <input type="number" name="" id="" class="cantidad"> <br></li>
+                                        <li class="edi">Pomelo $2.000 <input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> <input type="number" name="" id="" class="cantidad"></li>
+                                        <li class="edi">Piña $2.000 <input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> <input type="number" name="" id="" class="cantidad"></li>
+                                        <li class="edi">Manzanas $2.000 <input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> <input type="number" name="" id="" class="cantidad"></li>
+                                        <li class="edi">Coco $2.000 <input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> <input type="number" name="" id="" class="cantidad"></li>
                                     </ul>
                                 </div>
 
@@ -356,30 +313,20 @@
                                     <h3 class="elegidas">Frutas elegidas</h3>
                                     <ul>
 
-                                        <li class="edi2">Coco $2.000 <input type="number" name="" id=""
-                                                class="cantidad">
-                                            <button type="button" class="buttonn" data-bs-toggle="modal"
-                                                data-bs-target="#Insumo">
+                                        <li class="edi2">Coco $2.000 <input type="number" name="" id="" class="cantidad">
+                                            <button type="button" class="buttonn" data-bs-toggle="modal" data-bs-target="#Insumo">
                                                 <i class="bi bi-trash">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-                                                        fill="currentColor" class="bi bi-x-octagon-fill"
-                                                        viewBox="0 0 16 16">
-                                                        <path
-                                                            d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-octagon-fill" viewBox="0 0 16 16">
+                                                        <path d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
                                                     </svg>
                                                 </i>
                                             </button>
                                         </li>
-                                        <li class="edi2">Mango $2.000 <input type="number" name="" id=""
-                                                class="cantidad">
-                                            <button type="button" class="buttonn" data-bs-toggle="modal"
-                                                data-bs-target="#Insumo">
+                                        <li class="edi2">Mango $2.000 <input type="number" name="" id="" class="cantidad">
+                                            <button type="button" class="buttonn" data-bs-toggle="modal" data-bs-target="#Insumo">
                                                 <i class="bi bi-trash">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-                                                        fill="currentColor" class="bi bi-x-octagon-fill"
-                                                        viewBox="0 0 16 16">
-                                                        <path
-                                                            d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-octagon-fill" viewBox="0 0 16 16">
+                                                        <path d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
                                                     </svg>
                                                 </i>
                                             </button>
@@ -395,8 +342,7 @@
                         <div class="div-botones">
                             <button type="button" class="bbb btn btn-danger" data-bs-dismiss="modal">Eliminar.</button>
                             <!-- <button type="button" class="bbb btn btn-danger" data-bs-dismiss="modal" onclick="validarFormulario()" >Editar.</button> -->
-                            <button class="bbb btn btn-success" type="button" data-bs-dismiss="modal"
-                                onclick="validarFormulario()">Guardar</button>
+                            <button class="bbb btn btn-success" type="button" data-bs-dismiss="modal" onclick="validarFormulario()">Guardar</button>
                         </div>
                     </div>
                 </div>
@@ -426,12 +372,10 @@
                                             <input type="month" class="mes" name="mes" min="2022-00" max="2022-12">
                                         </div>
                                         <div class="Crearr">
-                                            <button type="button " class=" button btn btn-primary"
-                                                data-bs-toggle="modal" data-bs-target="#Personalizado">
+                                            <button type="button " class=" button btn btn-primary" data-bs-toggle="modal" data-bs-target="#Personalizado">
                                                 Crear Personalizado
                                             </button>
-                                            <button type="button " class=" button btn btn-primary"
-                                                data-bs-toggle="modal" data-bs-target="#crear">
+                                            <button type="button " class=" button btn btn-primary" data-bs-toggle="modal" data-bs-target="#crear">
                                                 Crear pedido
                                             </button>
                                         </div>
@@ -445,7 +389,7 @@
                             <th class="border-top-0">Estado</th>
                             <th class="border-top-0">Fecha</th>
                             <th class="border-top-0">Total</th>
-                            <th class="border-top-0" style="position: relative; left: 1.7em ;" >Opciones</th>
+                            <th class="border-top-0" style="position: relative; left: 1.7em ;">Opciones</th>
 
                             </tr>
                         </thead>
@@ -469,37 +413,28 @@
                                 <td class="txt-oflo">
 
                                     <!-- eliminar -->
-                                    <button type="button" class="button" data-bs-toggle="modal"
-                                        data-bs-target="#elliminar">
+                                    <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar">
                                         <i class="bi bi-trash">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-                                                fill="currentColor" class="bi bi-x-octagon-fill" viewBox="0 0 16 16">
-                                                <path
-                                                    d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-octagon-fill" viewBox="0 0 16 16">
+                                                <path d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
                                             </svg>
                                         </i>
                                     </button>
 
                                     <!-- detalles -->
 
-                                    <button type="button" class="button" data-bs-toggle="modal"
-                                        data-bs-target="#editarper">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
-                                            fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
-                                            <path
-                                                d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                                    <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editarper">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                                            <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
                                         </svg>
                                     </button>
 
                                     <!-- detalles -->
                                     <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#Datosper">
                                         <i class="bi bi-file-earmark-spreadsheet">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
-                                                fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                                                <path
-                                                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                                                <path
-                                                    d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
                                             </svg>
                                         </i>
                                     </button>
@@ -526,37 +461,27 @@
                                 <td class="txt-oflo">
 
                                     <!-- eliminar -->
-                                    <button type="button" class="button" data-bs-toggle="modal"
-                                        data-bs-target="#elliminar">
+                                    <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar">
                                         <i class="bi bi-trash">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-                                                fill="currentColor" class="bi bi-x-octagon-fill" viewBox="0 0 16 16">
-                                                <path
-                                                    d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-octagon-fill" viewBox="0 0 16 16">
+                                                <path d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
                                             </svg>
                                         </i>
                                     </button>
 
                                     <!-- detalles -->
 
-                                    <button type="button" class="button" data-bs-toggle="modal"
-                                        data-bs-target="#editar">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
-                                            fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
-                                            <path
-                                                d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                                    <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                                            <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
                                         </svg>
                                     </button>
 
                                     <!-- detalles -->
                                     <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#Datos">
-                                        <i class="bi bi-file-earmark-spreadsheet"><svg
-                                                xmlns="http://www.w3.org/2000/svg" width="25" height="25"
-                                                fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                                                <path
-                                                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                                                <path
-                                                    d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                        <i class="bi bi-file-earmark-spreadsheet"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
                                             </svg></i>
                                     </button>
                                 </td>
@@ -582,37 +507,27 @@
                                 <td class="txt-oflo">
 
                                     <!-- eliminar -->
-                                    <button type="button" class="button" data-bs-toggle="modal"
-                                        data-bs-target="#elliminar">
+                                    <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar">
                                         <i class="bi bi-trash">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-                                                fill="currentColor" class="bi bi-x-octagon-fill" viewBox="0 0 16 16">
-                                                <path
-                                                    d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-octagon-fill" viewBox="0 0 16 16">
+                                                <path d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
                                             </svg>
                                         </i>
                                     </button>
 
                                     <!-- detalles -->
 
-                                    <button type="button" class="button" data-bs-toggle="modal"
-                                        data-bs-target="#editar">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
-                                            fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
-                                            <path
-                                                d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                                    <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                                            <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
                                         </svg>
                                     </button>
 
                                     <!-- detalles -->
                                     <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#Datos">
-                                        <i class="bi bi-file-earmark-spreadsheet"><svg
-                                                xmlns="http://www.w3.org/2000/svg" width="25" height="25"
-                                                fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                                                <path
-                                                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                                                <path
-                                                    d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                        <i class="bi bi-file-earmark-spreadsheet"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
                                             </svg></i>
                                     </button>
                                 </td>
@@ -638,37 +553,27 @@
                                 <td class="txt-oflo">
 
                                     <!-- eliminar -->
-                                    <button type="button" class="button" data-bs-toggle="modal"
-                                        data-bs-target="#elliminar">
+                                    <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar">
                                         <i class="bi bi-trash">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-                                                fill="currentColor" class="bi bi-x-octagon-fill" viewBox="0 0 16 16">
-                                                <path
-                                                    d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-octagon-fill" viewBox="0 0 16 16">
+                                                <path d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
                                             </svg>
                                         </i>
                                     </button>
 
                                     <!-- detalles -->
 
-                                    <button type="button" class="button" data-bs-toggle="modal"
-                                        data-bs-target="#editar">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
-                                            fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
-                                            <path
-                                                d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                                    <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                                            <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
                                         </svg>
                                     </button>
 
                                     <!-- detalles -->
                                     <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#Datos">
-                                        <i class="bi bi-file-earmark-spreadsheet"><svg
-                                                xmlns="http://www.w3.org/2000/svg" width="25" height="25"
-                                                fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                                                <path
-                                                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                                                <path
-                                                    d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                        <i class="bi bi-file-earmark-spreadsheet"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
                                             </svg></i>
                                     </button>
                                 </td>
@@ -694,37 +599,27 @@
                                 <td class="txt-oflo">
 
                                     <!-- eliminar -->
-                                    <button type="button" class="button" data-bs-toggle="modal"
-                                        data-bs-target="#elliminar">
+                                    <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar">
                                         <i class="bi bi-trash">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-                                                fill="currentColor" class="bi bi-x-octagon-fill" viewBox="0 0 16 16">
-                                                <path
-                                                    d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-octagon-fill" viewBox="0 0 16 16">
+                                                <path d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
                                             </svg>
                                         </i>
                                     </button>
 
                                     <!-- detalles -->
 
-                                    <button type="button" class="button" data-bs-toggle="modal"
-                                        data-bs-target="#editar">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
-                                            fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
-                                            <path
-                                                d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                                    <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                                            <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
                                         </svg>
                                     </button>
 
                                     <!-- detalles -->
                                     <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#Datos">
-                                        <i class="bi bi-file-earmark-spreadsheet"><svg
-                                                xmlns="http://www.w3.org/2000/svg" width="25" height="25"
-                                                fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                                                <path
-                                                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                                                <path
-                                                    d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                        <i class="bi bi-file-earmark-spreadsheet"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
                                             </svg></i>
                                     </button>
                                 </td>
@@ -744,7 +639,7 @@
             <!-- Modal1 -->
             <!-- Editar -->
             <div class="modal fade" id="editar" tabindex="-1" aria-labelledby="editar" aria-hidden="true">
-            <div class="modal-dialog">
+                <div class="modal-dialog">
                     <div class="modal-content wh">
                         <div class="modal-header">
                             <h1 class="titulo-Modal ">Crear pedidos</h1>
@@ -782,50 +677,30 @@
                                         <input type="search" name="nombre" placeholder="Buscar">
                                     </form>
                                     <ul>
-                                        <li class="edi">jugo Mango $2.000<input type="checkbox" class="seletor1" id="cbox1"
-                                                value="first_checkbox"> <input type="number" name="" id=""
-                                                class="cantidad"> <br></li>
-                                        <li class="edi">jugo Piña  $2.000<input type="checkbox" class="seletor1" id="cbox1"
-                                                value="first_checkbox"> <input type="number" name="" id=""
-                                                class="cantidad"></li>
-                                        <li class="edi">jugo coco  $2.000<input type="checkbox" class="seletor1" id="cbox1"
-                                                value="first_checkbox"> <input type="number" name="" id=""
-                                                class="cantidad"></li>
-                                        <li class="edi">jugo Pomelo  $2.000<input type="checkbox" class="seletor1" id="cbox1"
-                                                value="first_checkbox"> <input type="number" name="" id=""
-                                                class="cantidad"></li>
-                                        <li class="edi">jugo Aguacate $2.000<input type="checkbox" class="seletor1" id="cbox1"
-                                                value="first_checkbox"> <input type="number" name="" id=""
-                                                class="cantidad"></li>
+                                        <li class="edi">jugo Mango $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> <input type="number" name="" id="" class="cantidad"> <br></li>
+                                        <li class="edi">jugo Piña $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> <input type="number" name="" id="" class="cantidad"></li>
+                                        <li class="edi">jugo coco $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> <input type="number" name="" id="" class="cantidad"></li>
+                                        <li class="edi">jugo Pomelo $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> <input type="number" name="" id="" class="cantidad"></li>
+                                        <li class="edi">jugo Aguacate $2.000<input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> <input type="number" name="" id="" class="cantidad"></li>
                                     </ul>
                                 </div>
 
                                 <div class="editados">
                                     <ul>
-                                        <li class="edi2">jugo Mango $2.000 <input type="number" name="" id=""
-                                                class="cantidad">
-                                            <button type="button" class="buttonn" data-bs-toggle="modal"
-                                                data-bs-target="#Insumo">
+                                        <li class="edi2">jugo Mango $2.000 <input type="number" name="" id="" class="cantidad">
+                                            <button type="button" class="buttonn" data-bs-toggle="modal" data-bs-target="#Insumo">
                                                 <i class="bi bi-trash">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-                                                        fill="currentColor" class="bi bi-x-octagon-fill"
-                                                        viewBox="0 0 16 16">
-                                                        <path
-                                                            d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-octagon-fill" viewBox="0 0 16 16">
+                                                        <path d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
                                                     </svg>
                                                 </i>
                                             </button>
                                         </li>
-                                        <li class="edi2">jugo Mango $2.000 <input type="number" name="" id=""
-                                                class="cantidad">
-                                            <button type="button" class="buttonn" data-bs-toggle="modal"
-                                                data-bs-target="#Insumo">
+                                        <li class="edi2">jugo Mango $2.000 <input type="number" name="" id="" class="cantidad">
+                                            <button type="button" class="buttonn" data-bs-toggle="modal" data-bs-target="#Insumo">
                                                 <i class="bi bi-trash">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-                                                        fill="currentColor" class="bi bi-x-octagon-fill"
-                                                        viewBox="0 0 16 16">
-                                                        <path
-                                                            d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-octagon-fill" viewBox="0 0 16 16">
+                                                        <path d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
                                                     </svg>
                                                 </i>
                                             </button>
@@ -841,8 +716,7 @@
                         <div class="div-botones">
                             <button type="button" class="bbb btn btn-danger" data-bs-dismiss="modal">Eliminar.</button>
                             <!-- <button type="button" class="bbb btn btn-danger" data-bs-dismiss="modal" onclick="validarFormulario()" >Editar.</button> -->
-                            <button class="bbb btn btn-success" type="button" data-bs-dismiss="modal"
-                                onclick="validarFormulario()">Guardar</button>
+                            <button class="bbb btn btn-success" type="button" data-bs-dismiss="modal" onclick="validarFormulario()">Guardar</button>
                         </div>
                     </div>
                 </div>
@@ -851,7 +725,7 @@
 
             <!-- Editar Personalizado -->
             <div class="modal fade" id="editarper" tabindex="-1" aria-labelledby="editarper" aria-hidden="true">
-            <div class="modal-dialog">
+                <div class="modal-dialog">
                     <div class="modal-content wh">
                         <div class="modal-header">
                             <h1 class="titulo-Modal ">Editar Personalizado</h1>
@@ -889,21 +763,11 @@
                                         <input type="search" name="nombre" placeholder="Buscar">
                                     </form>
                                     <ul>
-                                        <li class="edi">Mango $2.000    <input type="checkbox" class="seletor1" id="cbox1"
-                                                value="first_checkbox"> <input type="number" name="" id=""
-                                                class="cantidad"> <br></li>
-                                        <li class="edi">Pomelo $2.000   <input type="checkbox" class="seletor1" id="cbox1"
-                                                value="first_checkbox"> <input type="number" name="" id=""
-                                                class="cantidad"></li>
-                                        <li class="edi">Piña $2.000     <input type="checkbox" class="seletor1" id="cbox1"
-                                                value="first_checkbox"> <input type="number" name="" id=""
-                                                class="cantidad"></li>
-                                        <li class="edi">Manzanas $2.000 <input type="checkbox" class="seletor1" id="cbox1"
-                                                value="first_checkbox"> <input type="number" name="" id=""
-                                                class="cantidad"></li>
-                                        <li class="edi">Coco $2.000     <input type="checkbox" class="seletor1" id="cbox1"
-                                                value="first_checkbox"> <input type="number" name="" id=""
-                                                class="cantidad"></li>
+                                        <li class="edi">Mango $2.000 <input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> <input type="number" name="" id="" class="cantidad"> <br></li>
+                                        <li class="edi">Pomelo $2.000 <input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> <input type="number" name="" id="" class="cantidad"></li>
+                                        <li class="edi">Piña $2.000 <input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> <input type="number" name="" id="" class="cantidad"></li>
+                                        <li class="edi">Manzanas $2.000 <input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> <input type="number" name="" id="" class="cantidad"></li>
+                                        <li class="edi">Coco $2.000 <input type="checkbox" class="seletor1" id="cbox1" value="first_checkbox"> <input type="number" name="" id="" class="cantidad"></li>
                                     </ul>
                                 </div>
 
@@ -911,30 +775,20 @@
                                     <h3 class="elegidas">Frutas elegidas</h3>
                                     <ul>
 
-                                        <li class="edi2">Coco $2.000 <input type="number" name="" id=""
-                                                class="cantidad">
-                                            <button type="button" class="buttonn" data-bs-toggle="modal"
-                                                data-bs-target="#Insumo">
+                                        <li class="edi2">Coco $2.000 <input type="number" name="" id="" class="cantidad">
+                                            <button type="button" class="buttonn" data-bs-toggle="modal" data-bs-target="#Insumo">
                                                 <i class="bi bi-trash">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-                                                        fill="currentColor" class="bi bi-x-octagon-fill"
-                                                        viewBox="0 0 16 16">
-                                                        <path
-                                                            d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-octagon-fill" viewBox="0 0 16 16">
+                                                        <path d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
                                                     </svg>
                                                 </i>
                                             </button>
                                         </li>
-                                        <li class="edi2">Mango $2.000 <input type="number" name="" id=""
-                                                class="cantidad">
-                                            <button type="button" class="buttonn" data-bs-toggle="modal"
-                                                data-bs-target="#Insumo">
+                                        <li class="edi2">Mango $2.000 <input type="number" name="" id="" class="cantidad">
+                                            <button type="button" class="buttonn" data-bs-toggle="modal" data-bs-target="#Insumo">
                                                 <i class="bi bi-trash">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-                                                        fill="currentColor" class="bi bi-x-octagon-fill"
-                                                        viewBox="0 0 16 16">
-                                                        <path
-                                                            d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-octagon-fill" viewBox="0 0 16 16">
+                                                        <path d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
                                                     </svg>
                                                 </i>
                                             </button>
@@ -950,8 +804,7 @@
                         <div class="div-botones">
                             <button type="button" class="bbb btn btn-danger" data-bs-dismiss="modal">Eliminar.</button>
                             <!-- <button type="button" class="bbb btn btn-danger" data-bs-dismiss="modal" onclick="validarFormulario()" >Editar.</button> -->
-                            <button class="bbb btn btn-success" type="button" data-bs-dismiss="modal"
-                                onclick="validarFormulario()">Guardar</button>
+                            <button class="bbb btn btn-success" type="button" data-bs-dismiss="modal" onclick="validarFormulario()">Guardar</button>
                         </div>
                     </div>
                 </div>
@@ -1000,8 +853,8 @@
                 </div>
             </div>
 
- <!-- detalles per -->
- <div class="modal fade" id="Datosper" tabindex="-1" aria-labelledby="Datosper" aria-hidden="true">
+            <!-- detalles per -->
+            <div class="modal fade" id="Datosper" tabindex="-1" aria-labelledby="Datosper" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content wh">
                         <div class="modal-header">
@@ -1029,7 +882,7 @@
                                         <li class="li">coco</li>
                                         <li class="li">Manzanas</li>
                                         <li class="li">Precio: <small>2.000 </small></li>
-                                        
+
                                     </ul>
                                 </div>
                             </div>
@@ -1067,8 +920,7 @@
                             </div>
                         </div>
                         <div class="div-botones ">
-                            <button type="button" class=" m-2 btn-success eliminarr" data-bs-dismiss="modal"
-                                onclick="elliminarr()">Eliminar.</button>
+                            <button type="button" class=" m-2 btn-success eliminarr" data-bs-dismiss="modal" onclick="elliminarr()">Eliminar.</button>
                             <button type="button" class="m-2 btn btn-danger" data-bs-dismiss="modal">cancelar.</button>
                         </div>
                     </div>

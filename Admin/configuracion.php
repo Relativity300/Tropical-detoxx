@@ -138,15 +138,15 @@
                         </li>
 
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.php" aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="pedido.php" aria-expanded="false">
                                 <i class="fa fa-columns" aria-hidden="true"></i>
-                                <span class="hide-menu">Ventas</span>
+                                <span class="hide-menu">Pedido</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="pedido.php" aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.php" aria-expanded="false">
                                 <i class="fa fa-columns" aria-hidden="true"></i>
-                                <span class="hide-menu">pedido</span>
+                                <span class="hide-menu">Ventas</span>
                             </a>
                         </li>
 
@@ -159,6 +159,8 @@
             </div>
             <!-- End Sidebar scroll-->
         </aside>
+        
+        <!-- Todo lo de mas  -->
         <div class="page-wrapper">
             <div class="page-breadcrumb bg-white">
                 <div class="row align-items-center">
@@ -184,10 +186,10 @@
                                             </th>
                                         <tr>
                                         <tr>
-                                        <th colspan="9" class="bucar_list espacio">
-                                            <form action="" class="bucar_list espacio">
-                                                <input type="search" name="nombre" placeholder="Buscar">
-                                            </form>
+                                            <th colspan="9" class="bucar_list espacio">
+                                                <form action="" class="bucar_list espacio">
+                                                    <input type="search" name="nombre" placeholder="Buscar">
+                                                </form>
                                             </th>
                                         </tr>
                                         <th class="border-top-0">ID</th>

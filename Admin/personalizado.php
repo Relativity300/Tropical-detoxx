@@ -128,15 +128,15 @@
                         </li>
 
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.php" aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="pedido.php" aria-expanded="false">
                                 <i class="fa fa-columns" aria-hidden="true"></i>
-                                <span class="hide-menu">Ventas</span>
+                                <span class="hide-menu">Pedido</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="pedido.php" aria-expanded="false">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.php" aria-expanded="false">
                                 <i class="fa fa-columns" aria-hidden="true"></i>
-                                <span class="hide-menu">pedido</span>
+                                <span class="hide-menu">Ventas</span>
                             </a>
                         </li>
 
@@ -149,8 +149,6 @@
             </div>
             <!-- End Sidebar scroll-->
         </aside>
-
-
         <!-- ============================================================== -->
         <!-- End Left Sidebar - style you can find in sidebar.scss  -->
         <!-- ============================================================== -->
@@ -278,7 +276,7 @@
                                     <input type="text" class="form-control" id="nombre1">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="message-text" class="col-form-label" >Precio</label>
+                                    <label for="message-text" class="col-form-label">Precio</label>
                                     <input type="text" id="descripcion1" onkeypress="return valideKey(event);">
                                 </div>
                                 <div class="mb-3">
@@ -503,8 +501,8 @@
     <script src="js/custom.js"></script>
 
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-       <!-- Solo numeros -->
-       <script>
+    <!-- Solo numeros -->
+    <script>
         function valideKey(evt) {
 
             // codigo en ASCII representacion al presionar una letra
