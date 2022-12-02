@@ -363,15 +363,18 @@
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Jugo de fresa</h5>
+                                    Estado:
                                     <div class="form-check form-switch ">
-                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" class="form-check form-switch" checked>
+                                        <label for="">
+                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" class="form-check form-switch" checked>
+                                        </label>
                                     </div>
                                     $40.00 - $80.00
                                 </div>
                             </div>
 
                             <div class="box-2 text-center">
-                                <h5>Editar estado</h5>
+                                <h5>Editar producto / Ver informacion</h5>
                                 <!-- Editar  -->
                                 <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
@@ -399,15 +402,18 @@
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Jugo de mango</h5>
+                                    Estado:
                                     <div class="form-check form-switch ">
-                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" class="form-check form-switch" checked>
+                                        <label for="">
+                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" class="form-check form-switch" checked>
+                                        </label>
                                     </div>
                                     Jugo con sabor a mango
                                 </div>
                             </div>
                             <!-- Product actions-->
                             <div class="box-2 text-center">
-                                <h5>Editar estado</h5>
+                                <h5>Editar producto / Ver informacion</h5>
                                 <!-- Editar  -->
                                 <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
@@ -435,8 +441,11 @@
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Jugo de guayaba</h5>
+                                    Estado:
                                     <div class="form-check form-switch ">
-                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" class="form-check form-switch" checked>
+                                        <label for="">
+                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" class="form-check form-switch" checked>
+                                        </label>
                                     </div>
                                     <!-- Product price-->
                                     Jugo con sabor a guayaba
@@ -444,7 +453,7 @@
                             </div>
                             <!-- Product actions-->
                             <div class="box-2 text-center">
-                                <h5>Editar estado</h5>
+                                <h5>Editar producto / Ver informacion</h5>
                                 <!-- Editar  -->
                                 <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">

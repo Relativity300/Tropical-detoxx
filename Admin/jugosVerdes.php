@@ -359,15 +359,16 @@
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Licuado verde</h5>
-                                    <div class="form-check form-switch ">
-                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" class="form-check form-switch" checked>
+                                    <p class="text-pd-center">Estado:</p>
+                                    <div class="form-check form-switch">
+                                        <input class="item-end form-check-input " type="checkbox" id="flexSwitchCheckChecked" class="form-check form-switch" checked>
                                     </div>
                                     $40.00 - $80.00
                                 </div>
                             </div>
 
                             <div class="box-2 text-center">
-                                <h5>Inactivo / Activo</h5>
+                                <h5>Editar producto / Ver informacion</h5>
                                 <!-- Editar  -->
                                 <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
@@ -395,6 +396,7 @@
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Jugo de manzana</h5>
+                                    <p class="text-pd-center">Estado:</p>
                                     <div class="form-check form-switch ">
                                         <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" class="form-check form-switch" checked>
                                     </div>
@@ -404,7 +406,7 @@
                             </div>
                             <!-- Product actions-->
                             <div class="box-2 text-center">
-                                <h5>Inactivo / Activo</h5>
+                                <h5>Editar producto / Ver informacion</h5>
                                 <!-- Editar  -->
                                 <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
@@ -432,6 +434,7 @@
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Jugo combinado</h5>
+                                    <p class="text-pd-center">Estado:</p>
                                     <div class="form-check form-switch ">
                                         <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" class="form-check form-switch" checked>
                                     </div>
@@ -441,7 +444,7 @@
                             </div>
                             <!-- Product actions-->
                             <div class="box-2 text-center">
-                                <h5>Inactivo / Activo</h5>
+                                <h5>Editar producto / Ver informacion</h5>
                                 <!-- Editar  -->
                                 <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#editar">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
