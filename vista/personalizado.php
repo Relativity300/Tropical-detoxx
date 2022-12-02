@@ -5,17 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
-
     <link rel="stylesheet" href="../css/personalizado.css">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
-    <!-- letra -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,300&family=Libre+Baskerville:ital@1&family=Oswald&family=Poppins:ital,wght@0,400;0,600;1,500&family=Roboto+Condensed:ital,wght@1,300;1,400&family=Roboto+Slab&family=Rubik&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo1.png">
     <title>Tropical Detox </title>
 </head>
 
@@ -54,37 +48,28 @@
 
                     <div class="checkbox">
 
-                        <label for="checkbox1" class="frutas">Jugos de mango</label>
+                        <label for="checkbox1" class="frutas">Mango</label>
                         <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
 
-                        <label for="checkbox1" class="frutas">Jugos de mango</label>
+                        <label for="checkbox1" class="frutas">Pera</label>
                         <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
 
-                        <label for="checkbox1" class="frutas">Jugos de mango</label>
+                        <label for="checkbox1" class="frutas">Manzana verde</label>
                         <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
 
-                        <label for="checkbox1" class="frutas">Jugos de mango</label>
+                        <label for="checkbox1" class="frutas">Sandia</label>
                         <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
 
-                        <label for="checkbox1" class="frutas">Jugos de mango</label>
+                        <label for="checkbox1" class="frutas">Fresa</label>
                         <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
 
-                        <label for="checkbox1" class="frutas">Jugos de mango</label>
+                        <label for="checkbox1" class="frutas">Maracuya</label>
                         <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
-
-
-
 
                     </div>
 
                 </form>
-
-
-
             </div>
-
-
-
             <div class="frecha">
                 <i class="bi bi-arrow-right-circle-fill "><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
                         <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
@@ -92,13 +77,13 @@
             </div>
 
             <div>
-                <div class="proceso2">
+                <div class="proceso2 mb-5">
 
                     <div class="pedido">
                         <div class="checkbox">
                             <h1>Sabores elegidos</h1>
 
-                            <label for="checkbox1" class="frutas">Jugos de mango
+                            <label for="checkbox1" class="frutas">Mango
                                 <!-- eliminar -->
                                 <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar">
                                     <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
@@ -108,7 +93,7 @@
                                 </button>
                             </label>
 
-                            <label for="checkbox1" class="frutas">Jugos de manzana
+                            <label for="checkbox1" class="frutas">Manzana
                                 <!-- eliminar -->
                                 <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar">
                                     <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
@@ -124,8 +109,6 @@
                 </div>
             </div>
     </section>
-
-    <br><br><br><br><br><br><br>
 
     <?php require_once 'campo/footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>

@@ -12,7 +12,7 @@
     <title>Tropical Detox Administrador</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/ample-admin-lite/" />
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
+    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo1.png">
     <!-- Custom CSS -->
     <link href="css/style.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -141,13 +141,13 @@
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.php" aria-expanded="false">
                                 <i class="fa fa-columns" aria-hidden="true"></i>
-                                <span class="hide-menu">Ventas</span>
+                                <span class="hide-menu">Pedido</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="pedido.php" aria-expanded="false">
                                 <i class="fa fa-columns" aria-hidden="true"></i>
-                                <span class="hide-menu">pedido</span>
+                                <span class="hide-menu">Ventas</span>
                             </a>
                         </li>
 
@@ -224,7 +224,7 @@
                                 </div>
 
                                 <div class="editados">
-                                <ul>
+                                    <ul>
                                         <li class="edi2">Mango $2.000 <input type="number" name="" id="" class="cantidad">
                                             <button type="button" class="buttonn" data-bs-toggle="modal" data-bs-target="#Insumo">
                                                 <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">

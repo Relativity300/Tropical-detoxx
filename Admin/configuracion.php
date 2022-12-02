@@ -12,7 +12,7 @@
     <title>Tropical Detox Administrador</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/ample-admin-lite/" />
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
+    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo1.png">
     <!-- Custom CSS -->
     <link href="css/style.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -140,13 +140,13 @@
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.php" aria-expanded="false">
                                 <i class="fa fa-columns" aria-hidden="true"></i>
-                                <span class="hide-menu">Ventas</span>
+                                <span class="hide-menu">Pedido</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="pedido.php" aria-expanded="false">
                                 <i class="fa fa-columns" aria-hidden="true"></i>
-                                <span class="hide-menu">pedido</span>
+                                <span class="hide-menu">Ventas</span>
                             </a>
                         </li>
 
@@ -159,6 +159,7 @@
             </div>
             <!-- End Sidebar scroll-->
         </aside>
+
         <div class="page-wrapper">
             <div class="page-breadcrumb bg-white">
                 <div class="row align-items-center">
@@ -184,10 +185,10 @@
                                             </th>
                                         <tr>
                                         <tr>
-                                        <th colspan="9" class="bucar_list espacio">
-                                            <form action="" class="bucar_list espacio">
-                                                <input type="search" name="nombre" placeholder="Buscar">
-                                            </form>
+                                            <th colspan="9" class="bucar_list espacio">
+                                                <form action="" class="bucar_list espacio">
+                                                    <input type="search" name="nombre" placeholder="Buscar">
+                                                </form>
                                             </th>
                                         </tr>
                                         <th class="border-top-0">ID</th>

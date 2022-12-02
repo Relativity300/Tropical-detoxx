@@ -7,9 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="../css/registro.css">
   <script src="https://kit.fontawesome.com/a81368914c.js"></script>
-
-  <!-- Favicon icon -->
-  <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo.jpeg">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../IMG/Logo1.png">
   
   <title>Tropical Detox </title>
 </head>
