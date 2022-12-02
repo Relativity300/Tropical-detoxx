@@ -365,8 +365,11 @@
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Jugo de fresa</h5>
-                                    <div class="form-check form-switch ">
-                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" class="form-check form-switch" checked>
+                                    Estado:
+                                    <div class="form-check form-switch">
+                                        <label for="">
+                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" class="form-check form-switch" checked>
+                                        </label>
                                     </div>
                                     $40.00 - $80.00
                                 </div>
