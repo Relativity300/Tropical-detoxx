@@ -145,7 +145,7 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-6.5" id="exampleModalLabel">Informacion.</h1>
+              <h1 class="modal-title fs-6.5" id="exampleModalLabel">Informacion</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -168,7 +168,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-6.5" id="exampleModalLabel">Editar.</h1>
+            <h1 class="modal-title fs-6.5" id="exampleModalLabel">Editar</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body orden">
@@ -250,7 +250,7 @@
     <div class="card-body">
 
       <h5 class="card-title">CANTIDAD PRODUCTO:5</h5>
-      <h5 class="card-title">EVIO: 1.000</h5>
+      <!-- <h5 class="card-title">EVIO: 1.000</h5> -->
       <!-- <h5 class="card-title">DIRECION: TU CASA</h5> -->
 
     </div>
@@ -268,7 +268,7 @@
         <div class="modal-body">
           <h4 class="letra">#1: jugo de mango<br> cantidad: 1 <br> tamaño: pequelo <br> precio:2.000</h4><br>
           <h4 class="letra">#2: jugo de mango<br> cantidad: 1 <br> tamaño: pequelo <br> precio:2.000</h4><br>
-          <h4 class="letra">#3: jugo de mango<br> cantidad: 1 <br> tamaño: pequelo <br> precio:2.000</h4><br>
+          <h4 class="letra">#3: jugo personalizado<br> cantidad: 1 <br> tamaño: pequelo <br> fruta: Mango / Banana <br> precio:2.000</h4><br>
           <h4 class="letra">Total:6.000</h6>
 
         </div>
@@ -296,7 +296,7 @@
             <input type="text">
         </div>
         <div class="modal-footer">
-          <a href="carrito.php"><button type="button" class="btn btn-primary">Canselar</button></a>
+          <a href="carrito.php"><button type="button" class="btn btn-primary">Cancelar</button></a>
           <a href="Pedido.php"><button type="button" class="btn btn-primary"> Pedir</button></a>
         </div>
       </div>

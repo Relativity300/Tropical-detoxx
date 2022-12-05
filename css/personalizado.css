@@ -1,4 +1,16 @@
-
+body{
+    background-image: url('../IMG/registro.png');
+    /* background-color: #000; */
+}
+.vv{
+    display: grid;
+}
+.tumama{
+    text-align: center;
+    color: #292525;
+    font-size: 4em;
+    background-color: #ededed59;
+}
 .cotenedor{
     display: flex;
     justify-content: center;
@@ -93,6 +105,12 @@ input[type="search"]:focus{
 }
 .frutas{
     font-size: 2em;
+    
+}
+.bbb{
+    margin: .5em;
+    position: relative;
+    top: 2em;
 }
 .numbere{
     height: 1.5em;
@@ -102,4 +120,7 @@ input[type="search"]:focus{
 .pedido{
     position: relative;
     top: 4em;
+}
+.button{
+    border: rgba(0, 0, 0, 0) solid 0px;
 }

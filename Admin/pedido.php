@@ -876,8 +876,7 @@
                                 <div class="pedido">
                                     <h1 class="tilepedido">Prductos</h1>
                                     <ul>
-                                        <li class="li"><b>Vaso de :</b><br>
-                                        <li class="li">Tamaño: medio</li>
+                                        <li class="li">Vaso de tamaño: medio</li>
                                         <li class="li">Piña</li>
                                         <li class="li">coco</li>
                                         <li class="li">Manzanas</li>

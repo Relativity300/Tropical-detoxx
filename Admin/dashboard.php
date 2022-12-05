@@ -358,7 +358,7 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <p class="p-descri">Nombre:Johan</p>
+                                        <p class="p-descri">Nombre: Johan</p>
                                         <p class="p-descri">productos: <br>
                                             1: jugo mango. <br>
                                             2: jugo fresas. <br>
@@ -382,7 +382,7 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <p class="p-descri">Nombre:Johan</p>
+                                        <p class="p-descri">Nombre: Johan</p>
                                         <p class="p-descri">productos Personalizado: <br>
                                             1 fruta: mango. <br>
                                             2 fruta: fresas. <br>
