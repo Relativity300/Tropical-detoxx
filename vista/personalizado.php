@@ -21,7 +21,7 @@
 
 <body>
     <?php
-     require_once 'campo/Nav.php'; 
+    require_once 'campo/Nav.php';
     ?>
 
     <section>
@@ -57,22 +57,22 @@
 
                     <div class="checkbox">
 
-                        <label for="checkbox1" class="frutas">Jugos de mango</label>
+                        <label for="checkbox1" class="frutas">mango: 2.000</label>
                         <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
 
-                        <label for="checkbox1" class="frutas">Jugos de mango</label>
+                        <label for="checkbox1" class="frutas">manzana: 1.000</label>
                         <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
 
-                        <label for="checkbox1" class="frutas">Jugos de mango</label>
+                        <label for="checkbox1" class="frutas">sandia: 4.000</label>
                         <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
 
-                        <label for="checkbox1" class="frutas">Jugos de mango</label>
+                        <label for="checkbox1" class="frutas">pera: 3.000</label>
                         <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
 
-                        <label for="checkbox1" class="frutas">Jugos de mango</label>
+                        <label for="checkbox1" class="frutas">uva: 6.000</label>
                         <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
 
-                        <label for="checkbox1" class="frutas">Jugos de mango</label>
+                        <label for="checkbox1" class="frutas">mandarina: 1.000</label>
                         <input type="checkbox" name="checkbox" id="checkbox1" class="numbere"><br>
 
 
@@ -100,7 +100,7 @@
                         <div class="checkbox vv">
                             <h1>Sabores elegidos</h1>
 
-                            <label for="checkbox1" class="frutas bbb">Jugos de mango
+                            <label for="checkbox1" class="frutas bbb">mango: 2.000
                                 <!-- eliminar -->
                                 <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar">
                                     <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
@@ -110,18 +110,18 @@
                                 </button>
                             </label>
 
-                            <label for="checkbox1" class="frutas bbb">Jugos de manzana
+                            <label for="checkbox1 m-1" class="frutas bbb">manzana: 1.000
                                 <!-- eliminar -->
                                 <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#elliminar">
                                     <i class="bi bi-trash"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
                                             <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
                                             <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
                                         </svg></i>
-                                </button>
+                                </button><br>
+                                <span>Precio: 3.000</span> 
                             </label>
-
                         </div>
-
+                        <button class="m-4 ">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
