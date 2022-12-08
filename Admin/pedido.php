@@ -302,6 +302,12 @@
                                                 </i>
                                             </button>
                                         </li>
+                                        
+                                        <li class="edi2">personalizado Numero: 1</li>
+                                        <li class="edi2">Tamaño: mediano</li>
+                                        <li class="edi2">Mango, Pera, Piña</li>
+                                        
+
                                         <li class="edi2"><b>Total: <samp>3.000</samp></b></li>
                                     </ul>
 
@@ -1016,6 +1022,9 @@
                                                 </i>
                                             </button>
                                         </li>
+                                        <li class="edi2">personalizado Numero: 1</li>
+                                        <li class="edi2">Tamaño: mediano</li>
+                                        <li class="edi2">Mango, Pera, Piña</li>
                                         <li class="edi2"><b>Total: <samp>3.000</samp></b></li>
                                     </ul>
 
@@ -1100,11 +1109,14 @@
                                 <div class="pedido">
                                     <h1 class="tilepedido">Prductos</h1>
                                     <ul>
+                                        <li class="li">personalizado 1: <small>2.000 </small></li>
                                         <li class="li">Vaso de tamaño: medio</li>
                                         <li class="li">Piña</li>
                                         <li class="li">coco</li>
                                         <li class="li">Manzanas</li>
-                                        <li class="li">Precio: <small>2.000 </small></li>
+                                        <li class="li">jugo de Mango: </li>
+                                        <li class="li">Total: <small>6.000 </small></li>
+
 
                                     </ul>
                                 </div>
