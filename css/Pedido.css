@@ -172,7 +172,18 @@ input[type="search"]:focus{
 .cartOrden{
     display: flex !important;
     align-content: center;
+    
+}
+.datss{
     border: solid 3px #000;
+}
+.total{
+    font-size: 2em;
+    margin-left: 3em;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    padding: 0%;
 }
 .Estado{
     text-align: center;
