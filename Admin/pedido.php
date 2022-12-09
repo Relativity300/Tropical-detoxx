@@ -186,7 +186,7 @@
 
 
             
-            <!-- crear  -->
+            <!-- crear  --> 
             <!-- Modal  -->
             <div class="modal fade" id="crear" tabindex="-1" aria-labelledby="crear" aria-hidden="true">
                 <div class="modal-dialog">
@@ -274,7 +274,7 @@
                                 <div class="editados">
                                     <h1>Pedidos</h1>
                                     <ul>
-                                        <li class="edi2">jugo Mango $2.000 <input type="number" name="" id=""
+                                        <li class="edi2">jugo Mango $2.000 <br> Tamaño: mediano <input type="number" name="" id=""
                                                 class="cantidad">
                                             <button type="button" class="buttonn" data-bs-toggle="modal"
                                                 data-bs-target="#Insumo">
@@ -288,7 +288,7 @@
                                                 </i>
                                             </button>
                                         </li>
-                                        <li class="edi2">jugo Mango $2.000 <input type="number" name="" id=""
+                                        <li class="edi2">jugo Mango $2.000 <br>Tamaño: mediano <input type="number" name="" id=""
                                                 class="cantidad">
                                             <button type="button" class="buttonn" data-bs-toggle="modal"
                                                 data-bs-target="#Insumo">
@@ -303,12 +303,23 @@
                                             </button>
                                         </li>
                                         
-                                        <li class="edi2">personalizado Numero: 1</li>
-                                        <li class="edi2">Tamaño: mediano</li>
-                                        <li class="edi2">Mango, Pera, Piña</li>
+                                        <li class="edi2">personalizado:#1  <input type="number" name="" id=""
+                                                class="cantidad">
+                                            <button type="button" class="buttonn" data-bs-toggle="modal"
+                                                data-bs-target="#Insumo">
+                                                <i class="bi bi-trash">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                                        fill="currentColor" class="bi bi-x-octagon-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm-6.106 4.5L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z" />
+                                                    </svg>
+                                                </i>
+                                            </button> <br> Tamaño: mediano <br> Mango, Pera, Piña  $2.000</li>
+                                        
                                         
 
-                                        <li class="edi2"><b>Total: <samp>3.000</samp></b></li>
+                                        <li class="edi2"><b>Total: <samp>6.000</samp></b></li>
                                     </ul>
 
                                 </div>
